@@ -1,0 +1,1530 @@
+Time: 16/07/2024 10:22:09:495 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:22:09:526 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:22:09:589 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Agent1', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:22:09:620 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:24:889 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA002' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:419 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG005' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:435 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP411' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:450 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP411' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:466 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP411' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:481 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP946' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:497 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP946' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:528 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP946' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:544 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP816' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:560 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP816' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:575 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP816' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:591 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP005' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:606 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP005' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:25:622 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP005' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:169 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG006' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:184 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP790' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:200 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP790' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:216 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP790' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:231 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP728' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:263 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP728' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:278 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP728' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:294 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP267' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:309 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP267' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:325 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP267' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:341 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP821' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:372 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP821' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:372 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP821' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:388 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP006' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:419 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP006' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:450 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP006' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:26:997 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG007' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:012 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP210' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:028 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP210' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:045 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP210' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:061 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP007' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:076 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP007' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:092 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP007' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:624 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG008' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:637 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP924' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:668 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:684 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:699 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:715 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP275' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:746 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:746 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:777 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:793 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP370' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:809 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:824 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:840 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:855 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP521' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:871 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:887 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:902 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:918 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP416' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:934 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:949 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:965 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:980 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP135' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:27:996 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:012 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:027 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:043 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP887' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:070 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:092 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:115 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:129 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP008' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:145 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:160 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:176 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:713 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG009' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:730 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP010' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:746 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP010' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:763 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP010' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:794 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP009' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:810 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP009' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:28:825 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP009' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:39:470 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:39:478 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:39:495 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 10:24:39:503 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:44:38:804 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:44:38:812 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:44:38:849 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:44:38:856 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:45:54:434 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:45:54:451 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:45:54:470 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Agent1', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:45:54:478 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:03:952 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA002' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:480 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG005' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:540 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP411' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:556 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP411' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:567 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP411' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:579 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP946' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:599 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP946' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:614 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP946' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:624 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP816' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:660 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP816' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:683 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP816' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:701 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP005' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:726 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP005' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:04:740 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP005' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:269 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG006' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:348 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP790' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:357 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP790' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:366 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP790' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:386 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP728' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:405 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP728' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:416 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP728' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:437 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP267' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:450 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP267' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:466 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP267' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:477 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP821' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:489 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP821' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:499 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP821' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:510 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP006' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:538 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP006' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:05:551 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP006' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:081 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG007' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:092 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP210' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:103 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP210' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:113 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP210' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:124 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP007' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:134 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP007' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:153 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP007' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:673 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG008' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:734 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP924' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:792 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:815 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:828 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:846 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP275' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:909 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:924 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:938 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:955 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP370' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:06:988 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:008 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:023 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:036 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP521' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:046 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:075 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:095 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:107 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP416' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:120 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:140 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:153 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:163 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP135' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:182 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:192 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:207 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:218 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP887' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:227 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:239 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:249 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:260 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP008' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:279 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:292 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:309 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:825 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG009' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:844 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP010' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:855 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP010' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:868 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP010' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:879 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP009' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:897 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP009' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 01:46:07:906 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP009' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:814 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA001' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:829 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG001' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:853 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP226' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:875 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP423' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:895 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP002' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:912 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP001' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:926 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG002' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:942 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP973' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:960 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP250' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:19:988 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP399' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:004 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP180' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:032 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP003' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:044 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG003' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:056 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP392' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:081 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP004' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:109 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG004' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:123 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP704' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:139 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP867' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:155 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP976' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:168 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP932' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:191 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP824' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:203 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP633' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:220 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP253' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:03:20:234 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP826' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:03:751 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA002' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:271 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG005' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:339 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP411' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:350 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP411' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:362 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP411' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:372 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP946' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:382 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP946' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:401 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP946' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:412 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP816' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:422 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP816' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:440 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP816' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:451 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP005' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:464 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP005' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:474 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP005' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:04:986 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG006' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:038 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP790' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:054 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP790' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:065 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP790' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:076 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP728' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:088 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP728' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:098 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP728' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:111 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP267' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:123 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP267' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:135 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP267' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:158 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP821' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:169 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP821' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:180 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP821' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:195 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP006' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:206 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP006' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:216 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP006' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:729 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG007' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:742 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP210' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:768 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP210' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:779 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP210' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:796 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP007' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:806 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP007' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:05:818 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP007' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:336 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG008' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:412 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP924' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:423 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:434 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:444 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP924' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:455 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP275' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:465 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:485 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:498 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP275' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:510 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP370' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:519 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:533 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:563 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP370' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:587 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP521' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:598 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:609 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:619 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP521' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:629 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP416' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:639 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:649 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:660 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP416' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:672 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP135' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:695 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:705 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:716 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP135' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:726 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP887' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:736 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:747 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:761 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP887' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:791 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP008' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:805 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:818 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:06:830 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP008' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:07:351 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG009' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:07:365 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP010' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:07:377 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP010' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:07:387 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP010' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:07:406 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP009' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:07:417 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP009' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:07:07:432 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='HDRQARizal20231020132820' And kodeitempertanyaan='KP009' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:042 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA002' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:056 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG005' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:069 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP411' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:082 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP946' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:094 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP816' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:124 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP005' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:136 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG006' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:148 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP790' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:158 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP728' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:169 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP267' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:187 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP821' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:199 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP006' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:217 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG007' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:228 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP210' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:242 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP007' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:256 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG008' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:273 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP924' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:287 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP275' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:318 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP370' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:329 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP521' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:340 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP416' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:350 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP135' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:361 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP887' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:372 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP008' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:386 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG009' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:418 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP010' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 02:14:10:448 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP009' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 04:31:08:702 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 04:31:08:718 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 04:31:08:781 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 04:31:08:789 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 07:53:43:878 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 07:53:43:889 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 07:53:43:948 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/07/2024 07:53:43:957 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+

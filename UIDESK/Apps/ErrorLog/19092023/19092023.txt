@@ -1,0 +1,10 @@
+Time: 19/09/2023 08:48:43:401 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Thread.aspx' OR UrlUser2='Crm_Trx_Thread.aspx' OR UrlUser3='Crm_Trx_Thread.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 19/09/2023 09:20:05:020 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

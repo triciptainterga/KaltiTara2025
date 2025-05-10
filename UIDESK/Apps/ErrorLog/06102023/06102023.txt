@@ -1,0 +1,130 @@
+Time: 06/10/2023 04:55:23:307 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_User_Management.aspx' OR UrlUser2='Crm_Trm_User_Management.aspx' OR UrlUser3='Crm_Trm_User_Management.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 05:47:26:545 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Modul_Detail.aspx' OR UrlUser2='Crm_Trm_Modul_Detail.aspx' OR UrlUser3='Crm_Trm_Modul_Detail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 06:39:04:276 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxUpload.aspx' OR UrlUser2='Tele_TrxUpload.aspx' OR UrlUser3='Tele_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 06:39:06:862 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 06:39:06:896 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 08:30:43:590 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTaskboard.aspx' OR UrlUser2='Tele_TrxTaskboard.aspx' OR UrlUser3='Tele_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 09:32:41:726 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTransaksi.aspx' OR UrlUser2='Tele_TrxTransaksi.aspx' OR UrlUser3='Tele_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 10:18:56:739 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTransaksi.aspx' OR UrlUser2='Tele_TrxTransaksi.aspx' OR UrlUser3='Tele_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 10:18:58:756 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '156','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 10:18:59:262 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782432288','admin','UIDESK131'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 10:18:59:802 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '156','admin','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 11:15:01:424 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxReport.aspx' OR UrlUser2='Tele_TrxReport.aspx' OR UrlUser3='Tele_TrxReport.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 12:50:46:242 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxReport.aspx' OR UrlUser2='Tele_TrxReport.aspx' OR UrlUser3='Tele_TrxReport.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 01:06:16:450 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxUpload.aspx' OR UrlUser2='Tele_TrxUpload.aspx' OR UrlUser3='Tele_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 02:09:36:190 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_2.aspx' OR UrlUser2='Crm_Trm_2.aspx' OR UrlUser3='Crm_Trm_2.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 02:21:09:780 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxUpload.aspx' OR UrlUser2='Tele_TrxUpload.aspx' OR UrlUser3='Tele_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 05:01:41:242 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTransaksi.aspx' OR UrlUser2='Tele_TrxTransaksi.aspx' OR UrlUser3='Tele_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 05:01:43:965 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 05:01:44:006 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 05:23:20:296 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 05:23:20:297 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 05:23:20:299 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782432200','admin','UIDESK131'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 06:39:39:909 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTransaksi.aspx' OR UrlUser2='Tele_TrxTransaksi.aspx' OR UrlUser3='Tele_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 06:39:42:071 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 06:39:42:590 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/10/2023 09:45:59:304 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_MailSystem.aspx' OR UrlUser2='Crm_Trx_MailSystem.aspx' OR UrlUser3='Crm_Trx_MailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,35 @@
+Time: 15/09/2023 10:49:53:770 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 15/09/2023 10:50:24:581 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 15/09/2023 10:50:24:601 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 15/09/2023 10:53:23:201 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 15/09/2023 01:26:45:633 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 15/09/2023 03:30:22:440 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 15/09/2023 07:41:23:474 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Status_User.aspx' OR UrlUser2='Crm_Trm_Status_User.aspx' OR UrlUser3='Crm_Trm_Status_User.aspx')
+---------------------------Success-------------------------------------------------------
+

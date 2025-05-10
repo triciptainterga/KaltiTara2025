@@ -1,0 +1,460 @@
+Time: 05/05/2025 06:39:26:414 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 06:39:26:424 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Uidesk' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 06:39:26:443 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Uidesk', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 06:39:26:526 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Uidesk' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:44:847 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:44:861 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='QARizal' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:44:922 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'QARizal', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:45:018 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='QARizal' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:58:909 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG255' And Aktif='Y' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:58:952 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP472' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:58:972 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP472' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:58:992 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP472' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:021 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP472' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:043 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP472' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:072 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP520' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:101 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP520' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:121 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP520' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:141 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP520' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:163 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP811' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:186 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP811' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:207 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP811' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:229 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP811' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:251 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP927' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:273 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:295 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:316 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:338 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:362 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:384 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:405 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP851' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:428 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP851' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:448 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP851' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:469 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP851' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:490 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP851' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:510 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP544' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:532 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:549 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:575 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:598 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:616 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:638 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:659 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:677 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:699 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:720 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:739 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:765 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP733' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:787 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP733' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:807 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP733' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:18:59:827 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP733' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:38:802 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG255' And Aktif='Y' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:38:855 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP472' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:38:900 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP472' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:38:942 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP472' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:38:972 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP472' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:008 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP472' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:036 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP520' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:070 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP520' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:088 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP520' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:110 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP520' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:128 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP811' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:156 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP811' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:177 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP811' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:209 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP811' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:235 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP927' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:249 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:263 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:277 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:296 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:332 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:358 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP927' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:377 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP851' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:399 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP851' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:417 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP851' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:436 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP851' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:457 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP851' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:478 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP544' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:509 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:544 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:580 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:618 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:657 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:694 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:718 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:754 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:778 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:39:816 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:40:364 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP544' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:40:396 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP733' order by Nilai asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:40:436 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP733' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:40:473 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP733' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 05/05/2025 09:23:40:510 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_TrxDetailPenilaian] where Header_ID='20250505izal205557337' And kodeitempertanyaan='KP733' order by id asc 
+---------------------------Success-------------------------------------------------------
+

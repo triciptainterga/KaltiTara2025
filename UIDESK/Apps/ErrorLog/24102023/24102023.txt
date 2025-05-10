@@ -1,0 +1,20 @@
+Time: 24/10/2023 03:23:01:283 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_TrxACRAQA.aspx' OR UrlUser2='QA_TrxACRAQA.aspx' OR UrlUser3='QA_TrxACRAQA.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 24/10/2023 03:41:22:437 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_2.aspx' OR UrlUser2='Crm_Trm_2.aspx' OR UrlUser3='Crm_Trm_2.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 24/10/2023 04:10:45:804 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_TrxAgentACRA.aspx' OR UrlUser2='QA_TrxAgentACRA.aspx' OR UrlUser3='QA_TrxAgentACRA.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 24/10/2023 04:54:39:509 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction '0','admin','UIDESK025','TA-01'
+---------------------------Success-------------------------------------------------------
+

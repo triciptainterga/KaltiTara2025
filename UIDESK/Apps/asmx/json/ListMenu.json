@@ -1,0 +1,216 @@
+{
+    "systems": [
+        {
+            "SystemID": 1,
+            "SystemName": "Ticketing System",
+            "menus": [
+                {
+                    "MenuID": 1008,
+                    "MenuName": "Master Data",
+                    "IconMenu": "database",
+                    "submenus": [
+                        {
+                            "SubMenuID": 4801,
+                            "SubMenuName": "Data Category",
+                            "Url": "Crm_Trm_Category.aspx"
+                        },
+                        {
+                            "SubMenuID": 4802,
+                            "SubMenuName": "Data Enquiry Type",
+                            "Url": "Crm_Trm_Category_Type.aspx"
+                        },
+                        {
+                            "SubMenuID": 4803,
+                            "SubMenuName": "Data Enquiry Detail",
+                            "Url": "Crm_Trm_Category_Detail.aspx"
+                        },
+                        {
+                            "SubMenuID": 4804,
+                            "SubMenuName": "Data Problem",
+                            "Url": "Crm_Trm_Category_Reason.aspx"
+                        },
+                        {
+                            "SubMenuID": 4848,
+                            "SubMenuName": "Data Priority Scale",
+                            "Url": "Crm_Trm_Priority.aspx"
+                        },
+                        {
+                            "SubMenuID": 4808,
+                            "SubMenuName": "Data Channel Ticket",
+                            "Url": "Crm_Trm_Channel.aspx"
+                        },
+                        {
+                            "SubMenuID": 4849,
+                            "SubMenuName": "Data Customer Category",
+                            "Url": "Crm_Trm_Customer_Category.aspx"
+                        },
+                        {
+                            "SubMenuID": 4812,
+                            "SubMenuName": "Data Department",
+                            "Url": "Crm_Trm_Department.aspx"
+                        },
+                        {
+                            "SubMenuID": 6933,
+                            "SubMenuName": "Data Product Name",
+                            "Url": "Crm_Trm_Product_Name.aspx"
+                        },
+                        {
+                            "SubMenuID": 6907,
+                            "SubMenuName": "Data Product Type",
+                            "Url": "Crm_Trm_Product_Type.aspx"
+                        },
+                        {
+                            "SubMenuID": 6908,
+                            "SubMenuName": "Data Customer Status",
+                            "Url": "Crm_Trm_Customer_Type.aspx"
+                        },
+                        {
+                            "SubMenuID": 6926,
+                            "SubMenuName": "Data Holidays",
+                            "Url": "Crm_Trm_Holidays.aspx"
+                        },
+                        {
+                            "SubMenuID": 8992,
+                            "SubMenuName": "Data Site",
+                            "Url": "Crm_Trm_Site.aspx"
+                        },
+                        {
+                            "SubMenuID": 11008,
+                            "SubMenuName": "Data Script Greeting",
+                            "Url": "Crm_Trm_ScriptGreeting.aspx?"
+                        },
+                        {
+                            "SubMenuID": 6937,
+                            "SubMenuName": "Data Max Handle",
+                            "Url": "Crm_Trm_Handle.aspx"
+                        },
+                        {
+                            "SubMenuID": 4854,
+                            "SubMenuName": "Data Aux Reason",
+                            "Url": "Crm_Trm_Aux_Reason.aspx"
+                        },
+                        {
+                            "SubMenuID": 5860,
+                            "SubMenuName": "Data Status Ticket",
+                            "Url": "Crm_Trm_Status_Ticket.aspx"
+                        },
+                        {
+                            "SubMenuID": 6890,
+                            "SubMenuName": "Data Group Agent",
+                            "Url": "Crm_Trm_Group_Agent.aspx"
+                        }
+                    ]
+                },
+                {
+                    "MenuID": 1009,
+                    "MenuName": "Apps",
+                    "IconMenu": "grid",
+                    "submenus": [
+                        {
+                            "SubMenuID": 6891,
+                            "SubMenuName": "Thread System",
+                            "Url": "Crm_Trx_Thread.aspx"
+                        },
+                        {
+                            "SubMenuID": 6892,
+                            "SubMenuName": "Ticketing",
+                            "Url": "Crm_Trx_Ticket.aspx?idpage=1009&n=4"
+                        },
+                        {
+                            "SubMenuID": 6939,
+                            "SubMenuName": "History Ticketing",
+                            "Url": "Crm_Trm_HistoryTicket.aspx"
+                        },
+                        {
+                            "SubMenuID": 4815,
+                            "SubMenuName": "Taskboard",
+                            "Url": "Crm_Trx_Taskboard.aspx?status=Open"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "SystemID": 2,
+            "SystemName": "Quality Monitoring",
+            "menus": [
+                {
+                    "MenuID": 5048,
+                    "MenuName": "Data Transaction",
+                    "IconMenu": "file-text",
+                    "submenus": [
+                        {
+                            "SubMenuID": 11013,
+                            "SubMenuName": "Taskboard Penilaian",
+                            "Url": "QA_Taskboard_Penilaian.aspx?"
+                        },
+                        {
+                            "SubMenuID": 11010,
+                            "SubMenuName": "Transaksi Penilaian",
+                            "Url": "QM_Trx_Penilaian.aspx?"
+                        },
+                        {
+                            "SubMenuID": 11011,
+                            "SubMenuName": "History Penilaian",
+                            "Url": "QM_Trx_HistoryPenilaian.aspx?"
+                        }
+                    ]
+                },
+                {
+                    "MenuID": 5049,
+                    "MenuName": "Master Question",
+                    "IconMenu": "file-text",
+                    "submenus": [
+                        {
+                            "SubMenuID": 11014,
+                            "SubMenuName": "Data QA",
+                            "Url": "QA_TrmMasterForm.aspx?"
+                        },
+                        {
+                            "SubMenuID": 11015,
+                            "SubMenuName": "Data Jenis QA",
+                            "Url": "QA_TrmAlatTest.aspx"
+                        },
+                        {
+                            "SubMenuID": 11016,
+                            "SubMenuName": "Data Aspek Penilaian",
+                            "Url": "QA_TrmGrupPertanyaan.aspx"
+                        },
+                        {
+                            "SubMenuID": 11017,
+                            "SubMenuName": "Detail Aspek Penilaian",
+                            "Url": "QA_TrmItemPertanyaan.aspx"
+                        },
+                        {
+                            "SubMenuID": 11018,
+                            "SubMenuName": "Nilai Aspek Penilaian",
+                            "Url": "QA_TrmItemNilai.aspx"
+                        }
+                    ]
+                },
+                {
+                    "MenuID": 5048,
+                    "MenuName": "Data Transaction",
+                    "IconMenu": "file-text",
+                    "submenus": [
+                        {
+                            "SubMenuID": 11013,
+                            "SubMenuName": "Taskboard Penilaian",
+                            "Url": "QA_Taskboard_Penilaian.aspx?"
+                        },
+                        {
+                            "SubMenuID": 11010,
+                            "SubMenuName": "Transaksi Penilaian",
+                            "Url": "QM_Trx_Penilaian.aspx?"
+                        },
+                        {
+                            "SubMenuID": 11011,
+                            "SubMenuName": "History Penilaian",
+                            "Url": "QM_Trx_HistoryPenilaian.aspx?"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjadwalan Agen Contact Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        table {
+            text-align: center;
+        }
+
+        th, td {
+            vertical-align: middle;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Penjadwalan Agen Contact Center</h2>
+        <div class="text-center mb-3">
+            <button class="btn btn-warning" id="balance-assignments">Ratakan Penugasan</button>
+            <button class="btn btn-primary" id="generate-json">Generate JSON</button>
+            <button id="adjust-assignments" class="btn btn-info">Adjust Assignments</button>
+            <button id="validate-schedules" class="btn btn-info">Validate Schedules</button>
+        </div>
+        <div>
+            <label for="total-sessions">Jumlah sesi per agen:</label>
+            <input type="number" id="total-sessions" min="1">
+        </div>
+        <div class="table-responsive mt-4" id="schedule">
+            <!-- Tabel jadwal akan muncul di sini -->
+        </div>
+        <center>
+
+        </center>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Helper function to retrieve query parameters from the URL
+            function getQueryParam(name) {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(name);
+            }
+
+            // Example usage of query parameters
+            const tahun = getQueryParam('tahun');
+            const bulan = getQueryParam('bulan');
+            const hari = getQueryParam('hari');
+            const channel = getQueryParam('channel');
+
+            // Define global variables for session intervals and API URLs
+            let sesiIntervals = [];
+            let agentNamesAsli = "";
+            let manualAssignments = [];
+
+            // API URLs for fetching session data and agent data
+            const apiUrl = "https://bravo.beacukai.go.id/ApiScheduler/api/Scheduler/SCHSesiParam";
+            const apiUrl2 = "https://bravo.beacukai.go.id/ApiScheduler/api/Scheduler/ListAgent?DateAssign=2024-11-11&Channel=Voice";
+
+            // Initialize the application by loading data
+            loadData();
+
+            // Fetch the agent names from the API
+            async function fetchAgentNames() {
+                try {
+                    const response = await fetch(apiUrl2);
+                    if (!response.ok) {
+                        throw new Error("Failed to fetch agent names");
+                    }
+                    const data = await response.json();
+                    agentNamesAsli = data.map(agent => agent.name).join(',');
+                    console.log("Fetched agent names:", agentNamesAsli);
+                    return agentNamesAsli;
+                } catch (error) {
+                    console.error("Error fetching agent names:", error);
+                    return null;
+                }
+            }
+
+            // Fetch session data
+            async function fetchSesiData() {
+                try {
+                    const response = await fetch(apiUrl);
+                    if (!response.ok) {
+                        throw new Error("Failed to fetch session data");
+                    }
+                    const data = await response.json();
+
+                    // Process session intervals
+                    data.forEach(session => {
+                        let existingInterval = sesiIntervals.find(interval => interval.interval === session.sesiParam);
+                        if (existingInterval) {
+                            existingInterval.neededAgents += parseInt(session.valueParam);
+                        } else {
+                            sesiIntervals.push({
+                                interval: session.sesiParam,
+                                neededAgents: parseInt(session.valueParam)
+                            });
+                        }
+                    });
+
+                    console.log("Fetched session intervals:", sesiIntervals);
+                    agentNamesAsli = agentNamesAsli.split(',');
+                    manualAssignments = Array(sesiIntervals.length).fill().map(() => []);
+
+                    // Now generate the schedule table
+                    generateScheduleTable();
+                } catch (error) {
+                    console.error("Error fetching session data:", error);
+                }
+            }
+
+            // Load all the data (agents and sessions)
+            async function loadData() {
+                const agentNames = await fetchAgentNames();
+                if (agentNames) {
+                    await fetchSesiData();
+                } else {
+                    console.log("Failed to fetch agent names.");
+                }
+            }
+
+            // Calculate the total number of sessions per agent
+            function calculateTotalSessionsPerAgent() {
+                const totalNeededAgents = sesiIntervals.reduce((sum, sesi) => sum + sesi.neededAgents, 0);
+                const totalSesiPerAgent = Math.ceil(totalNeededAgents / agentNamesAsli.length);
+                $('#total-sessions').val(totalSesiPerAgent);
+                return totalSesiPerAgent;
+            }
+
+            // Automatically assign agents to sessions
+            function autoAssignSchedules() {
+                const totalSesiPerAgent = calculateTotalSessionsPerAgent();
+                let availableIntervals = Array.from({ length: sesiIntervals.length }, (_, i) => i);
+
+                agentNamesAsli.forEach(agent => {
+                    let assignedSessions = 0;
+                    while (assignedSessions < totalSesiPerAgent) {
+                        availableIntervals = availableIntervals.sort(() => Math.random() - 0.5);
+                        for (let i = 0; i < availableIntervals.length && assignedSessions < totalSesiPerAgent; i++) {
+                            const intervalIndex = availableIntervals[i];
+                            if (!manualAssignments[intervalIndex].includes(agent)) {
+                                manualAssignments[intervalIndex].push(agent);
+                                assignedSessions++;
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Adjust the assignment manually if needed
+            function adjustAssignments() {
+                manualAssignments.forEach((assignedAgents, index) => {
+                    while (assignedAgents.length > sesiIntervals[index].neededAgents) {
+                        assignedAgents.pop();
+                    }
+                    while (assignedAgents.length < sesiIntervals[index].neededAgents) {
+                        let newAgent;
+                        do {
+                            newAgent = agentNamesAsli[Math.floor(Math.random() * agentNamesAsli.length)];
+                        } while (assignedAgents.includes(newAgent));
+                        assignedAgents.push(newAgent);
+                    }
+                });
+                generateScheduleTable();
+            }
+
+            // Generate the schedule table based on assignments
+            function generateScheduleTable() {
+                let table = '<table class="table table-bordered table-striped table-hover">';
+                table += '<thead class="table-primary"><tr><th>Interval Sesi</th>';
+                agentNamesAsli.forEach(agent => table += `<th>${agent}</th>`);
+                table += '<th>Needed Agents</th><th>Aktualisasi Agen</th><th>Selisih</th></tr></thead><tbody>';
+
+                sesiIntervals.forEach((sesi, index) => {
+                    table += `<tr><td>${sesi.interval}</td>`;
+                    agentNamesAsli.forEach(agent => {
+                        table += `<td>${manualAssignments[index].includes(agent) ? "✔️" : ""}</td>`;
+                    });
+                    table += `<td>${sesi.neededAgents}</td>`;
+
+                    const actualAssigned = manualAssignments[index].length;
+                    const difference = actualAssigned - sesi.neededAgents;
+                    table += `<td>${actualAssigned}</td>`;
+                    table += `<td>${difference}</td>`;
+                    table += '</tr>';
+                });
+
+                table += '<tr class="table-secondary"><td><strong>Total</strong></td>';
+                agentNamesAsli.forEach(agent => {
+                    const totalAssigned = manualAssignments.reduce((count, interval) => count + (interval.includes(agent) ? 1 : 0), 0);
+                    table += `<td><strong>${totalAssigned}</strong></td>`;
+                });
+
+                const totalNeededAgents = sesiIntervals.reduce((sum, sesi) => sum + sesi.neededAgents, 0);
+                const totalActualAssigned = manualAssignments.reduce((sum, interval) => sum + interval.length, 0);
+                table += `<td><strong>${totalNeededAgents}</strong></td>`;
+                table += `<td><strong>${totalActualAssigned}</strong></td>`;
+                table += `<td><strong>${totalActualAssigned - totalNeededAgents}</strong></td>`; // Total selisih
+
+                table += '</tbody></table>';
+                $('#schedule').html(table);
+            }
+
+            // Event Handlers for UI buttons
+            $('#generate-json').click(function () {
+                const jsonData = sesiIntervals.map((sesi, index) => {
+                    const assignedAgents = manualAssignments[index];
+                    return {
+                        dateFixed: "2024-10-28",
+                        interval: sesi.interval,
+                        neededAgents: sesi.neededAgents,
+                        assignedAgents: assignedAgents
+                    };
+                });
+                console.log(JSON.stringify(jsonData, null, 2));
+            });
+
+            $('#balance-assignments').click(function () {
+                manualAssignments.forEach((_, index) => manualAssignments[index] = []);
+                autoAssignSchedules();
+                generateScheduleTable();
+            });
+
+            $('#adjust-assignments').click(function () {
+                adjustAssignments();
+            });
+
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

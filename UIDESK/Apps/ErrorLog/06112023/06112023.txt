@@ -1,0 +1,20 @@
+Time: 06/11/2023 05:07:05:935 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Department.aspx' OR UrlUser2='Crm_Trm_Department.aspx' OR UrlUser3='Crm_Trm_Department.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/11/2023 09:11:51:465 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Agent_SM.aspx' OR UrlUser2='Crm_Trx_Agent_SM.aspx' OR UrlUser3='Crm_Trx_Agent_SM.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/11/2023 10:55:39:841 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Agent_SM.aspx' OR UrlUser2='Crm_Trx_Agent_SM.aspx' OR UrlUser3='Crm_Trx_Agent_SM.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 06/11/2023 11:54:06:534 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

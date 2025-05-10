@@ -1,0 +1,85 @@
+Time: 02/07/2024 12:35:39:360 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 01:28:02:865 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '436','admin','UIDESK27'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 01:36:45:377 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK47'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 01:36:45:745 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 01:36:45:772 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 01:36:46:319 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK51'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 01:40:18:004 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Agent_Email.aspx' OR UrlUser2='Crm_Trx_Agent_Email.aspx' OR UrlUser3='Crm_Trx_Agent_Email.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:10:44:255 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_MailSystem.aspx' OR UrlUser2='Crm_Trx_MailSystem.aspx' OR UrlUser3='Crm_Trx_MailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:52:46:560 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Customer.aspx' OR UrlUser2='Crm_Trm_Customer.aspx' OR UrlUser3='Crm_Trm_Customer.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:52:47:681 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Customer.aspx' OR UrlUser2='Crm_Trm_Customer.aspx' OR UrlUser3='Crm_Trm_Customer.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:53:10:850 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Agent1','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:53:11:032 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:53:11:485 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK118'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:53:12:538 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Agent1','UIDESK117'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:53:13:033 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Agent1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:53:14:005 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Agent1','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/07/2024 03:53:14:052 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Agent1','UIDESK100'
+---------------------------Success-------------------------------------------------------
+

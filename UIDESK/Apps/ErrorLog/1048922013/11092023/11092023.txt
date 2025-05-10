@@ -1,0 +1,25 @@
+Time: 11/09/2023 06:50:53:370 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 3' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 11/09/2023 06:50:58:446 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 3' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 11/09/2023 06:51:03:423 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 3' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 11/09/2023 06:51:19:937 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 3' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 11/09/2023 06:51:24:753 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 3' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+

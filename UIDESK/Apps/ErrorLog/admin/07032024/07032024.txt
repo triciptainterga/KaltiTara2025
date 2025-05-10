@@ -1,0 +1,52 @@
+Time: 07/03/2024 08:18:45:792 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 08:18:46:207 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 08:20:35:783 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDataAux '-','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 08:21:13:987 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrmDataAux '0','Meeting','Y','admin','CHECK'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 08:21:17:226 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDataAux '-','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 08:22:46:645 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxGroupAgent '-','admin','0','0','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 08:23:08:607 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxGroupAgent '0','admin','Testing','Y','INSERT'
+Message: Valuenya
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.WebServiceGetDataMaster.InsertTransactionTrmGroupAgent(String TrxUserName, String TrxName, String TrxStatus) in D:\#2023\Template\UIDESK\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 1033
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2024 08:23:08:642 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxGroupAgent '0','admin','Testing','Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 08:23:08:642 AM
+---------------------------Success-------------------------------------------------------
+Message: 
+---------------------------Success-------------------------------------------------------
+

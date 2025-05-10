@@ -1,0 +1,10 @@
+Time: 20/11/2024 06:18:05:975 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Xtra_InboxEmail.aspx' OR UrlUser2='Xtra_InboxEmail.aspx' OR UrlUser3='Xtra_InboxEmail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/11/2024 06:18:07:827 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+

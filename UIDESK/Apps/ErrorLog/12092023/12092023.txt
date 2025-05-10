@@ -1,0 +1,100 @@
+Time: 12/09/2023 09:06:12:338 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Customer.aspx' OR UrlUser2='Crm_Trm_Customer.aspx' OR UrlUser3='Crm_Trm_Customer.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 09:48:42:112 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Customer.aspx' OR UrlUser2='Crm_Trm_Customer.aspx' OR UrlUser3='Crm_Trm_Customer.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 11:47:30:432 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Notification.aspx' OR UrlUser2='Crm_Trm_Notification.aspx' OR UrlUser3='Crm_Trm_Notification.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 02:48:50:100 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Template_AutoReply.aspx' OR UrlUser2='Crm_Trm_Template_AutoReply.aspx' OR UrlUser3='Crm_Trm_Template_AutoReply.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 03:27:44:436 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 03:27:57:475 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 03:27:57:511 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 03:28:08:783 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 03:28:08:827 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 03:54:09:351 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 04:34:22:144 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 05:29:34:941 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 06:16:53:512 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 06:20:13:242 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 06:20:13:261 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 06:20:35:967 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 06:20:35:985 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 06:26:52:719 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 06:26:52:736 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 12/09/2023 07:55:53:262 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+

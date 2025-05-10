@@ -1,0 +1,605 @@
+Time: 02/03/2024 11:37:49:807 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 11:37:49:818 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 11:37:49:851 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 11:37:49:858 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:06:59:485 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:06:59:487 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:06:59:493 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:06:59:497 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:18:41:662 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:18:41:670 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:18:41:997 PM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+Message: authority
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.AccessLogin(String UserName, String Password) in D:\#2023\Template\UIDESK\UIDESK\auth_login.aspx.vb:line 163
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 02/03/2024 01:18:42:070 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:18:49:727 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:18:49:737 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:18:49:797 PM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+Message: authority
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.AccessLogin(String UserName, String Password) in D:\#2023\Template\UIDESK\UIDESK\auth_login.aspx.vb:line 163
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 02/03/2024 01:18:49:909 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:20:45:224 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:20:45:769 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:20:45:790 PM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+Message: UrlDatakelola
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at UIDESK.auth_login.AccessLogin(String UserName, String Password) in D:\#2023\Template\UIDESK\UIDESK\auth_login.aspx.vb:line 166
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 02/03/2024 01:20:45:951 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:21:12:104 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:21:12:112 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:21:12:164 PM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+Message: Object reference not set to an instance of an object.
+StackTrace:    at UIDESK.auth_login.AccessLogin(String UserName, String Password) in D:\#2023\Template\UIDESK\UIDESK\auth_login.aspx.vb:line 137
+Source: UIDESK
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 02/03/2024 01:21:12:175 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:22:21:019 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:22:21:094 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:22:21:119 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:22:21:128 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:24:04:656 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:24:04:664 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:24:04:675 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:24:04:687 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:26:26:443 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:26:26:451 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:26:26:461 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:26:26:472 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:31:17:265 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:31:17:275 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:31:17:285 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:31:17:293 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:33:34:949 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:33:34:958 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:33:34:991 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:33:35:020 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:37:51:796 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:37:51:933 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:37:52:260 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:37:52:351 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:40:20:248 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:40:20:257 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:40:20:319 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 01:40:20:331 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 03:03:27:474 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 03:03:27:483 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 03:03:27:537 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 03:03:27:545 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:51:57:964 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:51:57:979 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:51:58:110 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:51:58:157 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:773 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA001' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:799 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG001' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:842 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP226' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:866 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP423' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:895 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP002' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:915 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP001' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:934 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG002' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:957 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP973' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:976 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP250' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:32:995 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP399' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:015 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP180' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:033 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP003' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:051 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG003' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:070 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP392' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:091 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP004' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:111 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG004' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:944 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP704' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:971 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP867' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:33:990 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP976' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:34:011 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP932' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:34:034 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP824' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:34:144 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP633' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:34:162 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP253' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 04:58:34:192 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP826' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:784 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA001' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:809 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG001' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:860 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP226' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:880 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP423' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:900 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP002' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:916 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP001' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:937 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG002' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:957 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP973' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:50:990 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP250' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:012 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP399' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:033 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP180' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:081 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP003' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:100 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG003' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:116 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP392' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:133 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP004' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:149 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG004' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:168 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP704' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:184 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP867' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:200 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP976' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:217 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP932' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:234 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP824' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:250 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP633' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:267 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP253' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:02:51:286 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP826' 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:40:56:128 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:40:56:140 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:40:56:412 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Agent1', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 05:40:56:458 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 06:05:48:175 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 06:05:48:187 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 06:05:48:214 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Agent1', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/03/2024 06:05:48:224 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+

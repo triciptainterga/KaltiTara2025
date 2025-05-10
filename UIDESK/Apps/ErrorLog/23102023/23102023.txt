@@ -1,0 +1,30 @@
+Time: 23/10/2023 06:07:02:224 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_TrmItemPertanyaan.aspx' OR UrlUser2='QA_TrmItemPertanyaan.aspx' OR UrlUser3='QA_TrmItemPertanyaan.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/10/2023 09:13:26:653 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/10/2023 06:52:11:655 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_TrmItemNilai.aspx' OR UrlUser2='QA_TrmItemNilai.aspx' OR UrlUser3='QA_TrmItemNilai.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/10/2023 07:46:49:305 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_TrxACRAQA.aspx' OR UrlUser2='QA_TrxACRAQA.aspx' OR UrlUser3='QA_TrxACRAQA.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/10/2023 09:40:09:550 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_TrxACRAQA.aspx' OR UrlUser2='QA_TrxACRAQA.aspx' OR UrlUser3='QA_TrxACRAQA.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 23/10/2023 10:09:00:781 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

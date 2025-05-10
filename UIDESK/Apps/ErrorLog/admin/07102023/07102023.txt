@@ -1,0 +1,1727 @@
+Time: 07/10/2023 05:50:24:900 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 05:50:25:418 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 05:52:24:505 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 05:52:25:008 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 05:52:26:948 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','4','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:12:666 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:13:174 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:14:416 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:14:930 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:15:345 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:15:852 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:22:768 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:22:798 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:27:382 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:27:889 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:03:42:830 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','4','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:04:02:001 AM
+---------------------------Success-------------------------------------------------------
+Message: exec AHU_Uidesk_TrxGreetingScript '4','Email','Greeting Email','Yes','<p>Selamat Pagi, [Nama Pelanggan]</p>
+
+<p>Selamat datang di Customer Service [Toko/Bisnis]. Nama saya [Agent], apakah ada yang bisa saya bantu?</p>
+
+<p>Jika Anda memiliki pertanyaan atau bantuan, silahkan hubungi kami pada jam operasional Senin-Jumat jam 09.00 &ndash; 18.00 di [nomor telepon agent] atau melalui e-mail [alamat e-mail].</p>
+
+<p>Terima kasih telah meluangkan waktu untuk menghubungi kami.</p>
+
+<p>Salam hangat,<br />
+[Agent]</p>
+','admin','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:04:03:615 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:04:04:132 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:04:06:033 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:04:06:541 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:04:08:280 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','4','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:04:15:070 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','5','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:04:31:041 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','4','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:05:15:300 AM
+---------------------------Success-------------------------------------------------------
+Message: exec AHU_Uidesk_TrxGreetingScript '4','Email','Greeting Email','Yes','<p>Selamat Pagi, [Nama Pelanggan]</p>
+
+<p>Terima kasih sudah menghubungi [Toko/Bisnis]. Saya, [Agent], dengan senang hati akan membantu masalah Anda.</p>
+
+<p>Kami belum dapat menawarkan [Solusi] untuk masalah Anda. Namun, kami sangat menghargai masukan Anda dan berharap diberi kesempatan untuk menyelesaikan masalah Anda.</p>
+
+<p>Kami memahami perasaan Anda yang terganggu atas masalah ini. Kami juga mohon maaf atas ketidaknyamanan ini.</p>
+
+<p>Jika Anda memiliki pertanyaan atau bantuan, hubungi kami di [nomor telepon agent] atau melalui e-mail.</p>
+
+<p>Salam hangat,<br />
+[Agent]</p>
+','admin','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:05:16:128 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:05:16:642 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:05:18:714 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','5','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:06:52:577 AM
+---------------------------Success-------------------------------------------------------
+Message: exec AHU_Uidesk_TrxGreetingScript '5','Call','Greeting Call','Yes','<p>Selamat Pagi, [Nama Pelanggan]</p>
+
+<p>Terima kasih sudah menghubungi [Toko/Bisnis]. Saya, [Agent], dengan senang hati akan membantu masalah Anda.</p>
+
+<p>Kami dengan tulus meminta maaf atas ketidaknyamanan yang Anda alami terkait kesalahan teknis perusahaan kami. Saya akan perbaiki masalah ini segera.</p>
+
+<p>Jika Anda memiliki pertanyaan atau bantuan, hubungi kami di [nomor telepon agent] atau melalui e-mail.</p>
+
+<p>Salam hangat,<br />
+[Agent]</p>
+
+<p>&nbsp;</p>
+
+<p>{</p>
+
+<p>Hello and thank you for calling, [Company Name], where [state your short company slogan]. If you know the extension of the party you are trying to reach, you may dial it at any time.</p>
+
+<ul>
+	<li>To speak with a Sales representative, press 1.</li>
+	<li>To reach a Customer Support agent, press 2.</li>
+	<li>To reach our Billing department, press 3.</li>
+	<li>If you would like to know our regular business hours and location, press 4.</li>
+	<li>If you would like to speak with an Operator, press 0, or press 9 to repeat the available options</li>
+</ul>
+
+<p>}</p>
+','admin','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:06:53:534 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:06:54:038 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:06:57:219 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','5','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:03:345 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:03:348 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:03:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:03:358 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','null','0','0','0','admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:03:853 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:04:366 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:04:880 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:05:392 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','admin','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:05:908 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:06:260 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'RAS','admin','UIDESK121'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:06:346 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'RASH','admin','UIDESK121'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:07:605 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231003124911','admin','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:07:612 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '231003124911', 'admin', 'Channel', 'Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:08:121 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231003124911','admin','UIDESK126'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:22:086 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:22:089 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call','UideskIndonesia','admin','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:22:091 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:22:095 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','Call','0','0','0','admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:22:590 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:22:604 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:23:110 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:23:620 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:24:133 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:37:742 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:38:254 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:07:40:242 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','5','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:25:884 AM
+---------------------------Success-------------------------------------------------------
+Message: exec AHU_Uidesk_TrxGreetingScript '5','Call','Greeting Call','Yes','<p>{</p>
+
+<p>Selamat Pagi, [Nama Pelanggan]</p>
+
+<p>Terima kasih sudah menghubungi [Toko/Bisnis]. Saya, [Agent], dengan senang hati akan membantu masalah Anda.</p>
+
+<p>Kami dengan tulus meminta maaf atas ketidaknyamanan yang Anda alami terkait kesalahan teknis perusahaan kami. Saya akan perbaiki masalah ini segera.</p>
+
+<p>Jika Anda memiliki pertanyaan atau bantuan, hubungi kami di [nomor telepon agent] atau melalui e-mail.</p>
+
+<p>Salam hangat,<br />
+[Agent]</p>
+
+<p>}</p>
+','admin','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:26:663 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:27:170 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:28:361 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:28:871 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:31:910 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','5','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:35:013 AM
+---------------------------Success-------------------------------------------------------
+Message: exec AHU_Uidesk_TrxGreetingScript '5','Call','Greeting Call','Yes','<p>{</p>
+
+<p>Selamat Pagi, [Nama Pelanggan]</p>
+
+<p>Terima kasih sudah menghubungi [Toko/Bisnis]. Saya, [Agent], dengan senang hati akan membantu masalah Anda.</p>
+
+<p>Kami dengan tulus meminta maaf atas ketidaknyamanan yang Anda alami terkait kesalahan teknis perusahaan kami. Saya akan perbaiki masalah ini segera.</p>
+
+<p>Jika Anda memiliki pertanyaan atau bantuan, hubungi kami di [nomor telepon agent] atau melalui e-mail.</p>
+
+<p>Salam hangat,<br />
+[Agent]</p>
+
+<p>}</p>
+','admin','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:35:777 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:36:290 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:37:851 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','4','0','0','0','0','admin','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:48:672 AM
+---------------------------Success-------------------------------------------------------
+Message: exec AHU_Uidesk_TrxGreetingScript '4','Email','Greeting Email','Yes','<p>{</p>
+
+<p>Selamat Pagi, [Nama Pelanggan]</p>
+
+<p>Terima kasih sudah menghubungi [Toko/Bisnis]. Saya, [Agent], dengan senang hati akan membantu masalah Anda.</p>
+
+<p>Kami belum dapat menawarkan [Solusi] untuk masalah Anda. Namun, kami sangat menghargai masukan Anda dan berharap diberi kesempatan untuk menyelesaikan masalah Anda.</p>
+
+<p>Kami memahami perasaan Anda yang terganggu atas masalah ini. Kami juga mohon maaf atas ketidaknyamanan ini.</p>
+
+<p>Jika Anda memiliki pertanyaan atau bantuan, hubungi kami di [nomor telepon agent] atau melalui e-mail.</p>
+
+<p>Salam hangat,<br />
+[Agent]</p>
+
+<p>}</p>
+','admin','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:49:450 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:49:953 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:51:090 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:51:618 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:54:015 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:54:017 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','admin','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:54:019 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:54:022 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:54:530 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','null','0','0','0','admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:55:044 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:55:556 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:56:066 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:56:572 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:57:025 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'RAS','admin','UIDESK121'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:57:162 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'RASH','admin','UIDESK121'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:58:481 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231003124911','admin','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:58:986 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231003124911','admin','UIDESK126'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:08:59:496 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '231003124911', 'admin', 'Channel', 'Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:09:593 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:09:595 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call','UideskIndonesia','admin','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:09:597 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:09:600 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:09:602 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','Call','0','0','0','admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:10:107 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:10:614 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:11:127 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:11:636 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:31:194 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:31:196 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:31:199 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:31:202 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','Email','0','0','0','admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:31:701 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:32:213 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Email','UideskIndonesia','admin','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:32:726 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:33:240 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:09:33:752 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:19:57:916 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:19:58:429 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','0','0','0','0','admin','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:43:02:628 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:43:02:643 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:43:06:296 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:43:14:080 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:43:17:118 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:43:18:432 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:44:01:961 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:44:23:468 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:44:35:291 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:44:57:973 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 07:58:47:564 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 07:58:48:103 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 07:58:52:608 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 07:59:07:238 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 07:59:30:402 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 07:59:53:091 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:03:56:729 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:03:57:238 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:03:58:109 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:03:58:618 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:03:58:963 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:03:59:465 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:05:40:552 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:05:41:056 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:05:54:380 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:05:54:882 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:05:57:031 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:05:57:535 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:05:58:812 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:05:59:328 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:06:01:201 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:06:01:713 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:06:02:874 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:06:03:377 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:06:04:447 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:06:04:957 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:07:07:696 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:07:08:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:07:11:501 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:07:12:007 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:09:14:836 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:09:15:349 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:09:15:860 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:09:16:372 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:09:17:236 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:09:17:741 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:10:50:615 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:10:51:128 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:10:51:632 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK83'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:10:52:141 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '7','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:05:767 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2453','admin','UIDESK28'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:06:595 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2454','admin','UIDESK28'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:09:323 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentCampaign_Telemarketing 'admin','2453,2454,','3','10'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:10:613 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:10:621 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '7','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:11:130 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK83'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:11:641 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:57:919 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:11:58:426 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:12:00:210 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:12:00:724 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:27:430 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:27:937 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:31:528 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:32:040 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:37:893 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:37:905 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '7','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:38:426 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:38:938 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK83'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:13:40:997 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '429','admin','UIDESK27'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:14:57:549 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:14:57:557 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '7','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:14:58:072 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK83'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:14:58:583 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:00:071 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '429','admin','UIDESK27'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:03:829 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Tele_TrxAgentCampaignUpdate '429','admin','3','30',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:04:647 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:04:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '7','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:05:171 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:05:678 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK83'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:08:462 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '430','admin','UIDESK27'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:14:025 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Tele_TrxAgentCampaignUpdate '430','admin','3','40','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:14:855 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:14:862 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '7','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:15:377 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK83'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:15:883 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:58:879 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:15:59:396 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:16:00:773 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:16:01:278 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:16:02:229 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:16:02:729 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:02:867 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:03:377 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:06:306 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:06:813 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:10:048 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:10:564 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:38:338 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:38:844 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:41:941 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_DistibuteData '20231006012404234','admin','DISTRIBUTE'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:43:848 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:17:44:350 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:19:16:481 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:19:16:991 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:19:17:339 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:19:17:840 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:19:36:784 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:19:37:291 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:21:50:619 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:21:51:130 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:21:51:685 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:21:52:191 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:22:07:351 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_Telemarketing_Excel '20231007082207045','b82b2c1d-4d24-4f55-9786-c5d9490632da','admin','3'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:22:08:645 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:22:09:153 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:22:59:164 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:22:59:676 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:23:15:605 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:23:16:119 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:23:18:227 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:23:18:731 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:23:28:079 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_Telemarketing_Excel '20231007082327586','66c49179-347a-4002-83a0-0fa05ba51c2b','admin','3'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:23:29:869 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:23:30:374 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:23:58:967 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_DistibuteData '20231007082327586','admin','DISTRIBUTE'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:24:00:280 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:24:00:795 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:26:07:669 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:26:08:171 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:34:05:113 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:34:05:628 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:34:29:966 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:34:30:470 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:34:43:841 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:34:43:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:34:48:653 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:34:49:157 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:39:05:196 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:39:05:707 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:40:12:791 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:40:12:808 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:40:13:297 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:40:14:610 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:40:23:468 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385199','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:40:23:469 AM
+---------------------------Success-------------------------------------------------------
+Message: 385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199385199
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:40:24:060 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:00:828 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '387267','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:00:829 AM
+---------------------------Success-------------------------------------------------------
+Message: 387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267387267
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:01:418 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:28:809 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385224','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:28:810 AM
+---------------------------Success-------------------------------------------------------
+Message: 385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224385224
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:29:454 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:32:610 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385217','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:32:611 AM
+---------------------------Success-------------------------------------------------------
+Message: 385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217385217
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:33:128 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:37:299 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385215','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:37:300 AM
+---------------------------Success-------------------------------------------------------
+Message: 385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215385215
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:38:067 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:41:212 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385214','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:41:213 AM
+---------------------------Success-------------------------------------------------------
+Message: 385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214385214
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:42:306 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:45:565 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385213','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:45:566 AM
+---------------------------Success-------------------------------------------------------
+Message: 385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213385213
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:46:119 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:49:748 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '385209','0','0','0','0','admin','0','Delete'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:49:749 AM
+---------------------------Success-------------------------------------------------------
+Message: 385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209385209
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:41:50:336 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:30:638 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:30:671 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:31:151 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:32:529 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:37:694 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3044','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:45:405 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6966','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:51:543 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '0','3044','6966','','&lt;p&gt;DTA&lt;/p&gt;','admin','1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:51:544 AM
+---------------------------Success-------------------------------------------------------
+Message: 385180383898383899383900383901385181385129385119383991385165383904383905385182383926383940385139385131383946383953385166385168383928385171383930383931389271383933385172385134385183385140383949383955383956385147385184385185385141385142389272384004389283385143385072385189385144385145384041384013384014384015385190385146389275389279385150385196384001384002385198384044383927383906383907385202383913383941385206385218384032384033384034384035384036385220384037384042385230385231386231387231384051389280387240387241387256387258387262387265385052385054388267385061385063385064385066385086385087385090385188387242385205389286385088385233389278387263387266385113385114385115385118385127385130385132385173389273389274389281389282385222385163385164385112385120385135385138385200385203385232385234385156385117385192385157385158385159385175385177389284389285385179389287385137385167385169385191385174
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:42:52:197 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:03:728 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:03:763 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:04:245 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:06:165 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:14:092 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3044','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:20:980 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '8973','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:27:504 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '0','3044','8973','','&lt;p&gt;DHT&lt;/p&gt;','admin','1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:27:505 AM
+---------------------------Success-------------------------------------------------------
+Message: 385180383898383899383900383901385181385129385119383991385165383904383905385182383926383940385139385131383946383953385166385168383928385171383930383931389271383933385172385134385183385140383949383955383956385147385184385185385141385142389272384004389283385143385072385189385144385145384041384013384014384015385190385146389275389279385150385196384001384002385198384044383927383906383907385202383913383941385206385218384032384033384034384035384036385220384037384042385230385231386231387231384051389280387240387241387256387258387262387265385052385054388267385061385063385064385066385086385087385090385188387242385205389286385088385233389278387263387266385113385114385115385118385127385130385132385173389273389274389281389282385222385163385164385112385120385135385138385200385203385232385234385156385117385192385157385158385159385175385177389284389285385179389287389288385137385167385169385191385174
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:28:055 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:29:932 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:29:964 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:30:437 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:32:236 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:37:222 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3044','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:43:40:015 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '8988','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:44:51:833 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:44:51:863 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:04:105 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:04:129 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:12:952 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:12:969 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:22:743 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:22:777 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:38:782 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:38:805 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:47:965 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:45:47:989 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:53:56:342 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:53:56:391 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:05:636 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:05:666 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:06:152 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:07:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:22:276 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2025','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:26:678 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '7964','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:32:958 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '0','2025','7964','','&lt;p&gt;TTS&lt;/p&gt;','admin','1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:32:959 AM
+---------------------------Success-------------------------------------------------------
+Message: 385180383898383899383900383901385181385129385119383991385165383904383905385182383926383940385139385131383946383953385166385168383928385171383930383931389271383933385172385134385183385140383949383955383956385147385184385185385141385142389272384004389283385143385072385189385144385145384041384013384014384015385190385146389275389279385150385196384001384002385198384044383927383906383907385202383913383941385206385218384032384033384034384035384036385220384037384042385230385231386231387231384051389280387240387241387256387258387262387265385052385054388267385061385063385064385066385086385087385090385188387242385205389289389286385088385233389278387263387266385113385114385115385118385127385130385132385173389273389274389281389282385222385163385164385112385120385135385138385200385203385232385234385156385117385192385157385158385159385175385177389284389285385179389287389288385137385167385169385191385174
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:33:559 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','1','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:35:060 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:35:098 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:54:35:578 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 10:04:29:117 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 10:04:29:160 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+

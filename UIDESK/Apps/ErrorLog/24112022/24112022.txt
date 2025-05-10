@@ -1,0 +1,20 @@
+Time: 24/11/2022 11:39:52:626 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Setting_Channel.aspx' OR UrlUser2='Crm_Trx_Setting_Channel.aspx' OR UrlUser3='Crm_Trx_Setting_Channel.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 24/11/2022 02:09:02:915 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Customer.aspx' OR UrlUser2='Crm_Trm_Customer.aspx' OR UrlUser3='Crm_Trm_Customer.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 24/11/2022 02:45:11:841 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 24/11/2022 03:34:34:292 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+

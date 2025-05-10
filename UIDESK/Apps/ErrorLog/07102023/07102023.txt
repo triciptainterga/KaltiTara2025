@@ -1,0 +1,25 @@
+Time: 07/10/2023 05:50:18:548 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 06:42:57:755 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxUpload.aspx' OR UrlUser2='Tele_TrxUpload.aspx' OR UrlUser3='Tele_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:39:23:289 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxUpload.aspx' OR UrlUser2='Tele_TrxUpload.aspx' OR UrlUser3='Tele_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:53:48:758 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall '131950000002'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/10/2023 08:53:48:779 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', '131950000002', ''
+---------------------------Success-------------------------------------------------------
+

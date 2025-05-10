@@ -1,0 +1,20 @@
+Time: 13/10/2023 11:04:04:947 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '','QARizal','Dropdown','UIDESK008'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2023 11:06:47:321 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_Taskboard_Penilaian.aspx' OR UrlUser2='QA_Taskboard_Penilaian.aspx' OR UrlUser3='QA_Taskboard_Penilaian.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2023 01:06:26:127 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_Taskboard_Penilaian.aspx' OR UrlUser2='QA_Taskboard_Penilaian.aspx' OR UrlUser3='QA_Taskboard_Penilaian.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2023 09:58:57:109 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

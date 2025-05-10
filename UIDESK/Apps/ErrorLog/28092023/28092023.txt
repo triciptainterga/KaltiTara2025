@@ -1,0 +1,75 @@
+Time: 28/09/2023 12:03:26:127 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Taskboard.aspx' OR UrlUser2='Crm_Trx_Taskboard.aspx' OR UrlUser3='Crm_Trx_Taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 06:36:12:851 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:25:46:299 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:25:46:300 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:25:46:303 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:25:46:312 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','admin','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:25:46:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:25:46:315 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:28:50:409 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'ada','admin','UIDESK121'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:28:53:082 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'adam','admin','UIDESK121'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:28:53:999 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '211216145450','admin','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:28:54:006 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '211216145450', 'admin', 'Channel', 'Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 07:28:54:010 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '211216145450','admin','UIDESK126'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 08:24:18:957 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 28/09/2023 09:39:01:817 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+

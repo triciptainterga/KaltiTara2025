@@ -1,0 +1,568 @@
+Time: 09/07/2024 02:21:11:739 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 02:21:11:801 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 02:21:14:033 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 02:21:14:318 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 02:24:04:574 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 02:24:04:907 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 02:24:04:956 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 02:24:04:977 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:17:41:363 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:17:41:489 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:17:42:104 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:17:42:412 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:43:58:474 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at UIDESK.auth_login.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in C:\Users\Rizal\source\repos\bravo\UIDESK\UIDESK\auth_login.aspx.vb:line 46
+Source: .Net SqlClient Data Provider
+TargetSite: Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/07/2024 03:44:45:096 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:44:45:422 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:44:46:813 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:44:48:043 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:47:46:871 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at UIDESK.auth_login.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in C:\Users\Rizal\source\repos\bravo\UIDESK\UIDESK\auth_login.aspx.vb:line 46
+Source: .Net SqlClient Data Provider
+TargetSite: Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/07/2024 03:48:39:407 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at UIDESK.auth_login.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in C:\Users\Rizal\source\repos\bravo\UIDESK\UIDESK\auth_login.aspx.vb:line 46
+Source: .Net SqlClient Data Provider
+TargetSite: Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+---------------------------Failed-------------------------------------------------------
+
+Time: 09/07/2024 03:49:22:778 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:49:22:799 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:49:23:133 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:49:23:157 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:57:53:267 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:57:53:285 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:57:53:304 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 03:57:53:324 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:04:217 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA001' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:04:322 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG001' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:04:597 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP226' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:04:650 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP423' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:04:725 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP002' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:04:827 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP001' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:05:041 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG002' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:05:138 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP973' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:05:473 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP250' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:05:802 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP399' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:05:949 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP180' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:06:064 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP003' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:06:263 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG003' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:07:503 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP392' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:07:705 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP004' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:08:003 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG004' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:09:229 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP704' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:10:670 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP867' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:10:732 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP976' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:10:976 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP932' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:11:174 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP824' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:12:309 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP633' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:12:508 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP253' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:12:712 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP826' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:38:056 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:38:073 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:38:404 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:10:38:809 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:22:656 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA001' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:22:880 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG001' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:22:941 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP226' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:23:366 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP423' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:23:593 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP002' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:23:806 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP001' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:24:005 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG002' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:24:107 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP973' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:24:314 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP250' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:24:935 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP399' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:25:129 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP180' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:25:335 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP003' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:25:711 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG003' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:26:065 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP392' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:26:115 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP004' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:26:148 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG004' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:27:915 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP704' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:28:200 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP867' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:28:303 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP976' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:28:612 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP932' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:28:933 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP824' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:29:466 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP633' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:29:857 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP253' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:15:30:041 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP826' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:08:482 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mGrupPertanyaan] Where KodeAlatTest='QA507' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:08:666 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG685' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:09:481 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP954' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:09:914 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP581' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:10:655 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP871' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:10:816 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP510' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:11:208 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG831' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:12:244 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP336' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:12:553 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP830' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:12:608 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP385' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:14:613 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP689' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:14:705 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP753' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:14:805 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG107' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:15:258 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP880' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:15:327 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [QA_mItemPertanyaan] where KodeGrup='KG805' ORDER BY NoUrut Desc 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:16:136 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP874' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:16:341 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP265' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:18:194 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP120' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:18:287 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP483' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:18:392 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP638' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 05:18:18:491 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [vRentangNilai_GroupingNilai] where Expr2='KP995' 
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 06:31:20:382 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 06:31:20:651 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 06:31:21:784 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'Admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 09/07/2024 06:31:22:207 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,40 @@
+Time: 12/10/2023 10:22:19:913 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_Form.aspx' OR UrlUser2='QA_Form.aspx' OR UrlUser3='QA_Form.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2023 11:31:39:092 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QM_Trx_Penilaian.aspx' OR UrlUser2='QM_Trx_Penilaian.aspx' OR UrlUser3='QM_Trx_Penilaian.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2023 12:00:37:962 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_Taskboard_Penilaian.aspx' OR UrlUser2='QA_Taskboard_Penilaian.aspx' OR UrlUser3='QA_Taskboard_Penilaian.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2023 12:17:16:313 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_form.aspx' OR UrlUser2='QA_form.aspx' OR UrlUser3='QA_form.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2023 01:49:34:624 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_form.aspx' OR UrlUser2='QA_form.aspx' OR UrlUser3='QA_form.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2023 02:37:46:098 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_form.aspx' OR UrlUser2='QA_form.aspx' OR UrlUser3='QA_form.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2023 03:21:25:522 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_Ticket.aspx' OR UrlUser2='Crm_Trx_Ticket.aspx' OR UrlUser3='Crm_Trx_Ticket.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 12/10/2023 08:38:28:259 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='QA_form.aspx' OR UrlUser2='QA_form.aspx' OR UrlUser3='QA_form.aspx')
+---------------------------Success-------------------------------------------------------
+

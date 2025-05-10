@@ -1,0 +1,20 @@
+Time: 13/09/2023 08:58:10:868 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/09/2023 01:34:39:202 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 13/09/2023 05:46:58:144 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20220220052035545','admin','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/09/2023 05:46:58:304 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '220220164812','admin','UIDESK53'
+---------------------------Success-------------------------------------------------------
+

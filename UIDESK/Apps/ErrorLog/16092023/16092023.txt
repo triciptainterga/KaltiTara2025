@@ -1,0 +1,35 @@
+Time: 16/09/2023 10:40:56:006 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Status_User.aspx' OR UrlUser2='Crm_Trm_Status_User.aspx' OR UrlUser3='Crm_Trm_Status_User.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/09/2023 12:09:08:098 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/09/2023 01:24:41:407 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/09/2023 01:51:23:597 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/09/2023 02:38:00:880 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trx_TicketJourney.aspx' OR UrlUser2='Crm_Trx_TicketJourney.aspx' OR UrlUser3='Crm_Trx_TicketJourney.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/09/2023 02:41:23:927 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000003', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/09/2023 02:41:23:991 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000003', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+

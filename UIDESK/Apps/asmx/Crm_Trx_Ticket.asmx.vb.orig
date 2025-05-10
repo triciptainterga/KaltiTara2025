@@ -1,0 +1,628 @@
+﻿Imports System.ComponentModel
+Imports System.Web
+Imports System.Web.Services
+Imports System.Web.Script.Services
+Imports System.Web.Services.Protocols
+Imports System.Web.Script.Serialization
+Imports System.Data
+Imports System.Data.SqlClient
+Imports System.Net
+Imports System.IO
+Imports System.Xml
+Imports System.Data.OleDb
+Imports System.Data.Common
+Imports System.Web.Security.AntiXss
+
+' To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line.
+' <System.Web.Script.Services.ScriptService()> _
+<System.Web.Services.WebService(Namespace:="http://tempuri.org/")>
+<System.Web.Services.WebServiceBinding(ConformsTo:=WsiProfiles.BasicProfile1_1)>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<ScriptService()>
+<ToolboxItem(False)>
+Public Class Crm_Trx_Ticket1
+    Inherits System.Web.Services.WebService
+
+    Dim sqlcom As SqlCommand
+    Dim sqlcon As New SqlConnection(ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString)
+    Dim strSql As String
+    Dim sqldr As SqlDataReader
+    Dim strTime As String = DateTime.Now.ToString("yyyyMMddhhmmssfff")
+    Dim strLogTime As String = DateTime.Now.ToString("yyyy")
+    Dim TrxEmailForm As String = ConfigurationManager.AppSettings("EmailForm")
+    Dim Proses As New ClsConn
+    Dim VariabelCookiesUsername As HttpCookie = HttpContext.Current.Request.Cookies("CookiesUserName")
+    Public Class resultInsert
+        Public Property Result As String
+        Public Property UserID As String
+        Public Property NamaNya As String
+        Public Property msgSystem As String
+        Public Property TicketNumber As String
+        Public Property CustomerID As String
+    End Class
+    Public Class listTransaction
+        Public Property Result As String
+        Public Property TrxID As String
+        Public Property TrxCustomerid As String
+        Public Property TrxCustomerName As String
+        Public Property TrxTicketNumber As String
+        Public Property TrxTicketSourceName As String
+        Public Property TrxCategoryID As String
+        Public Property TrxCategoryName As String
+        Public Property TrxLevel1ID As String
+        Public Property TrxLevel1Name As String
+        Public Property TrxLevel2ID As String
+        Public Property TrxLevel2Name As String
+        Public Property TrxLevel3ID As String
+        Public Property TrxLevel3Name As String
+        Public Property TrxDetailComplaint As String
+        Public Property TrxResponComplaint As String
+        Public Property TrxDivisi As String
+        Public Property TrxSLA As String
+        Public Property TrxStatus As String
+        Public Property TrxUserCreate As String
+        Public Property TxtThreadID As String
+        Public Property TrxInteractionAccount As String
+        Public Property TrxNamaPelapor As String
+        Public Property TrxEmailPelapor As String
+        Public Property TrxPhonePelapor As String
+        Public Property TrxAlamatPelapor As String
+        Public Property TrxNomorRekening As String
+        Public Property TrxSumberInformasi As String
+        Public Property TrxEskalasiUnit As String
+        Public Property TrxKejadian As String
+        Public Property TrxPenyebab As String
+        Public Property TrxStatusPelapor As String
+        Public Property TrxPenerimaPengaduan As String
+        Public Property TrxSkalaPrioritas As String
+        Public Property TrxJenisNasabah As String
+        Public Property TrxThreadID As String
+        Public Property TrxGenesysID As String
+        Public Property TrxExtendID As String
+        Public Property TrxExtendSLA As String
+        Public Property TrxExtendName As String
+        Public Property TrxTicketPosition As String
+        Public Property TrxTahun As String
+        Public Property TrxBulan As String
+        Public Property TrxHari As String
+        Public Property TrxReleaseUser As String
+        Public Property TrxmsgSystem As String
+        Public Property TrxDateCreate As String
+        Public Property TrxDateClose As String
+    End Class
+    Public Sub LogSuccess(ByVal agentName As String, strValue As String)
+        Dim message As String = String.Format("Time: {0}", DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss:fff tt"))
+        message += Environment.NewLine
+        message += "---------------------------Success-------------------------------------------------------"
+        message += Environment.NewLine
+        message += String.Format("Message: {0}", strValue)
+        message += Environment.NewLine
+        message += "---------------------------Success-------------------------------------------------------"
+        message += Environment.NewLine
+
+        Try
+            Dim DirectoryX As String = Path.Combine(Server.MapPath("~/apps/ErrorLog/" & agentName & "/" & DateTime.Now.ToString("ddMMyyyy")))
+            If Not System.IO.Directory.Exists(DirectoryX) Then
+                System.IO.Directory.CreateDirectory(DirectoryX)
+            End If
+        Catch exX As Exception
+            ''Try catch untuk error create folder
+            Dim pathXX As String = HttpContext.Current.Server.MapPath("~/apps/ErrorLog/" & agentName & "/" & DateTime.Now.ToString("ddMMyyyy") & ".txt")
+            Dim messageXX As String = String.Format("Time: {0}", DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss:fff tt"))
+            messageXX += Environment.NewLine
+            messageXX += "---------------------------Success-------------------------------------------------------"
+            messageXX += Environment.NewLine
+            messageXX += String.Format("Message: {0}", exX.Message)
+            messageXX += Environment.NewLine
+            messageXX += String.Format("StackTrace: {0}", exX.StackTrace)
+            messageXX += Environment.NewLine
+            messageXX += String.Format("Source: {0}", exX.Source)
+            messageXX += Environment.NewLine
+            messageXX += String.Format("TargetSite: {0}", exX.TargetSite.ToString())
+            messageXX += Environment.NewLine
+            messageXX += "---------------------------Success-------------------------------------------------------"
+            messageXX += Environment.NewLine
+            Using writer As New StreamWriter(pathXX, True)
+                writer.WriteLine(messageXX)
+                writer.Close()
+            End Using
+        Finally
+            Dim pathX As String = HttpContext.Current.Server.MapPath("~/apps/ErrorLog/" & agentName & "/" & DateTime.Now.ToString("ddMMyyyy") & "/" & DateTime.Now.ToString("ddMMyyyy") & ".txt")
+            Using writer As New StreamWriter(pathX, True)
+                writer.WriteLine(message)
+                writer.Close()
+            End Using
+        End Try
+    End Sub
+    Public Sub LogError(ByVal agentName As String, ex As Exception, strUser As String)
+        Dim message As String = String.Format("Time: {0}", DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss:fff tt"))
+        message += Environment.NewLine
+        message += "---------------------------Failed-------------------------------------------------------"
+        message += Environment.NewLine
+        message += String.Format("Message: {0}", strUser)
+        message += Environment.NewLine
+        message += String.Format("Message: {0}", ex.Message)
+        message += Environment.NewLine
+        message += String.Format("StackTrace: {0}", ex.StackTrace)
+        message += Environment.NewLine
+        message += String.Format("Source: {0}", ex.Source)
+        message += Environment.NewLine
+        message += String.Format("TargetSite: {0}", ex.TargetSite.ToString())
+        message += Environment.NewLine
+        message += "---------------------------Failed-------------------------------------------------------"
+        message += Environment.NewLine
+
+        Try
+            Dim DirectoryX As String = Path.Combine(Server.MapPath("~/apps/ErrorLog/" & agentName & "/" & DateTime.Now.ToString("ddMMyyyy")))
+            If Not System.IO.Directory.Exists(DirectoryX) Then
+                System.IO.Directory.CreateDirectory(DirectoryX)
+            End If
+        Catch exX As Exception
+            ''Try catch untuk error create folder
+            Dim pathXX As String = HttpContext.Current.Server.MapPath("~/apps/ErrorLog/" & agentName & "/" & DateTime.Now.ToString("ddMMyyyy") & ".txt")
+            Dim messageXX As String = String.Format("Time: {0}", DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss:fff tt"))
+            messageXX += Environment.NewLine
+            messageXX += "---------------------------Failed-----------------------------------------------"
+            messageXX += Environment.NewLine
+            messageXX += String.Format("Message: {0}", strUser)
+            messageXX += Environment.NewLine
+            messageXX += String.Format("Message: {0}", exX.Message)
+            messageXX += Environment.NewLine
+            messageXX += String.Format("StackTrace: {0}", exX.StackTrace)
+            messageXX += Environment.NewLine
+            messageXX += String.Format("Source: {0}", exX.Source)
+            messageXX += Environment.NewLine
+            messageXX += String.Format("TargetSite: {0}", exX.TargetSite.ToString())
+            messageXX += Environment.NewLine
+            messageXX += "---------------------------Failed------------------------------------------------"
+            messageXX += Environment.NewLine
+            Using writer As New StreamWriter(pathXX, True)
+                writer.WriteLine(messageXX)
+                writer.Close()
+            End Using
+        Finally
+            Dim pathX As String = HttpContext.Current.Server.MapPath("~/apps/ErrorLog/" & agentName & "/" & DateTime.Now.ToString("ddMMyyyy") & "/" & DateTime.Now.ToString("ddMMyyyy") & ".txt")
+            Using writer As New StreamWriter(pathX, True)
+                writer.WriteLine(message)
+                writer.Close()
+            End Using
+        End Try
+    End Sub
+    Public Function ConvertDataTabletoString(ByVal dt As DataTable) As String
+        Dim serializer As System.Web.Script.Serialization.JavaScriptSerializer = New System.Web.Script.Serialization.JavaScriptSerializer()
+        Dim rows As List(Of Dictionary(Of String, Object)) = New List(Of Dictionary(Of String, Object))()
+        Dim row As Dictionary(Of String, Object)
+
+        For Each dr As DataRow In dt.Rows
+            row = New Dictionary(Of String, Object)()
+
+            For Each col As DataColumn In dt.Columns
+                row.Add(col.ColumnName, dr(col))
+            Next
+
+            rows.Add(row)
+        Next
+
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        js.MaxJsonLength = Int32.MaxValue
+        Return js.Serialize(rows)
+    End Function
+    Public Function BigConvertDataTabletoString(ByVal dt As DataTable) As String
+        Dim serializer As System.Web.Script.Serialization.JavaScriptSerializer = New System.Web.Script.Serialization.JavaScriptSerializer()
+        Dim rows As List(Of Dictionary(Of String, Object)) = New List(Of Dictionary(Of String, Object))()
+        Dim row As Dictionary(Of String, Object)
+
+        For Each dr As DataRow In dt.Rows
+            row = New Dictionary(Of String, Object)()
+
+            For Each col As DataColumn In dt.Columns
+                row.Add(col.ColumnName, dr(col))
+            Next
+
+            rows.Add(row)
+        Next
+
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        js.MaxJsonLength = Int32.MaxValue
+        Return js.Serialize(rows)
+    End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function UIDESK_TrmMasterCombo(ByVal TrxID As String, ByVal TrxUserName As String, ByVal TrxAction As String) As String
+        Dim connstring As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Dim dt As DataTable = New DataTable()
+
+        Dim NameSP = "Exec UIDESK_TrmDropdown"
+        Dim ExecSP = "" & NameSP & " '" & TrxID & "','" & TrxUserName & "','" & TrxAction & "'"
+        Try
+            Using conn As SqlConnection = New SqlConnection(connstring)
+                conn.Open()
+                Dim sqlComm As SqlCommand = New SqlCommand("UIDESK_TrmDropdown", conn)
+                sqlComm.Parameters.AddWithValue("@TrxID", TrxID)
+                sqlComm.Parameters.AddWithValue("@TrxUserName", TrxUserName)
+                sqlComm.Parameters.AddWithValue("@TrxAction", TrxAction)
+                sqlComm.CommandType = CommandType.StoredProcedure
+                Dim da As SqlDataAdapter = New SqlDataAdapter()
+                Dim ds As DataSet = New DataSet()
+                da.SelectCommand = sqlComm
+                da.Fill(ds)
+                dt = ds.Tables(0)
+                conn.Close()
+            End Using
+        Catch ex As Exception
+            LogError(HttpContext.Current.Session("UserName"), ex, ExecSP)
+        Finally
+            LogSuccess(HttpContext.Current.Session("UserName"), ExecSP)
+        End Try
+        Dim tableJson As String = BigConvertDataTabletoString(dt)
+        Return tableJson
+    End Function
+
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function InsertChannelCustomer(ByVal ID As String, ByVal TrxUserName As String, ByVal TrxCustomerID As String,
+                                          ByVal TrxChannelValue As String, ByVal TrxChannelType As String, ByVal Action As String) As String
+        Dim listTickets As List(Of resultInsert) = New List(Of resultInsert)()
+        Dim strExec As String = String.Empty
+        Dim constr As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Try
+            Using con As New SqlConnection(constr)
+                Dim sqlComm As New SqlCommand()
+                sqlComm.Connection = con
+                sqlComm.CommandText = "UIDESK_TrxCustomerChannel"
+                sqlComm.CommandType = CommandType.StoredProcedure
+                sqlComm.Parameters.AddWithValue("ID", ID)
+                sqlComm.Parameters.AddWithValue("TrxUserName", TrxUserName)
+                sqlComm.Parameters.AddWithValue("TrxCustomerID", TrxCustomerID)
+                sqlComm.Parameters.AddWithValue("TrxChannelValue", TrxChannelValue)
+                sqlComm.Parameters.AddWithValue("TrxChannelType", TrxChannelType)
+                sqlComm.Parameters.AddWithValue("Action", Action)
+                con.Open()
+                sqlComm.ExecuteNonQuery()
+                con.Close()
+            End Using
+        Catch ex As Exception
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "False"
+            objectTickets.msgSystem = ex.Message()
+            listTickets.Add(objectTickets)
+            strExec = "exec UIDESK_TrxCustomerChannel '" & ID & "','" & TrxUserName & "','" & TrxCustomerID & "','" & TrxUserName & "','" & TrxChannelValue & "','" & TrxChannelType & "','" & Action & "'"
+            LogError(HttpContext.Current.Session("UserName"), ex, strExec)
+        Finally
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "True"
+            objectTickets.msgSystem = "Success"
+            listTickets.Add(objectTickets)
+            strExec = "exec UIDESK_TrxCustomerChannel '" & ID & "','" & TrxUserName & "','" & TrxCustomerID & "','" & TrxUserName & "','" & TrxChannelValue & "','" & TrxChannelType & "','" & Action & "'"
+            LogSuccess(HttpContext.Current.Session("UserName"), strExec)
+        End Try
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        Return js.Serialize(listTickets)
+    End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function Insert_TransactionTicket(ByVal TrxUsername As String, ByVal TrxCustomerID As String, ByVal TxtThreadID As String, ByVal TxtAccount As String, ByVal TrxPelapor As String, ByVal TrxPelaporEmail As String,
+                                            ByVal TrxPelaporPhone As String, ByVal TrxPelaporAddress As String, ByVal TrxKejadian As String, ByVal TrxPenyebab As String, ByVal TrxPenerimaPengaduan As String, ByVal TrxStatusPelapor As String,
+                                            ByVal TrxSkalaPrioritas As String, ByVal TrxJenisNasabah As String, ByVal TrxNomorRekening As String, ByVal TrxSumberInformasi As String, ByVal TrxCategory As String, ByVal TrxLevel1 As String,
+                                            ByVal TrxLevel2 As String, ByVal TrxLevel3 As String, ByVal TrxComplaint As String, ByVal TrxResponse As String, ByVal TrxChannel As String, ByVal TrxStatus As String, ByVal TrxEskalasi As String,
+                                            ByVal TrxSLA As String, ByVal TrxExtendCategory As String, ByVal TrxLayer As String, ByVal TrxThreadID As String, ByVal TrxGenesysID As String, ByVal TxtContactID As String, ByVal TrxIDchannel As String, ByVal TrxProductName As String) As String
+        Dim listTickets As List(Of listTransaction) = New List(Of listTransaction)()
+        Dim query As String = String.Empty
+        Dim constr As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Dim strExec As String = String.Empty
+        Dim strTime As String = DateTime.Now.ToString("yyyyMMddhhmmssfff")
+        Dim strTrxGenesysID, strTrxThreadID, strTrxAccount, strTrxContactID, strTrxIDchannel As String
+        If TrxGenesysID = "" Then
+            strTrxThreadID = strTime & New Random().Next(1000000, 9999999)
+            strTrxGenesysID = strTime & New Random().Next(100000000, 999999999)
+            strTrxAccount = "-"
+            strTrxContactID = "-"
+            strTrxIDchannel = "-"
+        Else
+            strTrxThreadID = TxtThreadID
+            strTrxGenesysID = TrxGenesysID
+            strTrxAccount = TxtAccount
+            strTrxContactID = TxtContactID
+            strTrxIDchannel = TrxIDchannel
+        End If
+        Try
+            Using con As New SqlConnection(constr)
+                Dim sqlComm As New SqlCommand()
+                sqlComm.Connection = con
+                sqlComm.CommandText = "Insert_Transaction"
+                sqlComm.CommandType = CommandType.StoredProcedure
+                sqlComm.Parameters.AddWithValue("Customerid", TrxCustomerID)
+                sqlComm.Parameters.AddWithValue("TicketNumber", strTime)
+                sqlComm.Parameters.AddWithValue("TicketSourceName", TrxChannel)
+                sqlComm.Parameters.AddWithValue("CategoryID", TrxCategory)
+                sqlComm.Parameters.AddWithValue("SubCategory1ID", TrxLevel1)
+                sqlComm.Parameters.AddWithValue("SubCategory2ID", TrxLevel2)
+                sqlComm.Parameters.AddWithValue("SubCategory3ID", TrxLevel3)
+                sqlComm.Parameters.AddWithValue("DetailComplaint", HttpUtility.UrlDecode(TrxComplaint))
+                sqlComm.Parameters.AddWithValue("ResponComplaint", HttpUtility.UrlDecode(TrxResponse))
+                sqlComm.Parameters.AddWithValue("SLA", TrxSLA)
+                sqlComm.Parameters.AddWithValue("Status", TrxStatus)
+                sqlComm.Parameters.AddWithValue("UserCreate", HttpContext.Current.Session("UserName"))
+                sqlComm.Parameters.AddWithValue("IdTabel", strTrxThreadID)
+                sqlComm.Parameters.AddWithValue("NamaPelapor", HttpUtility.UrlDecode(TrxPelapor))
+                sqlComm.Parameters.AddWithValue("EmailPelapor", TrxPelaporEmail)
+                sqlComm.Parameters.AddWithValue("PhonePelapor", TrxPelaporPhone)
+                sqlComm.Parameters.AddWithValue("AlamatPelapor", HttpUtility.UrlDecode(TrxPelaporAddress))
+                sqlComm.Parameters.AddWithValue("NomorRekening", TrxNomorRekening)
+                sqlComm.Parameters.AddWithValue("SkalaPrioritas", TrxSkalaPrioritas)
+                sqlComm.Parameters.AddWithValue("JenisNasabah", TrxJenisNasabah)
+                sqlComm.Parameters.AddWithValue("IDLevel3", TrxLevel3)
+                sqlComm.Parameters.AddWithValue("SumberInformasi", TrxSumberInformasi)
+                sqlComm.Parameters.AddWithValue("TrxKejadian", TrxKejadian)
+                sqlComm.Parameters.AddWithValue("TrxPenyebab", TrxPenyebab)
+                sqlComm.Parameters.AddWithValue("TrxStatusPelapor", TrxStatusPelapor)
+                sqlComm.Parameters.AddWithValue("TrxPenerimaPengaduan", TrxPenerimaPengaduan)
+                sqlComm.Parameters.AddWithValue("TrxEscalationUnit", TrxEskalasi)
+                sqlComm.Parameters.AddWithValue("TrxLayer", TrxLayer)
+                sqlComm.Parameters.AddWithValue("TrxThreadID", strTrxThreadID)
+                sqlComm.Parameters.AddWithValue("TrxGenesysID", strTrxGenesysID)
+                sqlComm.Parameters.AddWithValue("TxtContactID", strTrxContactID)
+                sqlComm.Parameters.AddWithValue("AccountInbound", strTrxAccount)
+                sqlComm.Parameters.AddWithValue("IDExtend", TrxExtendCategory)
+                sqlComm.Parameters.AddWithValue("TrxIDchannel", strTrxIDchannel)
+                sqlComm.Parameters.AddWithValue("TrxProductName", TrxProductName)
+                con.Open()
+                sqlComm.ExecuteNonQuery()
+            End Using
+        Catch ex As Exception
+            'Response.Write(ex.Message)
+            Dim objectTickets As listTransaction = New listTransaction()
+            objectTickets.Result = "False"
+            objectTickets.TrxmsgSystem = ex.Message()
+            listTickets.Add(objectTickets)
+            strExec = "exec Insert_Transaction " & "'" & TrxCustomerID & "'," & "'" & strTime & "'," & "'" & TrxChannel & "'," & "'" & TrxCategory & "'," & "'" & TrxLevel1 & "'," & "'" & TrxLevel2 & "'," & "'" & TrxLevel3 & "'," & "'" & HttpUtility.UrlDecode(TrxComplaint) & "'," & "'" & HttpUtility.UrlDecode(TrxResponse) & "'," & "'" & TrxSLA & "'," & "'" & TrxStatus & "'," & "'" & TrxUsername & "'," &
+                      "" & "'" & strTrxThreadID & "'," & "'" & TrxPelapor & "'," & "'" & TrxPelaporEmail & "'," & "'" & TrxPelaporPhone & "'," & "'" & HttpUtility.UrlDecode(TrxPelaporAddress) & "'," & "'" & strTrxAccount & "'," & "'" & TrxNomorRekening & "'," & "'" & TrxSkalaPrioritas & "'," & "'" & TrxJenisNasabah & "'," & "'" & TrxLevel3 & "'," & "'" & TrxSumberInformasi & "'," &
+                      "" & "'" & TrxKejadian & "'," & "'" & TrxPenyebab & "'," & "'" & TrxStatusPelapor & "'," & "'" & TrxPenerimaPengaduan & "'," & "'" & TrxEskalasi & "'," & "'" & TrxLayer & "'," & "'" & strTrxThreadID & "', " & "'" & strTrxGenesysID & "', " & "'" & strTrxContactID & "'," & "'" & TrxExtendCategory & "'," & "'" & strTrxIDchannel & "'," & "'" & TrxProductName & "'"
+            LogError(HttpContext.Current.Session("UserName"), ex, strExec)
+        Finally
+            Dim objectTickets As listTransaction = New listTransaction()
+            objectTickets.Result = "True"
+            objectTickets.TrxTicketNumber = strTime
+            objectTickets.TrxmsgSystem = "Transaction Has Been Save"
+            listTickets.Add(objectTickets)
+            strExec = "exec Insert_Transaction " & "'" & TrxCustomerID & "'," & "'" & strTime & "'," & "'" & TrxChannel & "'," & "'" & TrxCategory & "'," & "'" & TrxLevel1 & "'," & "'" & TrxLevel2 & "'," & "'" & TrxLevel3 & "'," & "'" & HttpUtility.UrlDecode(TrxComplaint) & "'," & "'" & HttpUtility.UrlDecode(TrxResponse) & "'," & "'" & TrxSLA & "'," & "'" & TrxStatus & "'," & "'" & TrxUsername & "'," &
+                         "" & "'" & strTrxThreadID & "'," & "'" & TrxPelapor & "'," & "'" & TrxPelaporEmail & "'," & "'" & TrxPelaporPhone & "'," & "'" & HttpUtility.UrlDecode(TrxPelaporAddress) & "'," & "'" & strTrxAccount & "'," & "'" & TrxNomorRekening & "'," & "'" & TrxSkalaPrioritas & "'," & "'" & TrxJenisNasabah & "'," & "'" & TrxLevel3 & "'," & "'" & TrxSumberInformasi & "'," &
+                         "" & "'" & TrxKejadian & "'," & "'" & TrxPenyebab & "'," & "'" & TrxStatusPelapor & "'," & "'" & TrxPenerimaPengaduan & "'," & "'" & TrxEskalasi & "'," & "'" & TrxLayer & "'," & "'" & strTrxThreadID & "', " & "'" & strTrxGenesysID & "', " & "'" & strTrxContactID & "'," & "'" & TrxExtendCategory & "'," & "'" & strTrxIDchannel & "'," & "'" & TrxProductName & "'"
+            LogSuccess(HttpContext.Current.Session("UserName"), strExec)
+        End Try
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        Return js.Serialize(listTickets)
+    End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function ListDataTransactionTicket(ByVal TrxCustomerID As String, ByVal TrxUserName As String, ByVal TrxNumberID As String) As String
+        Dim connstring As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Dim dt As DataTable = New DataTable()
+        Dim sql As String = ""
+        'exec NEW_Sp_Open 'Agent1','','1','1'
+        Try
+            Using conn As SqlConnection = New SqlConnection(connstring)
+                conn.Open()
+
+                sql = "exec UIDESK_Temp_ListDataTransactionticket '" & TrxCustomerID & "','" & TrxUserName & "','" & TrxNumberID & "'"
+
+                Dim ad As SqlDataAdapter = New SqlDataAdapter(sql, conn)
+                Dim ds As DataSet = New DataSet()
+                ad.Fill(ds)
+                dt = ds.Tables(0)
+                conn.Close()
+            End Using
+        Catch ex As Exception
+            LogError(HttpContext.Current.Session("UserName"), ex, sql)
+        Finally
+            LogSuccess(HttpContext.Current.Session("UserName"), sql)
+        End Try
+        Dim tableJson As String = ConvertDataTabletoString(dt)
+        Return tableJson
+    End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function UIDESKPublishTransaction(ByVal TrxCustomerID As String, ByVal TrxUserName As String) As String
+        Dim TrxUserNameXSS As String = AntiXssEncoder.HtmlEncode(TrxUserName.Trim, True)
+        Dim listTickets As List(Of resultInsert) = New List(Of resultInsert)()
+        Dim strExec As String = String.Empty
+        Dim constr As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Try
+            Using con As New SqlConnection(constr)
+                Dim sqlComm As New SqlCommand()
+                sqlComm.Connection = con
+                sqlComm.CommandText = "UIDESK_Temp_PublishTransaction"
+                sqlComm.CommandType = CommandType.StoredProcedure
+                sqlComm.Parameters.AddWithValue("TrxCustomerID", TrxCustomerID)
+                sqlComm.Parameters.AddWithValue("TrxUsername", TrxUserNameXSS)
+                con.Open()
+                sqlComm.ExecuteNonQuery()
+            End Using
+        Catch ex As Exception
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "False"
+            objectTickets.msgSystem = ex.Message()
+            listTickets.Add(objectTickets)
+            strExec = "exec UIDESK_Temp_PublishTransaction " & "'" & TrxCustomerID & "'," & "'" & TrxUserNameXSS & "'"
+            LogError(HttpContext.Current.Session("UserName"), ex, strExec)
+        Finally
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "True"
+            objectTickets.msgSystem = "Transaction Has Been Publish"
+            listTickets.Add(objectTickets)
+            strExec = "exec UIDESK_Temp_PublishTransaction " & "'" & TrxCustomerID & "'," & "'" & TrxUserNameXSS & "'"
+            LogSuccess(HttpContext.Current.Session("UserName"), strExec)
+        End Try
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        Return js.Serialize(listTickets)
+    End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function UIDESKPublishTransactionTicketNumber(ByVal TrxTicketNumber As String) As String
+        Dim listTickets As List(Of resultInsert) = New List(Of resultInsert)()
+        Dim strExec As String = String.Empty
+        Dim constr As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Try
+            Using con As New SqlConnection(constr)
+                Dim sqlComm As New SqlCommand()
+                sqlComm.Connection = con
+                sqlComm.CommandText = "UIDESK_Temp_PublishTransactionTicketNumber"
+                sqlComm.CommandType = CommandType.StoredProcedure
+                sqlComm.Parameters.AddWithValue("TrxTicketNumber", TrxTicketNumber)
+                con.Open()
+                sqlComm.ExecuteNonQuery()
+            End Using
+        Catch ex As Exception
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "False"
+            objectTickets.msgSystem = ex.Message()
+            listTickets.Add(objectTickets)
+            strExec = "exec UIDESK_Temp_PublishTransactionTicketNumber " & "'" & TrxTicketNumber & "'"
+            LogError(HttpContext.Current.Session("UserName"), ex, strExec)
+        Finally
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "True"
+            objectTickets.msgSystem = "Transaction Has Been Remove"
+            listTickets.Add(objectTickets)
+            strExec = "exec UIDESK_Temp_PublishTransactionTicketNumber " & "'" & TrxTicketNumber & "'"
+            LogSuccess(HttpContext.Current.Session("UserName"), strExec)
+        End Try
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        Return js.Serialize(listTickets)
+    End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function BRA_CreateTicket(ByVal GenesysNumber As String, ByVal ThreadID As String, ByVal Account As String, ByVal Channel As String, ByVal CustomerID As String, ByVal UserName As String, ByVal Priority As String, ByVal Status As String, ByVal Subject As String,
+                                     ByVal Kategori As String, ByVal SubKategori As String, ByVal NoAju As String, ByVal Kantor As String, ByVal NilaiTransaksi As String, ByVal Pertanyaan As String, ByVal Jawaban As String, ByVal Posisi As String, ByVal Action As String) As String
+        Dim listTickets As List(Of listTransaction) = New List(Of listTransaction)()
+        Dim query As String = String.Empty
+        Dim constr As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Dim strExec As String = String.Empty
+        Dim strTime As String = DateTime.Now.ToString("yyyyMMddhhmmssfff")
+        Dim StrGenesysNumber, StrThreadID, StrAccount, StrContact, StrChannel As String
+        If GenesysNumber = "0" Then
+            StrThreadID = strTime & New Random().Next(1000000, 9999999)
+            StrGenesysNumber = strTime & New Random().Next(100000000, 999999999)
+            StrAccount = Account
+            StrContact = Account
+            StrChannel = Channel
+        Else
+            StrGenesysNumber = GenesysNumber
+            StrThreadID = ThreadID
+            StrAccount = Account
+            StrContact = Account
+            StrChannel = Channel
+        End If
+        Try
+            Using con As New SqlConnection(constr)
+                Dim sqlComm As New SqlCommand()
+                sqlComm.Connection = con
+                sqlComm.CommandText = "BRA_CreateTicket"
+                sqlComm.CommandType = CommandType.StoredProcedure
+                sqlComm.Parameters.AddWithValue("TicketNumber", strTime)
+                sqlComm.Parameters.AddWithValue("GenesysNumber", StrGenesysNumber)
+                sqlComm.Parameters.AddWithValue("ThreadID", StrThreadID)
+                sqlComm.Parameters.AddWithValue("Account", StrAccount)
+                sqlComm.Parameters.AddWithValue("Channel", StrChannel)
+                sqlComm.Parameters.AddWithValue("CustomerID", CustomerID)
+                sqlComm.Parameters.AddWithValue("UserName", HttpContext.Current.Session("UserName"))
+                sqlComm.Parameters.AddWithValue("Priority", Priority)
+                sqlComm.Parameters.AddWithValue("Status", Status)
+                sqlComm.Parameters.AddWithValue("Subject", Subject)
+                sqlComm.Parameters.AddWithValue("Kategori", Kategori)
+                sqlComm.Parameters.AddWithValue("SubKategori", SubKategori)
+                sqlComm.Parameters.AddWithValue("NoAju", NoAju)
+                sqlComm.Parameters.AddWithValue("NilaiTransaksi", NilaiTransaksi)
+                sqlComm.Parameters.AddWithValue("Kantor", Kantor)
+                sqlComm.Parameters.AddWithValue("Pertanyaan", HttpUtility.UrlDecode(Pertanyaan))
+                sqlComm.Parameters.AddWithValue("Jawaban", HttpUtility.UrlDecode(Jawaban))
+                sqlComm.Parameters.AddWithValue("Posisi", Posisi)
+<<<<<<< HEAD
+                sqlComm.Parameters.AddWithValue("Action", Action)
+=======
+                sqlComm.Parameters.AddWithValue("@NilaiTransaksi", NilaiTransaksi)
+                sqlComm.Parameters.AddWithValue("@Action", TrxAction)
+>>>>>>> 206daefd96b2e49108140b81edb17eaba1d0646e
+                con.Open()
+                sqlComm.ExecuteNonQuery()
+            End Using
+        Catch ex As Exception
+            'Response.Write(ex.Message)
+            Dim objectTickets As listTransaction = New listTransaction()
+            objectTickets.Result = "False"
+            objectTickets.TrxmsgSystem = ex.Message()
+            listTickets.Add(objectTickets)
+            strExec = "exec BRA_CreateTicket '" & strTime & "','" & StrGenesysNumber & "','" & StrThreadID & "','" & StrAccount & "','" & StrChannel & "','" & CustomerID & "','" & HttpContext.Current.Session("UserName") & "','" & Priority & "','" & Status & "','" & Subject & "','" & Kategori & "','" & SubKategori & "','" & NoAju & "','" & NilaiTransaksi & "','" & Kantor & "','" & HttpUtility.UrlDecode(Pertanyaan) & "','" & HttpUtility.UrlDecode(Jawaban) & "','" & Posisi & "','" & Action & "'"
+            LogError(HttpContext.Current.Session("UserName"), ex, strExec)
+        Finally
+            Dim objectTickets As listTransaction = New listTransaction()
+            objectTickets.Result = "True"
+            objectTickets.TrxTicketNumber = strTime
+            objectTickets.TrxmsgSystem = "Transaction Has Been Save"
+            listTickets.Add(objectTickets)
+            strExec = "exec BRA_CreateTicket '" & strTime & "','" & StrGenesysNumber & "','" & StrThreadID & "','" & StrAccount & "','" & StrChannel & "','" & CustomerID & "','" & HttpContext.Current.Session("UserName") & "','" & Priority & "','" & Status & "','" & Subject & "','" & Kategori & "','" & SubKategori & "','" & NoAju & "','" & NilaiTransaksi & "','" & Kantor & "','" & HttpUtility.UrlDecode(Pertanyaan) & "','" & HttpUtility.UrlDecode(Jawaban) & "','" & Posisi & "','" & Action & "'"
+            LogSuccess(HttpContext.Current.Session("UserName"), strExec)
+        End Try
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        Return js.Serialize(listTickets)
+    End Function
+    <WebMethod(EnableSession:=True)>
+    <ScriptMethod(UseHttpGet:=False, ResponseFormat:=ResponseFormat.Json)>
+    Public Function BRA_Pelapor(ByVal TrxID As String, ByVal TrxUserName As String, ByVal TrxNama As String, ByVal TrxAction As String) As String
+        Dim TrxCustomerID As String = New Random().Next(1000000, 9999999)  'Request.QueryString("i")
+        Dim listTickets As List(Of resultInsert) = New List(Of resultInsert)()
+        Dim strExec As String = String.Empty
+        Dim _CustomerID As String = String.Empty
+        Dim _Result As String = String.Empty
+        Dim TrxGenerateID As String = String.Empty
+        Dim TrxUsernameXSS As String = AntiXssEncoder.HtmlEncode(TrxUserName.Trim, True)
+        Dim constr As String = ConfigurationManager.ConnectionStrings("DefaultConnection").ConnectionString
+        Try
+            Using con As New SqlConnection(constr)
+                Dim sqlComm As New SqlCommand()
+                sqlComm.Connection = con
+                sqlComm.CommandText = "BRA_Pelapor"
+                sqlComm.CommandType = CommandType.StoredProcedure
+                sqlComm.Parameters.AddWithValue("TrxID", TrxID)
+                sqlComm.Parameters.AddWithValue("TrxUserName", TrxUserName)
+                sqlComm.Parameters.AddWithValue("TrxNama", TrxNama)
+                sqlComm.Parameters.AddWithValue("TrxAction", TrxAction)
+                con.Open()
+                sqldr = sqlComm.ExecuteReader()
+                While sqldr.Read()
+                    _Result &= sqldr("ResultNya").ToString
+                    _CustomerID &= sqldr("ID").ToString
+                End While
+                sqldr.Close()
+                con.Close()
+            End Using
+        Catch ex As Exception
+            Dim objectTickets As resultInsert = New resultInsert()
+            objectTickets.Result = "False"
+            objectTickets.msgSystem = ex.Message()
+            listTickets.Add(objectTickets)
+            strExec = "exec BRA_Pelapor '" & TrxID & "','" & TrxUsernameXSS & "','" & TrxNama & "','" & TrxAction & "'"
+            LogError(HttpContext.Current.Session("UserName"), ex, strExec)
+        Finally
+            Dim objectTickets As resultInsert = New resultInsert()
+            If _Result = "InsertSuccess" Then
+                objectTickets.Result = "True"
+                objectTickets.CustomerID = _CustomerID
+                objectTickets.msgSystem = "Data Customer Has Been Insert"
+                listTickets.Add(objectTickets)
+                strExec = "exec BRA_Pelapor '" & TrxID & "','" & TrxUsernameXSS & "','" & TrxNama & "','" & TrxAction & "'"
+                LogSuccess(HttpContext.Current.Session("UserName"), strExec)
+            Else
+                objectTickets.Result = "False"
+                objectTickets.CustomerID = _CustomerID
+                objectTickets.msgSystem = _Result
+                listTickets.Add(objectTickets)
+                strExec = "exec BRA_Pelapor '" & TrxID & "','" & TrxUsernameXSS & "','" & TrxNama & "','" & TrxAction & "'"
+                LogSuccess(HttpContext.Current.Session("UserName"), strExec)
+                LogSuccess(HttpContext.Current.Session("UserName"), _Result)
+            End If
+        End Try
+        Dim js As JavaScriptSerializer = New JavaScriptSerializer()
+        Return js.Serialize(listTickets)
+    End Function
+End Class
