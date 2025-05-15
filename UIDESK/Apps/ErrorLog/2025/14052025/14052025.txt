@@ -1,0 +1,372 @@
+Time: 14/05/2025 12:03:31:345 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:31:363 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='17101152630045' and Password='Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:31:382 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  '17101152630045', 'Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:31:458 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='17101152630045' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:06:59:119 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:06:59:131 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:06:59:145 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'admin', 'Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:06:59:181 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:07:17:851 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','levixitd@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:07:29:488 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','levixitd@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:07:45:020 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','martha.clarissa@dhl.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:15:20:362 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:15:20:370 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='17101152630045' and Password='Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:15:20:428 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  '17101152630045', 'Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:15:20:538 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='17101152630045' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:48:728 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:48:739 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='17101152630045' and Password='Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:48:750 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  '17101152630045', 'Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:48:802 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='17101152630045' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:38:49:007 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:38:49:048 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='17101152630045' and Password='Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:38:49:074 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  '17101152630045', 'Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:38:49:123 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='17101152630045' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:47:350 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:47:363 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='17101152630045' and Password='Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:47:413 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  '17101152630045', 'Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:47:516 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='17101152630045' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:01:26:185 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:01:26:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='admin' and Password='UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:01:26:213 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'admin', 'UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:01:26:330 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:01:52:379 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','erning.fitri887@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:02:20:486 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','import.binalog@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:04:29:464 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','import.binalog@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:06:34:763 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:06:34:778 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='admin' and Password='UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:06:34:795 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'admin', 'UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:06:34:836 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:07:04:736 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','peradipta@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:07:06:444 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','peradipta@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:11:04:294 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','erning.fitri887@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:11:26:055 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','peradipta@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:16:42:045 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:16:42:055 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='admin' and Password='UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:16:42:104 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'admin', 'UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:16:42:180 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:17:19:776 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','alwiyahgresik@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:37:50:910 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:37:50:918 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='admin' and Password='UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:37:50:972 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'admin', 'UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:37:51:054 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:38:26:363 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','ayun.qurrota@iolgroup.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:38:28:115 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at UIDESK.auth_login.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in C:\Bravo2024\bravo\UIDESK\auth_login.aspx.vb:line 129
+Source: .Net SqlClient Data Provider
+TargetSite: Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/05/2025 06:38:58:797 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:38:58:827 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='admin' and Password='UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:38:59:324 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'admin', 'UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:38:59:838 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:39:26:490 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','fitatriani21@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:41:51:348 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:41:51:362 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='17101152630045' and Password='Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:41:51:374 AM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  '17101152630045', 'Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:41:51:419 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='17101152630045' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:14:37:274 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:14:37:294 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='17101152630045' and Password='Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:14:37:309 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  '17101152630045', 'Bravo225!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:14:37:355 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='17101152630045' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:41:10:912 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:41:10:924 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='admin' and Password='UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:41:10:938 PM
+---------------------------Success-------------------------------------------------------
+Message: EXEC SP_LOGIN_APPLIKASI  'admin', 'UIdesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:41:10:982 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:41:39:886 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','iris.vital001@gmail.com'
+---------------------------Success-------------------------------------------------------
+

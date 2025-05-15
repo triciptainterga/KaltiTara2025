@@ -1,0 +1,224 @@
+Time: 06/07/2024 04:40:31:189 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Crm_Trx_Taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:31:354 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:31:897 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:37:463 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='QA_Taskboard_Penilaian.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:37:596 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'Agent1','','Layer 1','','3'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:38:093 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'Agent1','Layer 1',''
+Message: Procedure or function 'QM_TrxHeaderTransaction' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Taskboard_Penilaian1.QM_TrxHeaderTransaction(String TrxUserName, String TrxLevelUser, String TrxStatus) in C:\Users\Rizal\source\repos\bravo\UIDESK\UIDESK\Apps\asmx\QA_Taskboard_Penilaian.asmx.vb:line 390
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/07/2024 04:40:38:110 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'Agent1','Layer 1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:52:399 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='QA_Taskboard_Penilaian.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:52:509 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'Agent1','','Layer 1','','3'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:52:529 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'Agent1','Layer 1','Approved'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:58:106 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='QA_form.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:58:348 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','Agent1','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:58:886 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'KG005'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:40:59:319 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','Agent1','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:00:106 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'KG006'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:00:337 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'TotalNya'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:01:372 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'KG007'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:01:869 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','Agent1','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:03:128 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'KG008'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:04:787 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'KG009'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:04:949 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Layer 1','Agent1','Approved','UIDESK006'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:05:407 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','Agent1','Dropdown','UIDESK005'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:05:468 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'PersenNya'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:05:956 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction '2','Agent1','UIDESK050','CMB-01'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:05:970 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Email','Agent1','Dropdown','UIDESK005'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:06:477 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec QM_TrxPickup 'HDRQARizal20231020132820','Approved','Agent1'
+Message: Procedure or function 'QM_TrxPickup' expects parameter '@QM_ALTERdBy', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UIDESK.QA_Form1.QM_TrxPickup(String QM_HeaderID, String QM_StatusData, String QM_CreatedBy) in C:\Users\Rizal\source\repos\bravo\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 1160
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/07/2024 04:41:06:478 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxPickup 'HDRQARizal20231020132820','Approved','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:06:989 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','Agent1','Dropdown','UIDESK007'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:07:548 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction 'Agent1','Agent1','UIDESK051','CMB-01'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:15:308 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxCommentInteraction 'HDRQARizal20231020132820'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:15:977 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction 'HDRQARizal20231020132820','Agent1','UIDESK043','CMB-01'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:17:104 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHistoryPenilaian_Agent 'Agent1', 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:20:074 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction 'HDRQARizal20231020132820','Agent1','UIDESK046','TA-01'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:20:104 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction '4','Agent1','UIDESK069','TA-01'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:22:372 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxCommentInteraction 'HDRQARizal20231020132820'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:23:870 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction 'HDRQARizal20231020132820','Agent1','UIDESK043','CMB-01'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:24:708 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHistoryPenilaian_Agent 'Agent1', 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:25:759 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction 'HDRQARizal20231020132820','Agent1','UIDESK046','TA-01'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/07/2024 04:41:25:772 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterTransaction '4','Agent1','UIDESK069','TA-01'
+---------------------------Success-------------------------------------------------------
+

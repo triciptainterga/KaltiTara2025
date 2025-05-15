@@ -1,0 +1,1120 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Uidesk.master.vb" Inherits="UIDESK.Uidesk" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bravo Bea Cukai </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Bravo Beacukai 1500225" name="description" />
+    <meta content="Uidesk" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/bea-cukai.png">
+
+    <!-- plugin css -->
+    <link href="assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <%--<script src="https://bravo.beacukai.go.id/omni/assets/socket.io/client-dist/socket.io.min.js"></script>
+    <script>
+        // const session_id = "Maker1_Q1";
+        const socket = io("notif.beacukai.go.id", {
+            transports: ["websocket", "polling"]
+        });
+    </script>--%>
+    <script>
+        function directPage(url) {
+            //alert(url)
+            //return false
+            location.href = "" + url + "";
+        }
+    </script>
+    <script type="text/javascript">
+        const IPSERVER = "http://localhost/Bravo"
+        console.log("IPSERVER " + IPSERVER)
+    </script>
+    <script src="js/jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        .table-header {
+            background-color: #5bc0de;
+            color: white;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+
+            .faq-item:last-child {
+                border-bottom: none;
+            }
+
+        .faq-icon {
+            font-size: 24px;
+            color: #5bc0de;
+        }
+
+        .faq-title {
+            font-weight: bold;
+        }
+
+        .faq-date {
+            text-align: right;
+            color: #888;
+            margin-top: 13px;
+        }
+
+        .faq-link {
+            color: #5bc0de;
+            text-decoration: none;
+        }
+
+            .faq-link:hover {
+                text-decoration: underline;
+            }
+
+        #faqTable {
+            display: none; /* Sembunyikan tabel di awal */
+        }
+
+        .sticky-header {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: #343a40; /* Sesuaikan warna latar belakang agar sesuai dengan desain */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan untuk memperjelas header */
+        }
+
+        .sticky-tabs {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 54px; /* Sesuaikan jarak agar muncul tepat di bawah Theme Customizer */
+            z-index: 999; /* Z-index lebih rendah dari header */
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /*counting qm*/
+        #count-number-qm {
+            position: relative; /* To allow absolute positioning */
+            padding: 5px 10px; /* Adjust the padding to your preference */
+            background-color: #33a4e2; /* Blue background */
+            color: white; /* White text color for the number */
+            border-radius: 50%; /* Make it circular */
+            font-size: 16px; /* Adjust the font size */
+            font-weight: bold; /* Make the number bold */
+            display: inline-block; /* To avoid stretching */
+            min-width: 30px; /* Set a minimum width for the circle */
+            text-align: center; /* Center the number inside the circle */
+            line-height: 20px; /* Vertically center the number */
+        }
+
+        .icon-bg {
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ccc; /* warna default */
+            color: white; /* warna icon */
+        }
+
+        .bg-success {
+            background-color: #28a745; /* hijau */
+        }
+
+        .bg-danger {
+            background-color: #dc3545; /* merah */
+        }
+    </style>
+</head>
+<body data-sidebar-size="sm" data-topbar="light" data-sidebar="light" data-layout-mode="light">
+    <div id="countdown-timer"></div>
+    <div id="layout-wrapper">
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets/images/bea-cukai.png" alt="" height="22">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/bea-cukai.png" alt="" height="22">
+                            </span>
+                        </a>
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/bea-cukai.png" alt="" height="22">
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/bea-cukai.png" alt="" height="22">
+                            </span>
+                        </a>
+                    </div>
+                    <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn">
+                        <i class="fa fa-fw fa-bars"></i>
+                    </button>
+                </div>
+                <div class="d-flex" style="background-color: white;">
+                    <div class="dropdown d-inline-block" id="status_user">
+                        <a class="dropdown-item d-flex align-items-center" href="auth-lockscreen-basic.html" style="margin-top: 25px;">
+                            <span id="statusCircle" style="width: 15px; height: 15px; border-radius: 50%; display: inline-block; margin-top"></span>
+                            &nbsp;<span class="align-middle" id="Aux_State"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0">
+                            <form class="p-2">
+                                <div class="search-box">
+                                    <div class="position-relative">
+                                        <input type="text" class="form-control rounded bg-light border-0" placeholder="Search Customer...">
+                                        <i class="mdi mdi-magnify search-icon"></i>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item noti-icon" id="page-header-notifications-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="icon-sm" data-feather="bell"></i>
+                            <span class="noti-dot bg-danger"></span>
+                        </button>
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon right-bar-toggle" id="right-bar-toggle">
+                                <i class="icon-sm" data-feather="settings"></i>
+                            </button>
+                        </div>
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon" id="FAQBravoPeraturan">
+                                <i class="icon-sm" data-feather="book"></i>
+                            </button>
+                        </div>
+                        <!-- Button Counting QM -->
+                        <button type="button" class="btn header-item" id="counting-data-QM" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="outside">
+                            <span class="count-number" id="count-number-qm">5</span>
+                        </button>
+                        <div id="dropdown-menu" class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+                            <div class="p-3">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h5 class="m-0 font-size-15">Incoming Channel</h5>
+                                    </div>
+                                    <div class="col-auto">
+                                        <%--<a href="#!" class="small">Mark all as read</a>--%>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="notification-list" data-simplebar style="max-height: 250px;">
+                                <h6 class="dropdown-header bg-light">
+                                    <span class="badge rounded-pill badge-soft-danger">New</span>
+                                </h6>
+                                <!-- Items will be dynamically inserted here -->
+                            </div>
+                            <div class="p-2 border-top d-grid">
+                                <a class="btn btn-sm btn-link font-size-14 btn-block text-center" href="QA_Taskboard_Penilaian.aspx?">
+                                    <i class="uil-arrow-circle-right me-1"></i><span>View More..</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="icon-list-container-channel">
+                    </div>
+                    <div id="icon-list-container-login-dk">
+                    </div>
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item user text-start d-flex align-items-center" id="page-header-user-dropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="avatar-container">
+                                <i class="fas fa-user rounded-circle icon-bg" id="avatar-icon"></i>
+                            </div>
+                            <span class="ms-2 d-none d-sm-block user-item-desc">
+                                <span class="user-name">
+                                    <p class="mb-0 font-size-13 text-light-50 fw-semibold" id="Profile_Name_Header"></p>
+                                </span>
+                                <span class="user-sub-title">
+                                    <p class="mb-0 font-size-11 text-light-50 fw-semibold" id="Profile_LevelUser"></p>
+                                </span>
+                            </span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-end pt-0">
+                            <div class="p-3 bg-primary border-bottom d-flex align-items-center">
+                                <!-- Profile Name and Email -->
+                                <div>
+                                    <h6 class="mb-0 text-white" id="Profile_Name"></h6>
+                                    <p class="mb-0 font-size-11 text-white-50 fw-semibold" id="Profile_Email"></p>
+                                </div>
+
+                                <!-- New Counting QM Circle -->
+                                <div class="ms-3 position-relative">
+                                    <span class="counting-qm-circle" id="count-number-qm">5</span>
+                                </div>
+                            </div>
+                            <%--<a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-account-circle text-muted font-size-16 align-middle me-1"></i><span class="align-middle">Profile</span></a>
+                            <a class="dropdown-item" href="apps-chat.html"><i class="mdi mdi-message-text-outline text-muted font-size-16 align-middle me-1"></i><span class="align-middle">Messages</span></a>--%>
+                            <a class="dropdown-item" href="Crm_Trx_Taskboard.aspx?status=Open"><i class="mdi mdi-calendar-check-outline text-muted font-size-16 align-middle me-1"></i><span class="align-middle">Taskboard</span></a>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="ModalSelectedAUX()"><i class="mdi mdi-account-circle text-muted font-size-16 align-middle me-1" id="IconAux"></i><span class="align-middle">AUX</span></a>
+                            <a class="dropdown-item d-flex align-items-center" href="#" onclick="ModalChangePassword()"><i class="mdi mdi-account-key text-muted font-size-16 align-middle me-1"></i><span class="align-middle">Change Password</span></a>
+                            <!-- Update Version Information -->
+                            <div class="dropdown-divider"></div>
+                            <div class="p-3">
+                                <!-- Tombol utama untuk menampilkan daftar versi -->
+                                <h5 class="text-primary" id="toggleVersionList" style="cursor: pointer; font-weight: bold;">
+                                    Version
+                                </h5>
+                            
+                                <!-- Container untuk semua versi (disembunyikan secara default) -->
+                                <div id="versionList" style="display: none;">
+                                    <div class="version-item">
+                                        <h6 class="text-primary mb-1 toggle-version" style="cursor: pointer;">
+                                            Version 1.1.1 <span style="color: gray; font-size: 12px; display: inline-block; vertical-align: middle;">(07-02-2025)</span>
+                                        </h6>
+                                        <div class="version-content" style="max-height: 150px; overflow-y: auto; display: none;">
+                                            <ol class="mb-0 ps-3" style="font-size: 12px;">
+                                                <li>Penambahan fungsi level user Supervisor pada system Omni</li>
+                                                <li>Penambahan icon channel berdasarkan schedule agent daily</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="version-item">
+                                        <h6 class="text-primary mb-1 toggle-version" style="cursor: pointer;">
+                                            Version 1.1.2 <span style="color: gray; font-size: 12px; display: inline-block; vertical-align: middle;">(09-03-2025)</span>
+                                        </h6>
+                                        <div class="version-content" style="max-height: 150px; overflow-y: auto; display: none;">
+                                            <ol class="mb-0 ps-3" style="font-size: 12px;">
+                                                <li>Production modul Live Chat untuk site Tanjung Priok</li>
+                                                <li>Penyesuaian Feature Bot & Hotkey untuk site Tanjung Priok</li>
+                                                <li>Penambahan Fungsi Level User SysAdmin pada system Omni</li>
+                                                <li>Penambahan size attachment dari 5 MB menjadi 15 MB pada feature multichat</li>
+                                                <li>Penambahan extension .xls & .xlsx pada feature upload attachment pada multichat</li>
+                                                <li>Penambahan extension .doc & .docx pada feature upload attachment pada feature ticket dan email</li>
+                                                <li>Penambahan Nama Agent pada object Description ketika ticket diekskalasi ke CRM Dynamic</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="version-item">
+                                        <h6 class="text-primary mb-1 toggle-version" style="cursor: pointer;">
+                                            Version 1.1.3 <span style="color: gray; font-size: 12px; display: inline-block; vertical-align: middle;">(13-03-2025)</span>
+                                        </h6>
+                                        <div class="version-content" style="max-height: 150px; overflow-y: auto; display: none;">
+                                            <ol class="mb-0 ps-3" style="font-size: 12px;">
+                                                <li>Report Produktifitas</li>
+                                                <li>Report Occupancy Rate</li>
+                                                <li>Report Occupancy Rate Summary Daily</li>
+                                                <li>Report SPA (Report Service Per Agent)</li>
+                                                <li>Report SPA Daily (Report Service Per Agent Daily)</li>
+                                                <li>Report Agent Service Level</li>
+                                                <li>Report Agent Service Level Daily</li>
+                                                <li>Report Performance</li>
+                                                <li>Report Kualitas</li>
+                                                <li>Report Kualitas Detail</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="version-item">
+                                        <h6 class="text-primary mb-1 toggle-version" style="cursor: pointer;">
+                                            Version 1.2.1 <span style="color: gray; font-size: 12px; display: inline-block; vertical-align: middle;">(16-03-2025)</span>
+                                        </h6>
+                                        <div class="version-content" style="max-height: 150px; overflow-y: auto; display: none;">
+                                            <ol class="mb-0 ps-3" style="font-size: 12px;">
+                                                <li>Module Apps Quality Monitoring</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                    <div class="version-item">
+                                        <h6 class="text-primary mb-1 toggle-version" style="cursor: pointer;">
+                                            Version 1.2.2 <span style="color: gray; font-size: 12px; display: inline-block; vertical-align: middle;">(20-03-2025)</span>
+                                        </h6>
+                                        <div class="version-content" style="max-height: 150px; overflow-y: auto; display: none;">
+                                            <ol class="mb-0 ps-3" style="font-size: 12px;">
+                                                <li>Feature Dashboard Home (On Development)</li>
+                                                <li>Fungsi "Proses" pada Preview feature Get data manual QM</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="version-item">
+                                        <h6 class="text-primary mb-1 toggle-version" style="cursor: pointer;">
+                                            Version 1.2.3 <span style="color: gray; font-size: 12px; display: inline-block; vertical-align: middle;">(29-03-2025)</span>
+                                        </h6>
+                                        <div class="version-content" style="max-height: 150px; overflow-y: auto; display: none;">
+                                            <ol class="mb-0 ps-3" style="font-size: 12px;">
+                                                <li>Penyesuaian Grouping Multichat & Sosial Media
+                                                    <ul>
+                                                        <li>Grouping Multichat (Live Chat & WhatsApp)</li>
+                                                        <li>Grouping Sosial Media (Instagram & Facebook)</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Penyesuaian feature agent setting dan handle pada channel multichat & sosial media</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+
+                                    <div class="version-item">
+                                        <h6 class="text-primary mb-1 toggle-version" style="cursor: pointer;">
+                                            Version 1.2.4 <span style="color: gray; font-size: 12px; display: inline-block; vertical-align: middle;">(15-04-2025)</span>
+                                        </h6>
+                                        <div class="version-content" style="max-height: 150px; overflow-y: auto; display: none;">
+                                            <ol class="mb-0 ps-3" style="font-size: 12px;">
+                                                <li>Report Service Per Agent</li>
+                                                <li>Report Average Ring Time</li>
+                                                <li>Report Adherance Schedule Per Tanggal</li>
+                                                <li>Fungsi proses menjadi langsung auto follow up</li>
+                                                <li>Ditambahkan feature checking jika data reject tidak tersedia pada bucket</li>
+                                                <li>Feature agent sesi</li>
+                                            </ol>
+                                        </div>
+                                    </div>                                    
+                                    
+                                </div>
+                            </div>
+                            
+                            <%--<a class="dropdown-item" href="pages-faqs.html"><i class="mdi mdi-lifebuoy text-muted font-size-16 align-middle me-1"></i><span class="align-middle">Help</span></a>--%>
+                            <%--<div class="dropdown-divider"></div>--%>
+                            <%--<a class="dropdown-item" href="pages-profile.html"><i class="mdi mdi-wallet text-muted font-size-16 align-middle me-1"></i><span class="align-middle">Balance : <b>$6951.02</b></span></a>--%>
+                            <%--<a class="dropdown-item" href="auth-lockscreen-basic.html"><span id="statusCircle" style="width: 15px; height: 15px; border-radius: 50%; display: inline-block;"></span>&nbsp;<span class="align-middle" id="Aux_State"></span></a>--%>
+                            <%-- <div class="p-4 border-bottom d-flex align-items-center" style="background-color: transparent;">
+                                <span id="statusCircle" style="width: 15px; height: 15px; border-radius: 50%; display: inline-block; margin-left: 10px;"></span>
+                                &nbsp;<h6 class="mb-0 text-dark" id="Aux_State"></h6>
+                            </div>--%>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" onclick="LogoutSystem()"><i class="mdi mdi-logout text-muted font-size-16 align-middle me-1"></i><span class="align-middle">Logout</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+            <!-- LOGO -->
+            <div class="navbar-brand-box">
+                <a href="index.html" class="logo logo-dark">
+                    <span class="logo-sm">
+                        <img src="assets/images/logo.png" alt="" style="height: auto; width: 62px; margin-left: -20px;">
+                    </span>
+                    <span class="logo-lg">
+                        <img src="assets/images/bea-cukai.png" alt="" style="height: auto; width: 60px; margin-right: 10px;">
+                        <img src="assets/images/logo.png" alt="" style="height: auto; width: 100px;">
+                    </span>
+                </a>
+
+                <a href="index.html" class="logo logo-light">
+                    <span class="logo-lg">
+                        <%--<img src="assets/images/logo-light.png" alt="" height="22">--%>
+                        <img src="assets/images/logo.png" alt="" style="height: auto; width: 60px; align-items: center;">
+                    </span>
+                    <span class="logo-sm">
+                        <img src="assets/images/logo.png" alt="" style="height: auto; width: 60px; align-items: center;">
+                    </span>
+                </a>
+            </div>
+
+            <button type="button" class="btn btn-sm px-3 font-size-16 header-item vertical-menu-btn">
+                <i class="fa fa-fw fa-bars"></i>
+            </button>
+            <div data-simplebar class="sidebar-menu-scroll">
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <%-- <ul class="metismenu list-unstyled" id="side-menu">
+                       
+                    </ul>--%>
+                    <asp:Literal ID="aspxLiteral" runat="server"></asp:Literal>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="page-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <form id="form1" runat="server">
+                            <div>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                            <asp:HiddenField ID="hd_TicketNumber" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_EscalationIdentity" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_EscalationTo" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_sessionLogin" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="TrxLoginTypeAngka" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="TrxLayerUser" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="TrxDivisi" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_customerID" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_OtherSystem" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_ThreadSystem" ClientIDMode="Static" runat="server" />
+                            <!--hd_AccountUser ini isinya bisa no hp customer, email dll (channel cust)-->
+                            <asp:HiddenField ID="hd_AccountChannelUser" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_AccountContactUser" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_SLA" ClientIDMode="Static" runat="server" />
+                            <!--/End-->
+                            <!--Data Journey-->
+                            <asp:HiddenField ID="hd_Journey_EscalationType" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_Journey_EscalationValue" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="HiddenField3" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="HiddenField4" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_NameKaryawan" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_LevelUser" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_EmailUserLogin" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="HD_SiteID" ClientIDMode="Static" runat="server" />
+
+                            <%--Sosial Media--%>
+                            <%--Sosial Media--%>
+                            <asp:HiddenField ID="SM_AccountToken" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="SM_AccountID" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="SM_AccountName" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="SM_AccountURL" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="SM_Webhook" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="SM_MultiChatToken" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="SM_UrlDatakelola" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="SM_CompanyToken" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="HD_CookiesVariabel" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_SIP" ClientIDMode="Static" runat="server" />
+                            <%--Quality Monitoring--%>
+                            <asp:HiddenField ID="HD_UserType" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="QM_LevelUser" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="QM_GroupQA" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="QM_GroupAgent" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="QM_TypeCall" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="QM_GroupLayanan" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="QM_TeamLayanan" ClientIDMode="Static" runat="server" />
+                            <asp:HiddenField ID="hd_AgentScheduleID" ClientIDMode="Static" runat="server" />
+                             <asp:HiddenField ID="ChannelAssigned" ClientIDMode="Static" runat="server" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="text-end">
+                                <a class="text-reset">© 2025 Omnichannel Version 1.2.4</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>            
+        </div>
+    </div>
+    <!-- Right Bar -->
+    <div class="right-bar" style="width: 250px;">
+        <div data-simplebar class="h-100">
+            <div class="rightbar-title d-flex align-items-center bg-dark p-3 sticky-header">
+                <h5 class="m-0 me-2 text-white">Theme Customizer</h5>
+                <a href="javascript:void(0);" class="right-bar-toggle-close ms-auto">
+                    <i class="mdi mdi-close noti-icon"></i>
+                </a>
+            </div>
+            <hr class="m-0" />
+            <div class="tab-pane fade show active" id="layout" role="tabpanel" aria-labelledby="layout-tab" style="margin-left: 20px;">
+                <%-- <h6 class="mb-3">Layout</h6>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="layout"
+                            id="layout-vertical" value="vertical">
+                        <label class="form-check-label" for="layout-vertical">Vertical</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="layout"
+                            id="layout-horizontal" value="horizontal">
+                        <label class="form-check-label" for="layout-horizontal">Horizontal</label>
+                    </div>--%>
+
+                <h6 class="mt-4 mb-3">Layout Mode</h6>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-mode"
+                        id="layout-mode-light" value="light">
+                    <label class="form-check-label" for="layout-mode-light">Light</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-mode"
+                        id="layout-mode-dark" value="dark">
+                    <label class="form-check-label" for="layout-mode-dark">Dark</label>
+                </div>
+
+                <h6 class="mt-4 mb-3">Layout Width</h6>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-width"
+                        id="layout-width-fluid" value="fluid" onchange="document.body.setAttribute('data-layout-size', 'fluid')">
+                    <label class="form-check-label" for="layout-width-fluid">Fluid</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-width"
+                        id="layout-width-boxed" value="boxed" onchange="document.body.setAttribute('data-layout-size', 'boxed')">
+                    <label class="form-check-label" for="layout-width-boxed">Boxed</label>
+                </div>
+
+                <h6 class="mt-4 mb-3">Layout Position</h6>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-position"
+                        id="layout-position-fixed" value="fixed" onchange="document.body.setAttribute('data-layout-scrollable', 'false')">
+                    <label class="form-check-label" for="layout-position-fixed">Fixed</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-position"
+                        id="layout-position-scrollable" value="scrollable" onchange="document.body.setAttribute('data-layout-scrollable', 'true')">
+                    <label class="form-check-label" for="layout-position-scrollable">Scrollable</label>
+                </div>
+
+                <h6 class="mt-4 mb-3">Topbar Color</h6>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="topbar-color"
+                        id="topbar-color-light" value="light" onchange="document.body.setAttribute('data-topbar', 'light')">
+                    <label class="form-check-label" for="topbar-color-light">Light</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="topbar-color"
+                        id="topbar-color-dark" value="dark" onchange="document.body.setAttribute('data-topbar', 'dark')">
+                    <label class="form-check-label" for="topbar-color-dark">Dark</label>
+                </div>
+
+                <div id="sidebar-setting">
+                    <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Size</h6>
+
+                    <div class="form-check sidebar-setting">
+                        <input class="form-check-input" type="radio" name="sidebar-size"
+                            id="sidebar-size-default" value="default" onchange="document.body.setAttribute('data-sidebar-size', 'lg')">
+                        <label class="form-check-label" for="sidebar-size-default">Default</label>
+                    </div>
+                    <div class="form-check sidebar-setting">
+                        <input class="form-check-input" type="radio" name="sidebar-size"
+                            id="sidebar-size-compact" value="compact" onchange="document.body.setAttribute('data-sidebar-size', 'md')">
+                        <label class="form-check-label" for="sidebar-size-compact">Compact</label>
+                    </div>
+                    <div class="form-check sidebar-setting">
+                        <input class="form-check-input" type="radio" name="sidebar-size"
+                            id="sidebar-size-small" value="small" onchange="document.body.setAttribute('data-sidebar-size', 'sm')">
+                        <label class="form-check-label" for="sidebar-size-small">Small (Icon View)</label>
+                    </div>
+
+                    <h6 class="mt-4 mb-3 sidebar-setting">Sidebar Color</h6>
+
+                    <div class="form-check sidebar-setting">
+                        <input class="form-check-input" type="radio" name="sidebar-color"
+                            id="sidebar-color-light" value="light" onchange="document.body.setAttribute('data-sidebar', 'light')">
+                        <label class="form-check-label" for="sidebar-color-light">Light</label>
+                    </div>
+                    <div class="form-check sidebar-setting">
+                        <input class="form-check-input" type="radio" name="sidebar-color"
+                            id="sidebar-color-dark" value="dark" onchange="document.body.setAttribute('data-sidebar', 'dark')">
+                        <label class="form-check-label" for="sidebar-color-dark">Dark</label>
+                    </div>
+                    <div class="form-check sidebar-setting">
+                        <input class="form-check-input" type="radio" name="sidebar-color"
+                            id="sidebar-color-brand" value="brand" onchange="document.body.setAttribute('data-sidebar', 'brand')">
+                        <label class="form-check-label" for="sidebar-color-brand">Brand</label>
+                    </div>
+                </div>
+
+                <h6 class="mt-4 mb-3">Direction</h6>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-direction"
+                        id="layout-direction-ltr" value="ltr">
+                    <label class="form-check-label" for="layout-direction-ltr">LTR</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="layout-direction"
+                        id="layout-direction-rtl" value="rtl">
+                    <label class="form-check-label" for="layout-direction-rtl">RTL</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ and Regulation Section -->
+    <div class="right-bar2" style="width: 750px;">
+        <div data-simplebar class="h-100">
+            <div class="rightbar-title d-flex align-items-center bg-dark p-3 sticky-header">
+                <h5 class="m-0 me-2 text-white">Knowledge Base</h5>
+                <a href="javascript:void(0);" class="close-right-bar right-bar-toggle-close ms-auto">
+                    <i class="mdi mdi-close noti-icon"></i>
+                </a>
+            </div>
+
+            <hr class="m-0" />
+
+            <!-- Tabs Navigation for FAQ and Regulations -->
+            <ul class="nav nav-tabs sticky-tabs" id="faqRegulationTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="faq-tab" data-bs-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="true">FAQ Bravo</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="regulation-tab" data-bs-toggle="tab" href="#regulation" role="tab" aria-controls="regulation" aria-selected="false">Peraturan Bravo</a>
+                </li>
+            </ul>
+
+            <!-- Tabs Content for FAQ and Regulations -->
+            <div class="tab-content p-4" id="faqRegulationTabContent">
+                <!-- FAQ Bravo -->
+                <div class="tab-pane fade show active" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                    <div class="container mt-3">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <label for="FAQBravoSearch">Search:</label>
+                                <input type="text" id="FAQBravoSearch" class="form-control d-inline-block w-auto" placeholder="Search FAQ Bravo">
+                                <button id="searchButton" class="btn btn-primary mx-2">Search</button>
+                            </div>
+                        </div>
+                        <table id="faqTable" class="table table-bordered">
+                            <thead class="table-header">
+                                <tr>
+                                    <th>No</th>
+                                    <th>Data FAQ Bravo</th>
+                                </tr>
+                            </thead>
+                            <tbody id="faqTableBody">
+                                <!-- Dynamic FAQ content will be injected here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Data Peraturan -->
+                <div class="tab-pane fade" id="regulation" role="tabpanel" aria-labelledby="regulation-tab">
+                    <div class="container mt-3">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                                <label for="DataPeraturanSearch">Search:</label>
+                                <input type="text" id="DataPeraturanSearch" class="form-control d-inline-block w-auto" placeholder="Search Peraturan Bravo">
+                                <button id="searchButton2" class="btn btn-primary mx-2">Search</button>
+                            </div>
+                        </div>
+                        <table id="regulationTable" class="table table-bordered" style="display: none;">
+                            <thead class="table-header">
+                                <tr>
+                                    <th>No</th>
+                                    <th>Data Peraturan</th>
+                                </tr>
+                            </thead>
+                            <tbody id="peraturanTableBody">
+                                <!-- Dynamic content will be injected here -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ContactModalPassword" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalLabel">Form Change Password</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div>
+                        <div class="mb-3">
+                            <label for="addcontact-name-input" class="form-label">Password <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="ChangePassword" onclick="EyePassword()">
+                        </div>
+                        <div class="mb-3">
+                            <label for="addcontact-name-input" class="form-label">New Password <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="ChangeNewPassword" onclick="EyeNewPassword()">
+                        </div>
+                        <div class="mb-3">
+                            <label for="addcontact-name-input" class="form-label">Confirm Password <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="ChangeConfirmPassword" onclick="EyeConfirmPassword()">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light w-sm" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary w-sm" onclick="ActionSubmit()" id="Simpan">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="SelectedAUX" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addSelectedAUX">Form AUX</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="mb-3">
+                        <label for="selectAUX" class="form-label">Select <span class="text-danger">*</span></label>
+                        <select class="form-control" id="selectAUX">
+                            <option value="" disabled selected>Select AUX</option>
+                            <!-- Options akan diisi secara dinamis dari JavaScript -->
+                        </select>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light w-sm" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary w-sm" onclick="ActionAux()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Structure View PDF -->
+    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true" style="margin-top: 50px;">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close btnclosemodalpdf" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- iFrame untuk menampilkan PDF -->
+                    <iframe id="pdfIframe" src="" style="width: 100%; height: 600px;" frameborder="0"></iframe>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-release-agent-sm" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalRelease">Sosial Media State</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div>
+                        <div class="mb-3">
+                            <label for="addcontact-designation-input" class="form-label">Status</label>
+                            <select class="form-select" id="CmbStateAgentRelease">
+                                <option>Select</option>
+                                <option value="1">Online</option>
+                                <option value="0">Offline</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light w-sm" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary w-sm" onclick="ActionReleaseLoginAgentDK()" id="ReleaseSchedule">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rightbar-overlay"></div>
+    <script src="js/Crm_Trx_ChangePassword.js"></script>
+    <script src="js/Crm_Uidesk.js"></script>
+    <script src="js/Crm_Trx_SelectedAUX.js"></script>
+    <script src="js/Crm_Trm_FAQ_Bravo.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenujs/metismenujs.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
+    <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+    <script src="assets/js/pages/dashboard-analytics.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <link href="DataTable/datatables.min.css" rel="stylesheet" />
+    <script src="DataTable/datatables.min.js"></script>
+    <script>
+        document.getElementById('FAQBravoPeraturan').addEventListener('click', function () {
+            document.querySelector('.right-bar2').classList.toggle('open');
+        });
+        document.querySelector('.close-right-bar').addEventListener('click', function () {
+            document.querySelector('.right-bar2').classList.remove('open');
+        });
+    </script>
+    <style>
+        #notification-list {
+            max-height: 250px; /* Atur tinggi maksimum sesuai kebutuhan */
+            overflow-y: auto; /* Aktifkan scrollbar vertikal ketika konten melebihi tinggi maksimum */
+            padding-right: 10px; /* Tambahkan padding di kanan jika scrollbar perlu sedikit ruang */
+        }
+
+            /* Optional: styling scrollbar untuk tampilan lebih baik */
+            #notification-list::-webkit-scrollbar {
+                width: 8px; /* Lebar scrollbar */
+            }
+
+            #notification-list::-webkit-scrollbar-thumb {
+                background-color: #888; /* Warna scrollbar */
+                border-radius: 4px; /* Radius sudut scrollbar */
+            }
+
+                #notification-list::-webkit-scrollbar-thumb:hover {
+                    background-color: #555; /* Warna scrollbar saat hover */
+                }
+    </style>
+    <style>
+        #icon-list-container-channel {
+            display: flex;
+            justify-content: flex-start; /* Menampilkan item dari kiri ke kanan */
+            gap: 10px; /* Menambahkan jarak antar ikon */
+            overflow-x: auto; /* Jika item lebih banyak, akan muncul scroll horizontal */
+            padding: 20px;
+        }
+
+        .icon-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            font-size: 20px;
+            color: #333;
+        }
+
+            .icon-item i {
+                font-size: 24px;
+                color: white;
+            }
+    </style>
+    <style>
+        #icon-list-container-login-dk {
+            display: flex;
+            justify-content: flex-start; /* Menampilkan item dari kiri ke kanan */
+            gap: 10px; /* Menambahkan jarak antar ikon */
+            overflow-x: auto; /* Jika item lebih banyak, akan muncul scroll horizontal */
+            padding: 20px;
+        }
+
+        .icon-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            font-size: 20px;
+            color: #333;
+        }
+
+            .icon-item i {
+                font-size: 24px;
+                color: white;
+            }
+    </style>
+
+    <style>
+        /* Styling untuk right-bar2 */
+        .right-bar2 {
+            background-color: var(--bs-white); /* Warna latar belakang */
+            -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02); /* Bayangan di WebKit */
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02); /* Bayangan */
+            position: fixed; /* Tetap di tempat saat halaman di-scroll */
+            -webkit-transition: all 0.2s ease-out; /* Transisi smooth di WebKit */
+            transition: all 0.2s ease-out; /* Transisi smooth */
+            width: 280px; /* Lebar bar */
+            z-index: 9999; /* Z-index tinggi */
+            float: right !important; /* Melayang ke kanan */
+            right: -890px; /* Di luar layar awalnya */
+            top: 0; /* Dari atas halaman */
+            bottom: 0; /* Hingga bagian bawah halaman */
+        }
+
+            .right-bar2.open {
+                right: 0; /* Muncul dari sisi kanan saat terbuka */
+            }
+
+            .right-bar2 .right-bar-toggle-close {
+                background-color: #444c54; /* Warna background */
+                height: 24px; /* Tinggi tombol close */
+                width: 24px; /* Lebar tombol close */
+                line-height: 24px; /* Sentralisasi konten dalam tombol */
+                color: #f5f6f8; /* Warna teks */
+                text-align: center; /* Konten tombol berada di tengah */
+                border-radius: 50%; /* Bentuk lingkaran */
+            }
+
+                .right-bar2 .right-bar-toggle-close:hover {
+                    background-color: #4b545c; /* Warna saat di-hover */
+                }
+
+        /* Overlay */
+        .rightbar2-overlay {
+            background-color: rgba(52, 58, 64, 0.55); /* Warna semi-transparan */
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            display: none; /* Default tidak terlihat */
+            z-index: 9998; /* Di bawah right-bar2 */
+            -webkit-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+        }
+
+        .right-bar2-enabled .right-bar2 {
+            right: 0; /* Bar muncul dari kanan */
+        }
+
+        .right-bar2-enabled .rightbar2-overlay {
+            display: block; /* Tampilkan overlay */
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            function fetchData() {
+                $.ajax({
+                    type: "POST",
+                    url: "WebServiceGetDataMaster.asmx/UIDESK_TrmMasterCombo",
+                    data: "{TrxID:'UideskIndonesia', TrxUserName: '" + $("#hd_sessionLogin").val() + "', TrxAction: 'UIDESK235'}",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+
+                        var json = JSON.parse(data.d);
+                        var i, x, result = "";
+                        for (i = 0; i < json.length; i++) {
+                            if (json[i].LOGIN == "1") {
+                                $('#avatar-icon').addClass('bg-success');
+                            } else {
+                                $('#avatar-icon').addClass('bg-danger');
+                                swal(
+                                    '',
+                                    'Please Re-Login, System Logout Another Device',
+                                    'warning'
+                                ).then(function () {
+                                    location.href = "../auth_login.aspx?signout=api";
+                                });
+                                return false;
+                            }
+                        }
+
+                    },
+                    error: function (xmlHttpRequest, textStatus, errorThrown) {
+                        console.log(xmlHttpRequest.responseText);
+                        console.log(textStatus);
+                        console.log(errorThrown);
+                    }
+                })
+            }           
+            //function InformartionChannelAssigned() {
+            //    const url = 'WebServiceGetDataMaster.asmx/UIDESK_TrmMasterCombo';
+            //    const requestData = {
+            //        TrxID: $("#hd_sessionLogin").val(),
+            //        TrxUserName: $("#hd_sessionLogin").val(),
+            //        TrxAction: 'UIDESK242'
+            //    };
+            //    $.ajax({
+            //        url: url,
+            //        method: 'POST',
+            //        contentType: 'application/json; charset=utf-8',
+            //        data: JSON.stringify(requestData),
+            //        success: function (response) {
+            //            const json = JSON.parse(response.d);
+            //            json.forEach(item => {
+            //                $("#ChannelAssigned").val(item.ChannelName);
+            //            });
+            //            const channelAssigned = $("#ChannelAssigned").val();
+            //            if (channelAssigned === "Multichat") {
+            //                InformartionAgentDK(channelAssigned);
+            //            } else {
+            //                InformartionAgentGeneral(channelAssigned)
+            //            }
+            //        },
+            //        error: function (error) {
+            //            console.error('Error fetching data:', error);
+            //        }
+            //    });
+            //}          
+            //function InformartionAgentDK(channelAssigned) {
+            //    const url = 'WebServiceGetDataMaster.asmx/UIDESK_TrmMasterCombo';
+            //    const requestData = {
+            //        TrxID: $("#hd_sessionLogin").val(),
+            //        TrxUserName: $("#hd_sessionLogin").val(),
+            //        TrxAction: 'UIDESK239'
+            //    };
+            //    $.ajax({
+            //        url: url,
+            //        method: 'POST',
+            //        contentType: 'application/json; charset=utf-8',
+            //        data: JSON.stringify(requestData),
+            //        success: function (response) {
+            //            const json = JSON.parse(response.d);
+            //            json.forEach(item => {
+            //                if (item.aux == null || item.aux == undefined) {
+            //                    swal(
+            //                        '',
+            //                        'Saat ini Anda di assign pada Channel ' + channelAssigned + ' tapi belum status Ready',
+            //                        'warning'
+            //                    ).then(function () {
+            //                        return false;
+            //                    });
+            //                    return false;
+            //                }
+            //            });
+                                             
+            //        },
+            //        error: function (error) {
+            //            console.error('Error fetching data:', error);
+            //        }
+            //    });
+            //}
+            //function InformartionAgentGeneral(channelAssigned) {
+            //    const url = 'WebServiceGetDataMaster.asmx/UIDESK_TrmMasterCombo';
+            //    const requestData = {
+            //        TrxID: $("#hd_sessionLogin").val(),
+            //        TrxUserName: $("#hd_sessionLogin").val(),
+            //        TrxAction: 'UIDESK243'
+            //    };
+            //    $.ajax({
+            //        url: url,
+            //        method: 'POST',
+            //        contentType: 'application/json; charset=utf-8',
+            //        data: JSON.stringify(requestData),
+            //        success: function (response) {
+            //            const json = JSON.parse(response.d);
+            //            json.forEach(item => {
+            //                if (item.IdAUX != 9) {
+            //                    swal(
+            //                        '',
+            //                        'Saat ini Anda di assign pada Channel ' + channelAssigned + ' tapi belum dalam status Ready',
+            //                        'warning'
+            //                    ).then(function () {
+            //                        return false;
+            //                    });
+            //                    return false;
+            //                }
+            //            });
+
+            //        },
+            //        error: function (error) {
+            //            console.error('Error fetching data:', error);
+            //        }
+            //    });
+            //}
+            //setInterval(InformartionChannelAssigned, 600000);
+            setInterval(fetchData, 600000);
+            fetchData();
+            //InformartionAgentDK();
+            //InformartionChannelAssigned();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Toggle daftar versi saat "Version" diklik
+            $("#toggleVersionList").click(function (event) {
+                event.stopPropagation();
+                $("#versionList").slideToggle();
+            });
+    
+            // Toggle deskripsi masing-masing versi saat diklik
+            $(".toggle-version").click(function (event) {
+                event.stopPropagation(); // Mencegah efek samping dari event klik
+                $(this).next(".version-content").slideToggle();
+            });
+        });
+    </script>
+</body>
+</html>

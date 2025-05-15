@@ -6,11 +6,16 @@
     <script src="js/sweetalert.min.js"></script>
     <script src="js/alertify.min.js"></script>
     <script src="js/alertify.js"></script>
+   
     <link href="css/alertify.css" rel="stylesheet" />
     <link href="css/alertify.min.css" rel="stylesheet" />
     <link href="assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
     <asp:HiddenField ID="TrxID" runat="server" />
     <asp:HiddenField ID="TrxUserName" runat="server" />
     <asp:HiddenField ID="TrxEmailID" runat="server" />
@@ -26,6 +31,37 @@
     <asp:HiddenField ID="TrxPerusahaanID" runat="server" />
     <asp:HiddenField ID="DynamicEmailContactID" runat="server" />
     <asp:HiddenField ID="DynamicEmailAccountID" runat="server" />
+
+
+    <style>
+        /* Ensure the autocomplete dropdown is on top */
+
+        .ui-autocomplete {
+            z-index: 20000000 !important; /* Lebih tinggi dari modal (1050) */
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+
+        /*.ui-autocomplete {
+    z-index: 1000 !important;*/ /* pastikan lebih tinggi dari modal Bootstrap (1050) */
+
+        /*position: absolute;*/ /* wajib untuk jQuery UI autocomplete */
+        /*border: 1px solid #ccc;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+}*/
+        .modal-dialog {
+            z-index: 1050 !important; /* Bootstrap modal z-index */
+        }
+    </style>
+
+
     <%--   <style>
         .search-results {
             position: absolute;
@@ -442,7 +478,7 @@
                                 <div class="d-flex flex-wrap align-items-start justify-content-md-end mt-2 mt-md-0 gap-2 mb-3">
                                     <div>
                                         <a href="#" class="btn btn-primary" data-bs-toggle="modal" onclick="FilterDateEmailArchieve()" id="FilterDateEmailArchieve">Filter Date</a>
-                                         <a href="#" class="btn btn-primary" data-bs-toggle="modal" onclick="FilterDateEmailSendingEmail()" id="FilterDateEmailSendingEmail">Filter Date</a>
+                                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" onclick="FilterDateEmailSendingEmail()" id="FilterDateEmailSendingEmail">Filter Date</a>
                                     </div>
                                 </div>
                             </div>
@@ -702,7 +738,7 @@
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="ComposeECC" placeholder="Cc">
                             </div>
-                             <div class="row">
+                            <div class="row">
                                 <div class="col-lg-12">
                                     <div class="mb-3">
                                         <iframe id="Preview_FrameHTML3" title="description" style="width: 100%;" class="bodyemailread"></iframe>
@@ -938,12 +974,14 @@
                             <label for="addcontact-name-input" class="form-label">Template Name</label>
                             <input type="text" class="form-control" id="Template_Name" placeholder="Template Name">
                         </div>
-                        <div class="mb-3" id="TemplateDropdownSubject">
-                            <label for="addcontact-name-input" class="form-label">Template Name</label>
-                            <select class="form-select" id="ComboTemplateName" onchange="ChangeTemplateResponse('1')">
-                                <option>Select</option>
-                            </select>
+                       
+                        <div class="mb-3 position-relative" id="TemplateDropdownSubject">
+                            <label for="ComboTemplateName" class="form-label">Template Name</label>
+                            <select id="ComboTemplateName" class="form-select" style="width: 100%" data-allow-clear="true">
+    <option></option> <!-- option kosong dibutuhkan untuk fitur clear -->
+</select>
                         </div>
+
                         <div class="mb-3">
                             <label for="addcontact-name-input" class="form-label">Template Description</label>
                             <textarea id="Template_Description" name="Template_Description" class="form-control" rows="18" placeholder="Template Description.."></textarea>
@@ -951,6 +989,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
+                     <input type="hidden" id="HiddenTemplateID">
                     <button type="button" class="btn btn-light w-sm" data-bs-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-danger w-sm" onclick="DeleteTemplate()" id="DeleteDataTemplate">Delete</button>
                     <button type="button" class="btn btn-primary w-sm" onclick="ActionSimpanTemplate()" id="SimpanTemplate">Submit</button>
@@ -1109,26 +1148,26 @@
     <script src="assets/js/pages/timeline.init.js"></script>
     <script>
         var Ticket_NoteAgent = CKEDITOR.replace('Ticket_NoteAgent');
-        Ticket_NoteAgent.config.height = 500;
-        Ticket_NoteAgent.config.toolbar = 'Basic';
-        Ticket_NoteAgent.config.toolbar_Basic =
-            [
-                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-']
-            ];
-        var Template_Description = CKEDITOR.replace('Template_Description');
-        Template_Description.config.height = 500;
-        Template_Description.config.toolbar = 'Basic';
-        Template_Description.config.toolbar_Basic =
-            [
-                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-']
-            ];
-        var Compose_Body = CKEDITOR.replace('Compose_Body');
-        Compose_Body.config.height = 500;
-        Compose_Body.config.toolbar = 'Basic';
-        Compose_Body.config.toolbar_Basic =
-            [
-                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-']
-            ];
-    </script>
+          Ticket_NoteAgent.config.height = 500;
+          Ticket_NoteAgent.config.toolbar = 'Basic';
+          Ticket_NoteAgent.config.toolbar_Basic =
+              [
+                  ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-']
+              ];
+          var Template_Description = CKEDITOR.replace('Template_Description');
+          Template_Description.config.height = 500;
+          Template_Description.config.toolbar = 'Basic';
+          Template_Description.config.toolbar_Basic =
+              [
+                  ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-']
+              ];
+          var Compose_Body = CKEDITOR.replace('Compose_Body');
+          Compose_Body.config.height = 500;
+          Compose_Body.config.toolbar = 'Basic';
+          Compose_Body.config.toolbar_Basic =
+              [
+                  ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-']
+              ];
+    </script >
 </asp:Content>
 

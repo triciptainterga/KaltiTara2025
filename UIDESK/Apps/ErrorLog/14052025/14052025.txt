@@ -1,0 +1,388 @@
+Time: 14/05/2025 12:03:28:779 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '17101152630045','17101152630045','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/05/2025 12:03:28:792 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '17101152630045','17101152630045','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:29:221 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','17101152630045','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:29:300 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:29:780 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','17101152630045','UIDESK184'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:30:579 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','17101152630045','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:30:761 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','17101152630045','UIDESK191'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:03:31:299 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','17101152630045','UIDESK234'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:15:18:478 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:46:570 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','17101152630045','UIDESK203'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:46:616 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','17101152630045','UIDESK191'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:47:083 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','17101152630045','UIDESK341'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:47:128 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '17101152630045','17101152630045','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:47:307 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:47:674 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','17101152630045','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:48:585 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','17101152630045','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 12:30:48:667 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','17101152630045','UIDESK234'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:38:46:546 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser2='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser3='Crm_Trm_Inbox_EmailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:38:46:562 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser2='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser3='Crm_Trm_Inbox_EmailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:38:46:649 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser2='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser3='Crm_Trm_Inbox_EmailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:38:47:136 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:47:06:222 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 01:57:06:083 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 02:07:06:235 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 02:17:06:309 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 02:27:06:232 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 02:37:06:229 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 02:47:06:233 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 02:57:06:219 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:07:06:220 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:41:186 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser2='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser3='Crm_Trm_Inbox_EmailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:41:244 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser2='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser3='Crm_Trm_Inbox_EmailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:41:267 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser2='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser3='Crm_Trm_Inbox_EmailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:41:342 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser2='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser3='Crm_Trm_Inbox_EmailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:14:41:979 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:17:06:248 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:27:06:940 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:37:06:227 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:47:06:213 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 03:57:06:221 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:01:20:634 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '17101152630045','17101152630045','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/05/2025 04:01:20:728 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '17101152630045','17101152630045','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:01:21:169 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:01:21:692 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','17101152630045','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:06:31:403 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:07:06:240 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:14:42:283 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:17:06:233 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:18:20:747 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLogoutActivity' expects parameter '@TrxLoginUserName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UIDESK.Crm_Trx_Login.InsertLogoutActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\asmx\Crm_Trx_Login.asmx.vb:line 258
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/05/2025 04:18:20:749 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:18:22:300 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:20:59:239 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:30:14:039 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:30:59:268 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:40:59:230 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:48:38:627 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLogoutActivity' expects parameter '@TrxLoginUserName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UIDESK.Crm_Trx_Login.InsertLogoutActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\asmx\Crm_Trx_Login.asmx.vb:line 258
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/05/2025 04:48:38:636 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:48:39:238 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:38:18:275 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+Message: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+StackTrace:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5426
+Source: System.Data
+TargetSite: Boolean TryGetConnection(System.Data.Common.DbConnection, System.Threading.Tasks.TaskCompletionSource`1[System.Data.ProviderBase.DbConnectionInternal], System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal, System.Data.ProviderBase.DbConnectionInternal ByRef)
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/05/2025 06:38:18:325 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:38:28:233 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5426
+Source: .Net SqlClient Data Provider
+TargetSite: Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+---------------------------Failed-------------------------------------------------------
+
+Time: 14/05/2025 06:38:28:255 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 06:41:48:215 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:14:32:854 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:41:06:783 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/05/2025 04:45:13:677 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK219'
+---------------------------Success-------------------------------------------------------
+

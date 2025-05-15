@@ -1,0 +1,358 @@
+Time: 20/10/2023 10:48:52:845 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'QARizal', '', 'QA'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 10:48:53:399 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'QARizal', 'Open', '',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 10:48:56:426 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','QARizal','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 10:49:03:542 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','QARizal','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 10:49:15:529 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'QARizal','','QA','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 10:49:16:008 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA',''
+Message: Procedure or function 'QM_TrxHeaderTransaction' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Taskboard_Penilaian1.QM_TrxHeaderTransaction(String TrxUserName, String TrxLevelUser, String TrxStatus) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Taskboard_Penilaian.asmx.vb:line 390
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/10/2023 10:49:16:033 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 10:49:17:282 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'QARizal','','QA','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 10:49:17:409 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA','Finnished'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 11:34:42:805 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'QARizal', '', 'QA'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 11:34:43:346 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'QARizal', 'Open', '',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:24:55:907 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'QARizal', '', 'QA'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:24:55:934 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'QARizal', 'Open', '',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:25:00:108 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA',''
+Message: Procedure or function 'QM_TrxHeaderTransaction' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Taskboard_Penilaian1.QM_TrxHeaderTransaction(String TrxUserName, String TrxLevelUser, String TrxStatus) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Taskboard_Penilaian.asmx.vb:line 390
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/10/2023 01:25:00:110 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:25:00:623 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'QARizal','','QA','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:25:01:596 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'QARizal','','QA','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:25:01:605 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA','Refute'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:25:02:259 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'QARizal','','QA','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:25:02:270 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA','Return'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:25:02:875 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'QARizal','','QA','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:25:02:884 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA','Finnished'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:26:46:369 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','QARizal','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:26:49:201 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','QARizal','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:26:49:711 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','QARizal','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:26:50:210 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'QA','QARizal','null','UIDESK006'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:26:51:225 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','QARizal','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:27:14:784 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Email','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:27:18:780 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Email','Incident','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:20:565 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian '-','-','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG005','KP005','KPN658','20','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:21:207 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG005','KP816','KPN733','20','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:21:978 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG005','KP946','KPN422','20','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:22:502 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG005','KP411','KPN810','20','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:23:833 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG006','KP006','KPN978','15','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:24:568 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG006','KP821','KPN656','15','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:41:587 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG006','KP267','KPN507','15','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:47:050 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG006','KP728','KPN804','15','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:47:742 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG006','KP790','KPN953','15','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:52:834 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG007','KP007','KPN866','15','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:53:530 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG007','KP210','KPN855','15','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:55:566 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG008','KP008','KPN990','3','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:56:186 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG008','KP887','KPN762','5','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:56:890 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG008','KP135','KPN909','5','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:57:560 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG008','KP416','KPN678','5','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:59:022 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG008','KP521','KPN237','5','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:28:59:696 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG008','KP370','KPN997','4','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:00:280 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG008','KP275','KPN827','5','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:00:883 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG008','KP924','KPN854','3','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:02:260 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG009','KP009','KPN935','5','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:02:820 PM
+---------------------------Success-------------------------------------------------------
+Message: exec QM_TrxDetailPenilaian 'HDRQARizal20231020132820','202310200128204971044309','Agent1','QARizal','QM1','Video Banking Assistant','Email', 'QA002','KG009','KP010','KPN702','5','1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:30:725 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_CheckTotalSoal 'QA002', 'HDRQARizal20231020132820', 'QARizal'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:31:974 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Q1_NonCall_InsertTransaction 'QARizal','Email','Incident','20220105044923848','CALL','ANTO','ANTO','001','2023-10-20','082112253242','2','QM1','Video Banking Assistant','QA002','202310200128204971044309','Agent1','Approved','<p>Sekjen Partai Golkar Lodewijk F. Paulus mengatakan hingga saat ini belum ada jadwal pertemuan antarketum partai Koalisi Indonesia Maju (KIM) untuk membahas cawapres Prabowo Subianto. Lodewijk menyebut Golkar tengah fokus mengikuti rangkaian hari ulang tahun (HUT) partai yang ke-59.<br />
+<br />
+&quot;Kalau kita punya grup Sekjen tidak ada informasi, masih blank. Karena Golkar saja ulang tahun hari ini tanggal 20 kan sakral, ya toh. Terus siang kita ada tumpengan, hari Sabtu baru kita Rapimnas baru tanggal 31 kita ramai-ramai hiburan,&quot; kata Lodewijk kepada wartawan di TMP Kalibata, Jakarta Selatan, Jumat (20/10/2023).<br />
+<br />
+Baca artikel detiknews, &quot;Rapat Bahas Cawapres Prabowo Tunggu Jokowi? Golkar: Jokowi Bukan Ketum&quot; selengkapnya https://news.detik.com/pemilu/d-6992782/rapat-bahas-cawapres-prabowo-tunggu-jokowi-golkar-jokowi-bukan-ketum.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','HDRQARizal20231020132820'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:32:891 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilaiAll 'HDRQARizal20231020132820'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:33:415 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'PersenNya'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:33:422 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_GETTotalNilai 'HDRQARizal20231020132820', 'TotalNya'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:46:099 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'QARizal','','QA','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:46:112 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA',''
+Message: Procedure or function 'QM_TrxHeaderTransaction' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Taskboard_Penilaian1.QM_TrxHeaderTransaction(String TrxUserName, String TrxLevelUser, String TrxStatus) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Taskboard_Penilaian.asmx.vb:line 390
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/10/2023 01:29:46:112 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:48:305 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderCounting 'QARizal','','QA','',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/10/2023 01:29:48:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxHeaderTransaction 'QARizal','QA','Approved'
+---------------------------Success-------------------------------------------------------
+

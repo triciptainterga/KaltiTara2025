@@ -1,0 +1,1229 @@
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Apps/Uidesk.Master" CodeBehind="QA_Form.aspx.vb" Inherits="UIDESK.QA_Form" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/QA_Form.js"></script>
+    <%--<script src="js/QA_Form_Bra.js"></script>--%>
+    <script src="js/sweetalert.min.js"></script>
+    <asp:HiddenField ID="TrxID" runat="server" />
+    <asp:HiddenField ID="QM_AgentID" runat="server" />
+    <asp:HiddenField ID="QM_HeaderID" runat="server" />
+    <asp:HiddenField ID="QM_AcraID" runat="server" />
+    <asp:HiddenField ID="QM_ResultPenilaianID" runat="server" />
+    <asp:HiddenField ID="QM_AudioName" runat="server" />
+    <asp:HiddenField ID="QM_Persen" runat="server" />
+    <asp:HiddenField ID="QM_CustomerID" runat="server" />
+    <style>
+        .modal-body {
+            max-height: 72vh; /* Set max height to 70% of the viewport height */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        .email-container {
+            margin: 20px 0; /* Space between email blocks */
+            display: flex;
+            justify-content: space-between; /* Space between left and right cards */
+            align-items: flex-start;
+            position: relative; /* For vertical line positioning */
+        }
+
+        .email-wrapper {
+            display: flex;
+            justify-content: flex-start; /* Align both sides at the same height */
+            width: 100%; /* Ensure wrapper takes full width */
+            position: relative; /* Relative positioning for vertical divider */
+        }
+            /* Continuous vertical center divider between the left and right */
+            .email-wrapper::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 50%;
+                width: 1px;
+                background-color: #ddd; /* Light color for the vertical divider */
+                z-index: 0; /* Ensure the line is behind the cards */
+            }
+
+        .email-left, .email-right {
+            flex: 1;
+        }
+
+        .email-left {
+            justify-content: flex-start; /* Align incoming emails to the left */
+        }
+
+        .email-right {
+            justify-content: flex-end; /* Align outgoing emails to the right */
+        }
+
+        .email-card {
+            background-color: #f9f9f9; /* Light gray for the card */
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+            width: 100%; /* Take full available width */
+            max-width: 500px; /* Same maximum width for both left and right */
+            position: relative; /* Allows the divider and other elements inside */
+            z-index: 1; /* Ensures the card is on top of the vertical line */
+            margin-bottom: 20px; /* Space between cards */
+        }
+        /* Dashed line with dots in the middle inside each card */
+        .divider {
+            margin: 10px 0;
+            position: relative;
+            border-top: 1px dashed #ccc; /* Dashed line between sections */
+        }
+
+            .divider:before {
+                content: '• • •';
+                position: absolute;
+                top: -12px; /* Adjust position above the dashed line */
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #f9f9f9;
+                padding: 0 5px;
+                color: #666;
+                font-size: 12px;
+            }
+
+        .email-header {
+            font-weight: bold;
+            font-size: 14px;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px; /* Space before the divider */
+            border-bottom: 1px solid #ddd; /* Solid border between header and body */
+        }
+
+        .email-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .email-date {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .email-subject {
+            font-size: 14px;
+            color: #333; /* Adjust color as needed */
+            margin: 5px 0; /* Space around the subject */
+        }
+
+        .email-body {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .email-footer {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        .email-attachments {
+            list-style: none;
+            padding: 0;
+            margin: 5px 0;
+        }
+
+            .email-attachments li {
+                display: inline-block;
+                margin-right: 5px;
+            }
+
+        .email-signature {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .company-logo {
+            width: 100px;
+            margin-top: 10px;
+        }
+
+        .journey-timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            padding: 20px;
+            background-color: #f5f7fa;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .journey-step {
+            text-align: center;
+            position: relative;
+        }
+
+        .journey-date {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .journey-circle {
+            width: 20px;
+            height: 20px;
+            background-color: #007bff;
+            border-radius: 50%;
+            margin: 0 auto;
+            border: 3px solid #fff;
+            position: relative;
+            z-index: 2;
+        }
+
+        .journey-label {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .journey-interval {
+            margin-bottom: 0;
+            margin-top: -20px;
+            font-size: 14px;
+            color: red;
+            text-align: center;
+            position: relative;
+            top: -15px;
+        }
+
+        .journey-line {
+            height: 2px;
+            background-color: #007bff;
+            margin: 5px 0;
+            width: 60px;
+            display: block;
+        }
+
+        .journey-timeline.email .journey-circle {
+            background-color: #007bff;
+        }
+
+        .journey-timeline.email .journey-line {
+            background-color: #007bff;
+        }
+
+        .journey-timeline.websocket .journey-circle {
+            background-color: #fbc766;
+        }
+
+        .journey-timeline.websocket .journey-line {
+            background-color: #fbc766;
+        }
+
+        .journey-timeline.multichat .journey-circle {
+            background-color: #fbc766;
+        }
+
+        .journey-timeline.multichat .journey-line {
+            background-color: #fbc766;
+        }
+
+        .journey-timeline.instagram .journey-circle {
+            background-color: #cd486b;
+        }
+
+        .journey-timeline.instagram .journey-line {
+            background-color: #cd486b;
+        }
+
+        .journey-timeline.whatsapp .journey-circle {
+            background-color: #25d366;
+        }
+
+        .journey-timeline.whatsapp .journey-line {
+            background-color: #25d366;
+        }
+
+        .journey-timeline.facebook .journey-circle {
+            background-color: #316FF6;
+        }
+
+        .journey-timeline.facebook .journey-line {
+            background-color: #316FF6;
+        }
+
+        .journey-timeline.hidden {
+            display: none;
+        }
+
+        .journey-line.not-available {
+            background-color: #d3d3d3; /* Light gray line color */
+            opacity: 0.5;
+        }
+
+        .journey-circle.not-available {
+            background-color: #d3d3d3; /* Light gray circle */
+            border-color: #d3d3d3; /* Ensure the border is also gray */
+        }
+
+        .journey-interval.not-available {
+            opacity: 0.5;
+            pointer-events: none; /* Disable interactions */
+            color: #d3d3d3; /* Light gray text color */
+        }
+
+        /* Ensure the entire step is grayed out */
+        .journey-step.not-available {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+    </style>
+    <div class="row">
+        <div class="col-xxl-6 col-lg-6">
+            <%-- <div class="card" id="Q1_Internal_Call">
+                <div class="card-header">
+                    <h5 class="card-title">Data Profile Penilaian</h5>
+                </div>
+                <div class="card-body">
+                </div>
+            </div>--%>
+            <%-- <div class="myadmin-alert myadmin-alert-img alert-primary myadmin-alert-top-right" style="display: none; width: 600px; height: 300px; overflow-x: scroll; overflow-x: hidden;">
+                <img src="../images/avatar.png" class="img" alt="img">
+                <a href="#" class="closed">×</a>
+                <b id="ItemPertanyaan"></b>
+                <br />
+                <label id="DetailPertanyaan"></label>
+            </div>--%>
+            <div class="card" id="Q1_Internal_NonCall" style="height: 900px; overflow-y: scroll; overflow-x: hidden;">
+                <div class="card-header">
+                    <h5 class="card-title">Form Penilaian</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" data-bs-toggle="tab" href="#navtabs2-preview" role="tab" aria-selected="true">
+                                <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                <span class="d-none d-sm-block">Data Incoming</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#navtabs2-ticketproperties" role="tab" aria-selected="true">
+                                <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                <span class="d-none d-sm-block">Data Properties</span>
+                            </a>
+                        </li>
+                        <%--                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-bs-toggle="tab" href="#navtabs2-ticketescalation" role="tab" aria-selected="false" tabindex="-1">
+                                <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                                <span class="d-none d-sm-block">Ticket Escalation</span>
+                            </a>
+                        </li>--%>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="navtabs2-preview" role="tabpanel">
+                            <br />
+                            <div class="journey-timeline">
+                                <div class="journey-step">
+                                    <div class="journey-date">Inbox Date</div>
+                                    <div class="journey-circle"></div>
+                                    <div class="journey-label">Received Data</div>
+                                </div>
+                                <div class="journey-line"></div>
+                                <div class="journey-step">
+                                    <div class="journey-date">Distribute Date</div>
+                                    <div class="journey-circle"></div>
+                                    <div class="journey-label">Distributed to Agent</div>
+                                </div>
+                                <div class="journey-interval"></div>
+                                <!-- Added IntervalResponseAgentFormatted -->
+                                <div class="journey-line"></div>
+                                <div class="journey-step">
+                                    <div class="journey-date">Agent Date</div>
+                                    <div class="journey-circle"></div>
+                                    <div class="journey-label">Handled by Agent</div>
+                                </div>
+                                <div class="journey-interval"></div>
+                                <!-- Added IntervalResponseTLFormatted -->
+                                <div class="journey-line"></div>
+                                <div class="journey-step">
+                                    <div class="journey-date">Team Leader Date</div>
+                                    <div class="journey-circle"></div>
+                                    <div class="journey-label">Reviewed by Team Leader</div>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="EskalasiEmailTeamLeader" class="verti-timeline left-timeline"></div>
+                            <br />
+                            <div id="Journeymailconversationnew"></div>
+                            <br />
+<<<<<<< HEAD
+                            <iframe id="FrameNonCall" title="description" style="width: 100%; overflow-x: scroll; overflow-y: scroll; height: 1800px;"></iframe>
+                         <%--   <br />
+                            <iframe id="FrameEmailOut" title="description" style="width: 100%; overflow-x: scroll; overflow-y: scroll; height: 900px;"></iframe>--%>
+=======
+                            <iframe id="FrameNonCall" title="description" style="width: 100%; overflow-x: scroll; overflow-y: scroll; height: 500px;"></iframe>
+                            <br />
+                            <iframe id="FrameEmailOut" title="description" style="width: 100%; overflow-x: scroll; overflow-y: scroll; height: 500px;"></iframe>
+>>>>>>> 933e82a9c9ba3ae12390232531bf701cd12aaab1
+                        </div>
+                        <div class="tab-pane" id="navtabs2-ticketproperties" role="tabpanel">
+                            <br />
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label for="contact-info-name" class="form-label">QA</label>
+                                        <input type="text" class="form-control" id="QA_Name" readonly="readonly">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="contact-info-name" class="form-label">Agent</label>
+                                        <input type="text" class="form-control" id="QA_Agent_New" readonly="readonly">
+                                        <select id="QA_Agent" class="form-select" style="display: none;">
+                                            <option value="">Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="contact-info-name" class="form-label">Channel</label>
+                                        <input type="text" class="form-control" id="QA_Channel_New" readonly="readonly">
+                                        <select id="QA_Channel" class="form-select" style="display: none;">
+                                            <option value="">Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Type</label>
+                                        <input type="text" class="form-control" id="QA_Type" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Nama PIC</label>
+                                        <input type="text" class="form-control" id="QA_NamaNasabah" readonly="readonly">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Nama Perusahaan</label>
+                                        <input type="text" class="form-control" id="QA_NamaUser" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Waktu Interaksi</label>
+                                        <input type="datetime-local" class="form-control" id="QA_WaktuInteraksi" readonly="readonly">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Channel Account</label>
+                                        <input type="text" class="form-control" id="QA_NomorTelepon" readonly="readonly">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label>Periode Penilaian</label>
+                                        <input type="text" class="form-control" id="QA_PeriodePenilaian" readonly="readonly">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-3" id="Object_ComboTicket">
+                                        <label for="contact-info-name" class="form-label">Nomor Ticket</label>
+                                        <select id="QA_NomorTicket_Channel_Call" class="form-select" onchange="OnChangeTicketChannelCall('1')">
+                                            <option value="">Select</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3" id="Object_TextboxtTicket">
+                                        <label for="contact-info-name" class="form-label">Nomor Ticket</label>
+                                        <input type="text" class="form-control" id="QA_NomorTicket_New" readonly="readonly">
+                                        <select id="QA_NomorTicket" class="form-select" style="display: none;">
+                                            <option value="">Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Object_TransaksiTicket">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label>Subject</label>
+                                            <input type="text" class="form-control" id="QA_Subject" readonly="readonly">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label>Kantor</label>
+                                            <input type="text" class="form-control" id="QA_Kantor" readonly="readonly">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="contact-info-name" class="form-label">Category</label>
+                                            <input type="text" class="form-control" id="QA_JenisPermasalahan_New" readonly="readonly">
+                                            <select id="QA_JenisPermasalahan" class="form-select" onclick="GetNomorTicketAgent('1')" style="display: none;">
+                                                <option value="">Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label>Sub Category</label>
+                                            <input type="text" class="form-control" id="QA_SubCategory" readonly="readonly">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label>Nomor Aju</label>
+                                            <input type="text" class="form-control" id="QA_NomorKartu" readonly="readonly">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label>Nilai Transaksi</label>
+                                            <input type="text" class="form-control" id="QA_NilaiTransaksi" readonly="readonly">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="contact-info-name" class="form-label">Tanggal Ticket</label>
+                                            <input type="text" class="form-control" id="QA_TanggalTicket" readonly="readonly">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Pertanyaan</label>
+                                            <textarea id="Ticket_Pertanyaan" name="Ticket_Pertanyaan" class="form-control" rows="8" readonly="readonly"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Jawaban</label>
+                                            <textarea id="Ticket_Jawaban" name="Ticket_Jawaban" class="form-control" rows="8" readonly="readonly"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Catatan Team Leader</label>
+                                            <textarea id="Ticket_TeamLeader" name="Ticket_TeamLeader" class="form-control" rows="8" readonly="readonly"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Resolusi</label>
+                                            <input type="text" class="form-control" id="Ticket_Resolusi" placeholder="Resolusi" readonly="readonly">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Deskripsi</label>
+                                            <textarea id="Ticket_Deskripsi" name="Ticket_Deskripsi" class="form-control" rows="16" readonly="readonly"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">No. Ticket MS. Dynamic</label>
+                                            <input type="text" class="form-control" id="Ticket_Dynamic" readonly="readonly">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Ticket ID IKC</label>
+                                            <input type="text" class="form-control" id="Ticket_TicketIKC" readonly="readonly">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Nama Agent Outbound</label>
+                                            <input type="text" class="form-control" id="Ticket_Nama_Agent_Outbound" readonly="readonly">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Tanggal Update</label>
+                                            <input type="text" class="form-control" id="Ticket_Tanggal_Update" readonly="readonly">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <%--  <div class="card-footer">
+                    <div class="text-end">
+                        <button type="button" class="btn btn-light w-sm" data-bs-dismiss="modal" onclick="Hide()" id="HideProfile">Hide</button>
+                        <button type="button" class="btn btn-primary w-sm" data-bs-dismiss="modal" onclick="Hide()" id="UnHideProfile">UnHide</button>
+                    </div>
+                </div>--%>
+                </div>
+                <div class="card" id="FormPencatatan" style="display: none;">
+                    <div class="card-header">
+                        <h5 class="card-title">Form Pencatatan</h5>
+                    </div>
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-xxl-6 col-lg-6" id="divpenilaian">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5 class="card-title">Form Aspek Penilaian</h5>
+                        </div>
+                        <div class="col-md-6">
+                        </div>
+                        <%-- <div class="col-md-2" style="margin-top: -10px; margin-bottom: -30px;">
+                            
+                        </div>--%>
+                        <div class="col-md-2" style="margin-top: -10px; margin-bottom: -30px;">
+                            <%-- <div class="d-flex flex-wrap align-items-start justify-content-md-end gap-2 mb-3">
+                            </div>--%>
+                            <div class="d-flex flex-wrap align-items-start justify-content-md-end gap-2 mb-3">
+                                <a href="#" class="btn btn-light text-end" data-bs-toggle="modal" onclick="PreviewRecording()" id="PreviewRecordingCall" style="display: none;"><i class="fas fa-eye me-1"></i>Recording</a>
+                                <a href="#" class="btn btn-light text-end" data-bs-toggle="modal" onclick="PreviewScreen()" id="PreviewData" style="display: none;"><i class="fas fa-eye me-1"></i>Preview</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive" style="overflow-x: scroll; overflow-y: scroll;">
+                        <table class="table align-middle table-nowrap table-check" id="tableForm1">
+                            <tbody>
+                                <tr>
+                                    <th>No.</th>
+                                    <th style="width: 300px; text-align: left;">Aspek Penilaian</th>
+                                    <th style="text-align: center; width: 30px;">Comment</th>
+                                    <th style="text-align: center; width: 30px;">Bobot</th>
+                                    <th style="width: 300px; text-align: left;">Rentang Nilai</th>
+                                    <th style="text-align: center;">Skor</th>
+                                </tr>
+                            </tbody>
+                            <%--<tfoot>
+                                <tr>
+                                    <th style="width: 100px; text-align: left;" colspan="6" id="THInteraction_Header">
+                                        <textarea name="Interaction_Header" id="Interaction_Header" class="form-control" required="" placeholder="Textarea text" aria-invalid="false"></textarea>
+                                        <div class="row" id="Attachment_Header" style="width: 100%; margin-top: 10px; margin-left: 5px;"></div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th>                                        
+                                          <div class="col-md-6">
+                                            <div class="pull-left">
+                                                <div class="btn btn-rounded btn-default btn-file" id="ButtonHeaderAttachment">
+                                                    <i class="fa fa-paperclip"></i>&nbsp;Attachment					 
+                                                                <input type="file" name="filesHeader">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary btn-outline btn-rounded dropdown-toggle" type="button" data-toggle="dropdown" id="ButtonAction"><i class="fa fa-plus"></i>&nbsp;Action</button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#" onclick="ButtonActionSimpan('Pending Approved')"><i class="fa fa-check-circle"></i>Submit</a>
+                                                <a class="dropdown-item" href="#" onclick="ButtonActionSimpan('Draft')"><i class="fa fa-file-text"></i>Draft</a>
+                                                <a class="dropdown-item" href="#" onclick="ButtonActionCancel()"><i class="fa fa-times-circle"></i>Cancel</a>
+                                            </div>
+                                        </div>
+                                        <a href="#" type="submit" class="btn btn-rounded btn-primary pull-right" onclick="ButtonActionUpdate()" id="ButtonActionUpdate" style="display: none;">Submit</a>
+                                    </th>
+                                </tr>
+                            </tfoot>--%>
+                        </table>
+                    </div>
+                    <div class="row" id="Div_Interaction_Header">
+                        <div class="col-lg-12">
+                            <textarea name="Interaction_Header" id="Interaction_Header" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <div class="row" id="Div_File_Interaction_Header" style="display: none;">
+                        <div class="mt-3">
+                            <label></label>
+                            <input type="file" name="filesHeader" class="form-control">
+                        </div>
+                        <div class="mt-3">
+                            <div id="HeaderAttachment" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer" id="Div_Button_Interaction_Header" style="display: none;">
+                    <div class="text-end">
+                        <div>
+                            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                                <%--<button type="button" class="btn btn-primary">1</button>--%>
+                                <button type="button" class="btn btn-soft-danger w-sm" onclick="ButtonActionCancel()"><i class="fa fa-times-circle"></i>&nbsp;Cancel</button>
+                                <button type="button" class="btn btn-soft-primary w-sm" onclick="ButtonActionSimpan('Draft')"><i class="fa fa-save"></i>&nbsp;Calculate</button>
+                                <%-- <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-soft-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Action <i class="mdi mdi-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="">
+                                        <li><a class="dropdown-item" href="#" onclick="ButtonActionSimpan('Approved')"><i class="fa fa-save"></i>&nbsp;Submit</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="ButtonActionSimpan('Draft')"><i class="fa fa-clipboard"></i>&nbsp;Draft</a></li>
+                                    </ul>
+                                </div>--%>
+                                <%-- <div class="btn-group" role="group">
+                                    <button id="btnGroupDrop1" type="button" class="btn btn-soft-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Action <i class="mdi mdi-chevron-down"></i>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="">
+                                        <li><a class="dropdown-item" href="#" onclick="ButtonActionSimpan('Draft')" id="Draft">Draft</a></li>
+                                        <li><a class="dropdown-item" href="#" onclick="ButtonActionSimpan('Approved')" id="Simpan">Submit</a></li>
+                                    </ul>
+                                </div>--%>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="DivTotalSkor">
+                <div class="card-header">
+                    <h5 class="card-title">Total Skor Penilaian</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <table class="table align-middle table-nowrap table-check" id="TrxTotalSkor">
+                                <tbody>
+                                    <tr class="table-light" style="background-color: gray">
+                                        <th scope="col" style="width: 1000px;">Total Skor</th>
+                                        <th scope="col" style="width: 50px;"></th>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="DivInteraction">
+                <div class="card-header">
+                    <h5 class="card-title">Data Interaction Penilaian</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row" id="Div_StatusTransaksi">
+                        <div class="col-md-6">
+                            <label>Status Transaksi</label>
+                            <select id="Interaction_ComboStatus" class="form-select" onchange="onChangeStatusTransaksi(1);">
+                                <option>Select</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6" id="div_StatusReturn">
+                            <label>Status Return</label>
+                            <select id="Interaction_StatusReturn" class="form-select" onchange="onChangeStatus(1);">
+                                <option>Select</option>
+                                <option value="Approved">Approved</option>
+                                <option value="Reject">Reject</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-12">
+                            <textarea name="Interaction_Description" id="Interaction_Description" class="form-control" required="" placeholder="Textarea text" aria-invalid="false"></textarea>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row" id="ButtonInteractionAttachment">
+                        <div class="col-md-12">
+                            <input type="file" name="filesInteraction" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row" id="TRAttachmentInteraction">
+                        <div class="row" id="Attachment_Interaction" style="width: 100%; margin-top: 10px; margin-left: 5px;"></div>
+                    </div>
+                    <%--  <br />
+                            <div class="row" id="divKesimpulanSaran">
+                                <div class="col-md-12">
+                                    <i class="fa fa-star font-size-24" aria-hidden="true" id="s1" onclick="click1()"></i>
+                                    <i class="fa fa-star font-size-24" aria-hidden="true" id="s2" onclick="click2()"></i>
+                                    <i class="fa fa-star font-size-24" aria-hidden="true" id="s3" onclick="click3()"></i>
+                                    <i class="fa fa-star font-size-24" aria-hidden="true" id="s4" onclick="click4()"></i>
+                                    <i class="fa fa-star font-size-24" aria-hidden="true" id="s5" onclick="click5()"></i>
+                                    <input id="RatingPenilaian" name="RatingPenilaian" type="hidden">
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Kesimpulan dan Saran</label>
+                                    <textarea name="Interaction_KesimpulanSaran" id="Interaction_KesimpulanSaran" class="form-control" aria-invalid="false" title="Kesimpulan Dan Saran"></textarea>
+                                </div>
+                            </div>--%>
+                </div>
+                <div class="card-footer">
+                    <div class="text-end">
+                        <a href="#" class="btn btn-primary w-sm" onclick="ButtonActionInteractionSubmit()" id="ButtonActionInteractionSubmit">Submit</a>
+                        <a class="btn btn-soft-danger w-sm" onclick="ButtonActionInteractionSubmitCalculate()" id="ButtonActionInteractionSubmitCalculate"><i class="fa fa-history"></i>&nbsp;Calculate</a>
+                        <a class="btn btn-soft-primary w-sm" onclick="ButtonActionInteractionSubmitApproved()" id="ButtonActionInteractionSubmitApproved"><i class="fa fa-save"></i>&nbsp;Approved</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="DivHistoryPenilaian">
+            <div class="card-body">
+                <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#HistoryInteraction" role="tab" aria-selected="true" onclick="JourNeyInteraction('')">
+                            <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                            <span class="d-none d-sm-block">History Interaction</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-bs-toggle="tab" href="#HistoryKomentar" role="tab" aria-selected="false" tabindex="-1" onclick="JourNeyHistoryComments()">
+                            <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                            <span class="d-none d-sm-block">History Komentar</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-bs-toggle="tab" href="#KesimpulanSaran" role="tab" aria-selected="false" tabindex="-1" onclick="JourNeyKesimpulanSaran()">
+                            <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
+                            <span class="d-none d-sm-block">Kesimpulan Dan Saran</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-bs-toggle="tab" href="#HistoryPenilaian" role="tab" aria-selected="false" tabindex="-1" onclick="JourNeyHistoryPenilaian()">
+                            <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
+                            <span class="d-none d-sm-block">History Penilaian</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-bs-toggle="tab" href="#HistoryReturn" role="tab" aria-selected="false" tabindex="-1" onclick="JourNeyHistoryReturn()">
+                            <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
+                            <span class="d-none d-sm-block">History Refute/Return</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content p-3 text-muted">
+                    <div class="tab-pane active" id="HistoryInteraction" role="tabpanel">
+                        <div id="JourneyHistoryInteraction" class="verti-timeline left-timeline"></div>
+                    </div>
+                    <div class="tab-pane" id="HistoryKomentar" role="tabpanel">
+                        <div id="JourneyHistoryKomentar" class="verti-timeline left-timeline"></div>
+                    </div>
+                    <div class="tab-pane" id="KesimpulanSaran" role="tabpanel">
+                        <div id="JourneyKesimpulanSaran" class="verti-timeline left-timeline"></div>
+                    </div>
+                    <div class="tab-pane" id="HistoryPenilaian" role="tabpanel">
+                        <div class="row" id="JourNeyHistoryPenilaian"></div>
+                    </div>
+                    <div class="tab-pane" id="HistoryReturn" role="tabpanel">
+                        <div class="row" id="JourNeyHistoryReturn"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-return" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-returnNya">Reason Penilaian Ulang</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="addcontact-designation-input" class="form-label">Reason</label>
+                            <textarea class="form-control" placeholder="Address" id="Reason_PenilaianUlang" name="Reason_PenilaianUlang" style="height: 400px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" type="text" class="btn btn-primary w-sm float-right" onclick="ButtonActionPenilaianUlang()" id="ButtonActionPenilaianUlang">Submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-comments" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalLabel">Form Komentar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <div class="mb-3">
+                            <textarea rows="2" id="textcomments" name="textcomments" style="width: 100%;"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <input type="file" name="filesComment" class="form-control">
+                        </div>
+                        <div class="mt-3">
+                            <div id="CommentAttachment" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" type="text" class="btn btn-primary w-sm float-right" onclick="ButtonActionComment()" id="ButtonActionComment">Submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-skor" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalSkor">Form Skor Penilaian</h5>
+                    <%--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>--%>
+                </div>
+                <div class="modal-body p-4">
+                    <div>
+                        <div class="mb-3">
+                            <table class="table" id="TrmGrupingPenilaian">
+                                <thead>
+                                    <tr class="table-light">
+                                        <th scope="col" style="width: 1000px;">Aspek Callmoon</th>
+                                        <th scope="col" style="width: 100px;">Skor</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                            <hr />
+                            <table class="table" id="TrmModalSkorPenilaian">
+                                <thead>
+                                    <tr class="table-light">
+                                        <th scope="col" style="width: 1000px;">Total Skor</th>
+                                        <th scope="col" style="width: 100px;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <%--<button type="button" class="btn btn-danger w-sm float-left" onclick="CloseTotalSkorPenilaian()">Close</button>--%>
+                    <button type="button" class="btn btn-primary w-sm float-right" id="BtnDonePenilaian" onclick="DoneCloseTotalSkorPenilaian()">Done</button>
+                    <div class="btn-group" role="group" id="BtnActionPenilaian">
+                        <button id="btnGroupDrop1" type="button" class="btn btn-soft-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Action <i class="mdi mdi-chevron-down"></i>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="">
+                            <li><a class="dropdown-item" href="#" onclick="CloseTotalSkorPenilaian('Approved')">Submit</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="CloseTotalSkorPenilaian('Draft')">Draft</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-detail-penilaian" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="alert alert-success" role="alert" id="alerttopright" style="width: 800px; height: 100%;">
+                <%--<h4 class="alert-heading">Well done!</h4>--%>
+                <b id="ItemPertanyaan"></b>
+                <hr>
+                <label id="DetailPertanyaan"></label>
+            </div>
+            <%--<div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="addContactModaldetailpenilaian">Detail Pertanyaan</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                   
+                </div>
+            </div>--%>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-skorpreview-return" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalSkorPreviewReturn">Form Skor Penilaian Return</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div>
+                        <div class="mb-3">
+                            <table class="table" id="TrmModalPreviewSkorPenilaianReturn">
+                                <thead>
+                                    <tr class="table-light">
+                                        <th scope="col" style="width: 1000px;">Total Skor</th>
+                                        <th scope="col" style="width: 100px;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-kesimpulan" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalkesimpulan">Form Kesimpulan & Saran</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <%--                        <div class="mb-3">
+                            <i class="fa fa-star font-size-24" aria-hidden="true" id="s1" onclick="click1()"></i>
+                            <i class="fa fa-star font-size-24" aria-hidden="true" id="s2" onclick="click2()"></i>
+                            <i class="fa fa-star font-size-24" aria-hidden="true" id="s3" onclick="click3()"></i>
+                            <i class="fa fa-star font-size-24" aria-hidden="true" id="s4" onclick="click4()"></i>
+                            <i class="fa fa-star font-size-24" aria-hidden="true" id="s5" onclick="click5()"></i>
+                            <input id="RatingPenilaian2" name="RatingPenilaian2" type="hidden">
+                        </div>--%>
+                        <div class="mb-3">
+                            <textarea rows="2" id="Interaction_KesimpulanSaran" name="Interaction_KesimpulanSaran" style="width: 100%;"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" type="text" class="btn btn-light w-sm float-right" onclick="ButtonCancelkesimpulan()" id="ButtonCancelkesimpulan">Submit</a>
+                    <a href="#" type="text" class="btn btn-primary w-sm float-right" onclick="ButtonActionKesimpulanSaran()" id="ButtonActionkesimpulan">Submit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="addContactModalScreenCall" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalCustomer">Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <iframe id="FrameAudio" title="description" style="width: 100%; height: 400px;"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bs-example-modal-xl" tabindex="-1" role="dialog" id="addContactModalScreenNonCall"
+        aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content" style="width: 1100px;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalLabelHistory">Preview</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <%--<div class="modal-body p-4">
+                        <ul class="nav nav-tabs nav-tabs-custom" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" data-bs-toggle="tab" href="#navtabs2-preview" role="tab" aria-selected="true">
+                                    <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                    <span class="d-none d-sm-block">Preview Data</span>
+                                </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#navtabs2-ticketproperties" role="tab" aria-selected="true">
+                                    <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
+                                    <span class="d-none d-sm-block">Ticket Properties</span>
+                                </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#navtabs2-ticketescalation" role="tab" aria-selected="false" tabindex="-1">
+                                    <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
+                                    <span class="d-none d-sm-block">Ticket Escalation</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="navtabs2-preview" role="tabpanel">
+                                <br />
+                                <iframe id="FrameNonCall" title="description" style="width: 100%; height: 650px;"></iframe>
+                            </div>
+                            <div class="tab-pane" id="navtabs2-ticketproperties" role="tabpanel">
+                                <br />
+                                <div class="mb-3">
+                                    <label for="workexperience-category-input">Pertanyaan</label>
+                                    <textarea id="Ticket_Pertanyaan" name="Ticket_Pertanyaan" class="form-control" rows="8" readonly="readonly"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="workexperience-category-input">Jawaban</label>
+                                    <textarea id="Ticket_Jawaban" name="Ticket_Jawaban" class="form-control" rows="8" readonly="readonly"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="workexperience-category-input">Catatan Team Leader</label>
+                                    <textarea id="Ticket_TeamLeader" name="Ticket_TeamLeader" class="form-control" rows="8" readonly="readonly"></textarea>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="navtabs2-ticketescalation" role="tabpanel">
+                                <br />
+                                <div class="mb-3">
+                                    <label for="workexperience-category-input">Resolusi</label>
+                                    <input type="text" class="form-control" id="Ticket_Resolusi" placeholder="Resolusi" readonly="readonly">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="workexperience-category-input">Deskripsi</label>
+                                    <textarea id="Ticket_Deskripsi" name="Ticket_Deskripsi" class="form-control" rows="16"></textarea>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">No. Ticket MS. Dynamic</label>
+                                            <input type="text" class="form-control" id="Ticket_Dynamic" readonly="readonly">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Ticket ID IKC</label>
+                                            <input type="text" class="form-control" id="Ticket_TicketIKC" readonly="readonly">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Nama Agent Outbound</label>
+                                            <input type="text" class="form-control" id="Ticket_Nama_Agent_Outbound" readonly="readonly">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label for="workexperience-category-input">Tanggal Update</label>
+                                            <input type="text" class="form-control" id="Ticket_Tanggal_Update" readonly="readonly">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>--%>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light w-sm" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="modal-skorpreview" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addContactModalSkorPreview">Form Skor Penilaian</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div>
+                        <div class="mb-3">
+                            <table class="table" id="TrmModalPreviewSkorPenilaian">
+                                <thead>
+                                    <tr class="table-light">
+                                        <th scope="col" style="width: 1000px;">Total Skor</th>
+                                        <th scope="col" style="width: 100px;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/ckeditor/ckeditor.js"></script>
+    <script>
+        var textcomments = CKEDITOR.replace('textcomments');
+        textcomments.config.height = 170;
+        textcomments.config.toolbar = 'Basic';
+        textcomments.config.toolbar_Basic =
+            [
+                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',]
+            ];
+        var Interaction_Description = CKEDITOR.replace('Interaction_Description');
+        Interaction_Description.config.height = 200;
+        Interaction_Description.config.toolbar = 'Basic';
+        Interaction_Description.config.toolbar_Basic =
+            [
+                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',]
+            ];
+        var Interaction_KesimpulanSaran = CKEDITOR.replace('Interaction_KesimpulanSaran');
+        Interaction_KesimpulanSaran.config.height = 200;
+        Interaction_KesimpulanSaran.config.toolbar = 'Basic';
+        Interaction_KesimpulanSaran.config.toolbar_Basic =
+            [
+                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',]
+            ];
+    </script>
+    <script>
+        var Ticket_Pertanyaan = CKEDITOR.replace('Ticket_Pertanyaan');
+        Ticket_Pertanyaan.config.height = 100;
+        Ticket_Pertanyaan.config.toolbar = 'Basic';
+        Ticket_Pertanyaan.config.toolbar_Basic =
+            [
+                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',]
+            ];
+        var Ticket_Jawaban = CKEDITOR.replace('Ticket_Jawaban');
+        Ticket_Jawaban.config.height = 100;
+        Ticket_Jawaban.config.toolbar = 'Basic';
+        Ticket_Jawaban.config.toolbar_Basic =
+            [
+                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',]
+            ];
+        var Ticket_TeamLeader = CKEDITOR.replace('Ticket_TeamLeader');
+        Ticket_TeamLeader.config.height = 100;
+        Ticket_TeamLeader.config.toolbar = 'Basic';
+        Ticket_TeamLeader.config.toolbar_Basic =
+            [
+                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',]
+            ];
+    </script>
+    <script>        
+        var Ticket_Deskripsi = CKEDITOR.replace('Ticket_Deskripsi');
+        Ticket_Deskripsi.config.height = 100;
+        Ticket_Deskripsi.config.toolbar = 'Basic';
+        Ticket_Deskripsi.config.toolbar_Basic =
+            [
+                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',]
+            ];
+    </script>
+    <script>        
+        var Interaction_Header = CKEDITOR.replace('Interaction_Header');
+        Interaction_Header.config.height = 450;
+        Interaction_Header.config.toolbar = 'Basic';
+        Interaction_Header.config.toolbar_Basic =
+            [
+                ['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-',]
+            ];
+    </script>
+</asp:Content>

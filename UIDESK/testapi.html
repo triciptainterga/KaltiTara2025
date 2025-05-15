@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API Example</title>
+</head>
+<body>
+    <h1>Fetch API Example</h1>
+    <div id="result"></div>
+    <script>
+        async function fetchData() {
+            const url = 'https://cloud.uidesk.id/vendor-pertamina/api/getvalue/00001';
+            try {
+                const response = await fetch(url, {
+                    method: 'GET', // Metode request
+                    headers: {
+                        'Content-Type': 'application/json' // Header yang diperlukan
+                    }
+                });
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json(); // Parsing respons sebagai JSON
+                console.log(data); // Menampilkan data di console
+                document.getElementById('result').textContent = JSON.stringify(data, null, 2); // Menampilkan data di halaman
+            } catch (error) {
+                console.error('Fetch error:', error); // Menangani error
+                document.getElementById('result').textContent = 'Error fetching data';
+            }
+            //fetch('https://ptmntocrmapp01.pertamina.com/vendor-pertamina/api/getCustomerChannel', {
+            //    method: 'GET',
+            //    headers: {
+            //        'Content-Type': 'application/json',
+            //        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImNybXR0ZjAwMSIsIm5iZiI6MTcxNTU4NzEyOSwiZXhwIjoxNzE1NTkwNzI5LCJpYXQiOjE3MTU1ODcxMjl9.Je5DecTvKYCGLrvhSNwT5dXhB45KzFlwohjkGsO9Slc'
+            //    },
+            //    body: JSON.stringify({
+            //        "ValueChannel": "0811970470"
+            //    })
+            //})
+            //    .then(response =>
+            //        response.json()
+            //        document.getElementById('result').textContent = 'Error fetching data';
+            //    )
+            //    .then(data => console.log(data))
+            //    .catch(error => console.error('Error:', error));
+
+        }
+
+        fetchData(); // Memanggil fungsi fetchData saat halaman dimuat
+    </script>
+</body>
+</html>

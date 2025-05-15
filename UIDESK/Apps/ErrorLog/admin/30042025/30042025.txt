@@ -1,0 +1,964 @@
+Time: 30/04/2025 06:14:44:258 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:47:530 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK220'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:48:050 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','Admin','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:49:091 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:14:49:143 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:49:559 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:51:476 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPA'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:51:611 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:52:137 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:14:52:138 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:52:839 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:53:909 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','IncomingChannel'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:14:59:498 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSL'
+Message: Transaction (Process ID 129) was deadlocked on lock | communication buffer resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:14:59:505 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSL'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:15:05:474 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Performance'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:15:05:476 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Performance'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:15:05:969 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSLDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:15:06:648 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPADaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:15:14:984 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Quality'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:15:14:985 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Quality'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:15:15:624 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalORDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:15:15:801 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalOR'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:15:24:525 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Productivity'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:15:24:526 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Productivity'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:05:270 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK340'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:05:294 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:05:400 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:05:895 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:17:05:896 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:07:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK182'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:07:356 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','Admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:07:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Admin','UIDESK184'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:07:437 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:07:699 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:08:557 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK191'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:09:110 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:09:437 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK180'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:09:481 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:09:946 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK203'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:10:011 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:17:10:011 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:10:454 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK341'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:10:510 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','Admin','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:10:974 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:11:840 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:13:824 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxEmailReading '48899','Admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:13:825 AM
+---------------------------Success-------------------------------------------------------
+Message: Data Note Has Been Read
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:14:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '48899','Admin','UIDESK193'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:14:455 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '48899','Admin','UIDESK177'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:14:471 AM
+---------------------------Success-------------------------------------------------------
+Message: C:\Bravo2024\bravo\UIDESK\FileEmail\INBOX\202504241016077419184 202504241016077419184 File Not Found
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:14:663 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '24093015532318','UideskIndonesia','Admin','UIDESK330'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:15:163 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:44:700 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:47:174 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxEmailReading '50131','Admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:47:175 AM
+---------------------------Success-------------------------------------------------------
+Message: Data Note Has Been Read
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:47:831 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:48:231 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '50131','Admin','UIDESK193'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:48:310 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '50131','Admin','UIDESK177'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:48:328 AM
+---------------------------Success-------------------------------------------------------
+Message: C:\Bravo2024\bravo\UIDESK\FileEmail\INBOX\202504301109351401863 202504301109351401863 File Not Found
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:48:403 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '24111213134335','UideskIndonesia','Admin','UIDESK330'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:17:51:550 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown '50131','InboxSelected','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:24:52:311 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Administrator' And (UrlUser1='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser2='Crm_Trm_Inbox_EmailSystem.aspx' OR UrlUser3='Crm_Trm_Inbox_EmailSystem.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:24:55:666 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:24:59:466 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK220'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:00:156 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:00:466 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:00:839 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:00:840 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:01:344 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:01:866 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:01:867 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:02:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','Admin','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:02:871 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSLDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:04:274 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSL'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:04:275 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSL'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:06:191 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPA'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:06:898 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalORDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:07:427 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','IncomingChannel'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:07:745 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPADaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:08:049 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalOR'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:08:976 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:09:531 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:11:554 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:11:586 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:12:060 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:12:095 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:12:576 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK203'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:12:619 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','Admin','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:13:723 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK182'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:14:285 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK180'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:14:637 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK341'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:14:671 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:14:671 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:15:195 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:15:196 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:15:686 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK191'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:16:218 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Admin','UIDESK184'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:16:702 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','Admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:17:659 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK340'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:17:789 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:24:753 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Quality'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:24:754 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Quality'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:24:878 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Admin','Logout'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:33:702 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Productivity'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:33:703 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Productivity'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:34:161 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:40:029 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:41:973 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK220'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:42:692 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:43:013 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:43:441 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:43:443 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:43:956 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:43:958 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:44:618 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPADaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:46:365 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSL'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:46:366 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSL'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:46:490 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSLDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:47:008 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','Admin','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:49:113 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPA'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:49:795 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:50:612 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalOR'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:50:670 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:50:707 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','Admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:51:652 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','IncomingChannel'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:51:888 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:52:482 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalORDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:25:57:690 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Performance'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:25:57:691 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Performance'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:26:03:756 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Quality'
+Message: Divide by zero error encountered.
+The statement has been terminated.
+Warning: Null value is eliminated by an aggregate or other SET operation.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.WebServiceGetDataMaster.BRA_Dash_Performance(String UserName, String Action) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 6053
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/04/2025 06:26:03:757 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Quality'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:26:04:920 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:26:05:068 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:26:05:692 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:26:05:784 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Admin','Logout'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/04/2025 06:26:05:859 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+

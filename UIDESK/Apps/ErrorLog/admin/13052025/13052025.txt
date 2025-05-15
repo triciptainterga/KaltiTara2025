@@ -1,0 +1,380 @@
+Time: 13/05/2025 11:44:01:500 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:14:227 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK220'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:16:916 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPA'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:17:170 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','Admin','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:17:683 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSLDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:18:902 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSL'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:19:976 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','IncomingChannel'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:22:742 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Performance'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:22:989 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPADaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:23:350 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:23:926 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/05/2025 11:44:23:930 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:24:509 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:27:330 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Quality'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:27:421 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:28:171 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/05/2025 11:44:28:172 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:28:468 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalOR'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:29:317 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalORDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:32:376 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Productivity'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:33:683 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:33:842 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:34:224 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:34:747 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/05/2025 11:44:34:747 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:34:786 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','Admin','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:35:048 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:40:162 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK182'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:40:278 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','Admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:40:372 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK341'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:40:405 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK191'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:40:849 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:40:891 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK203'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:40:912 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:41:388 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:41:430 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Admin','UIDESK184'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:41:913 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK180'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:41:954 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/05/2025 11:44:41:955 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:42:427 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Admin','UIDESK340'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:42:450 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:46:722 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '52187','Admin','UIDESK193'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:46:814 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '52187','Admin','UIDESK177'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:46:841 PM
+---------------------------Success-------------------------------------------------------
+Message: C:\Bravo2024\bravo\UIDESK\FileEmail\INBOX\202505130959023699769 202505130959023699769 File Not Found
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:47:246 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:48:360 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxEmailReading '52187','Admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:48:360 PM
+---------------------------Success-------------------------------------------------------
+Message: Data Note Has Been Read
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:48:529 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '25050815050380','UideskIndonesia','Admin','UIDESK330'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:44:54:880 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown '52187','InboxSelected','Admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:18:022 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Admin','Logout'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:18:138 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:37:252 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:38:774 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK220'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:39:317 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK235'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:39:796 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:40:306 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/05/2025 11:45:40:309 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK241'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:40:868 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in C:\Bravo2024\bravo\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 5436
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/05/2025 11:45:40:868 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','Admin','UIDESK239'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:41:329 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSLDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:41:858 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '0','UideskIndonesia','Admin','UIDESK334'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:42:518 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPADaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:43:734 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSL'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:44:312 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalORDaily'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:44:458 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalOR'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:46:735 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','TotalSPA'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:47:932 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:50:616 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec BRA_Dash_Performance 'Admin','Performance'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:50:988 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Admin','Logout'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/05/2025 11:45:51:262 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Admin','Insert'
+---------------------------Success-------------------------------------------------------
+

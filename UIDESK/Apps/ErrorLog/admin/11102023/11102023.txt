@@ -1,0 +1,3065 @@
+Time: 11/10/2023 08:16:24:047 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:16:24:591 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:16:32:822 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:18:57:437 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:40:330 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:40:852 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 10:10:55:904 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 10:10:56:439 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 10:11:50:878 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:57:26:609 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:57:27:078 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:57:33:866 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:06:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK113'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:10:651 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:10:654 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','admin','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:10:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:10:686 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:10:700 AM
+---------------------------Success-------------------------------------------------------
+Message: 'Exec AHU_Uidesk_TrxGreetingScript','0','null','0','0','0','admin','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:11:163 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:11:675 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:12:188 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 11:59:12:699 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 12:01:23:338 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 12:01:25:108 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 12:17:56:451 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 12:17:56:963 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 12:17:59:775 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:15:25:779 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:15:26:310 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:16:00:629 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:17:24:873 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:17:45:697 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:22:29:268 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:22:29:288 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:22:35:128 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:26:09:699 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:26:09:728 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:27:04:030 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:27:04:059 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:27:13:329 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:57:29:046 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:57:29:070 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 01:57:33:409 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:32:19:991 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:32:20:037 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:32:25:517 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:37:14:838 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:37:15:345 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:37:26:174 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_Telemarketing_Excel '20231011023726164','a63b02b6-0ce4-40a3-98b4-3c3640c32963','admin',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:37:27:538 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:37:28:052 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 02:38:28:652 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 03:21:35:129 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 03:21:35:663 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 03:21:46:708 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 03:21:51:493 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 03:24:04:277 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:10:26:829 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:10:26:852 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:10:39:661 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:10:41:962 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:10:41:965 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:11:58:548 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:11:58:549 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:12:08:497 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:12:08:497 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:12:17:190 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:12:17:190 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:12:34:468 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:12:34:468 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:13:19:083 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:13:19:083 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:13:20:648 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:13:20:649 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:13:23:505 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:13:23:506 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:13:40:884 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:13:40:884 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:14:30:532 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:14:30:559 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:14:34:666 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:14:37:805 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:14:37:805 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:15:45:195 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 254
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:15:45:196 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','Admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:18:30:046 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:18:30:073 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:18:35:914 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:18:39:364 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:18:39:376 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:20:15:405 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:20:15:405 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:20:40:245 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:20:40:245 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:20:46:028 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:20:46:028 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:21:08:826 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:21:08:827 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:23:37:997 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:23:38:489 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:23:45:370 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:23:49:877 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:23:49:894 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 04:26:19:372 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 04:26:19:373 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:24:44:136 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:24:44:491 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:24:51:141 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:24:55:865 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 05:24:55:895 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:30:51:550 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:30:52:062 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:30:56:570 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:31:01:008 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 05:31:01:024 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:31:44:845 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:31:44:890 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:33:27:208 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:33:27:251 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:34:10:461 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:34:14:914 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 05:34:14:915 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:34:30:023 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 05:34:30:024 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:34:33:212 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 05:34:33:213 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:34:48:107 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:34:48:158 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:34:53:210 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:34:55:546 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 05:34:55:547 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:48:50:401 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 05:48:50:402 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 05:49:04:158 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 05:49:04:159 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:02:47:779 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:02:47:780 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:03:26:843 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:03:26:844 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:03:37:949 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:03:37:950 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:04:46:299 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:04:46:299 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:04:49:765 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:04:49:767 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:05:08:315 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:05:08:372 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:05:12:827 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:05:15:482 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:05:15:482 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK142'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:06:37:937 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','Admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:06:57:750 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:08:13:109 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:08:14:133 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:08:14:134 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:08:31:052 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:08:32:071 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 285
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:08:32:072 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:09:07:571 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:09:08:074 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:10:13:617 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:10:14:118 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:10:14:625 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:10:45:552 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:10:46:052 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:10:46:560 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:10:55:659 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategory '-','admin','-','-','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:11:00:442 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1110','admin','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:11:03:978 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxCategory ,'1110','admin','XXX','N','UPDATE'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:11:04:904 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategory '-','admin','-','-','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:11:14:500 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:11:17:538 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:11:18:041 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:11:18:546 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:14:34:378 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:14:35:397 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:14:35:897 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:15:39:965 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:15:40:991 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:15:41:492 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:18:18:125 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:18:18:630 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:18:19:139 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:04:482 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:05:505 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:06:010 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:22:426 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:22:926 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:23:432 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:29:149 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:30:179 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:30:691 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:51:949 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:52:464 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:52:972 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:54:567 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:55:578 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:20:56:082 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:07:806 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:08:826 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:09:326 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:25:278 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:26:299 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:26:814 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:37:670 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:38:685 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:22:39:203 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:15:865 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:16:883 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:17:398 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:23:055 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:23:567 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:24:096 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:28:977 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:29:989 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:30:495 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:46:551 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:47:567 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:48:082 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:49:686 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:50:200 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:51:215 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:52:672 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:53:186 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:23:54:201 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:24:00:123 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:24:00:629 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:24:01:131 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:25:07:948 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:25:08:968 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:25:09:484 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:14:364 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:14:880 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:15:383 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:50:096 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:50:152 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:54:835 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:57:527 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:58:537 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:30:59:037 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:17:591 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:20:059 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:20:566 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:21:587 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:30:237 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:30:291 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:33:638 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:36:080 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:36:590 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:32:37:596 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:33:46:065 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:33:46:574 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:33:47:089 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:34:17:029 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:34:17:532 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:34:18:040 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:42:58:670 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+Message: Procedure or function 'QM_TrxDropdown' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 284
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:42:58:675 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:42:59:171 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+Message: Procedure or function 'QM_TrxDropdown' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 284
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:42:59:172 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:42:59:682 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+Message: Procedure or function 'QM_TrxDropdown' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 284
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:42:59:683 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:43:10:692 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+Message: Procedure or function 'QM_TrxDropdown' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 284
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:43:10:693 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:43:11:197 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+Message: Procedure or function 'QM_TrxDropdown' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 284
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:43:11:199 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:43:11:712 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+Message: Procedure or function 'QM_TrxDropdown' expects parameter '@TrxStatus', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at UIDESK.QA_Form1.QM_TrxDropdown(String TrxID, String TrxUserName, String TrxAction) in D:\#2023\Template\UIDESK\UIDESK\Apps\asmx\QA_Form.asmx.vb:line 284
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 06:43:11:713 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:46:55:779 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:46:56:258 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:47:00:101 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:47:02:559 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:47:03:567 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:47:04:071 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:47:16:395 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:47:17:285 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:47:19:028 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:47:19:824 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:33:222 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:34:695 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:38:139 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:38:643 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:39:146 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:45:772 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:47:912 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:50:439 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:48:53:033 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:17:537 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:18:040 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:18:561 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:29:959 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:32:066 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:41:715 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:42:729 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:43:240 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:49:407 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:49:940 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:49:50:204 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:09:883 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:10:385 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:11:395 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:17:280 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:17:745 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:17:982 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:18:349 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:18:557 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:18:736 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:18:936 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:19:311 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:19:484 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:19:721 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:51:20:010 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:26:791 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:27:806 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:28:317 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:35:070 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:35:506 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:35:790 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:35:983 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:36:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:36:520 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:36:832 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:37:074 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:37:386 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:37:988 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:38:334 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:38:902 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:52:39:359 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','2','undefined','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:54:23:991 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:54:24:492 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:54:25:500 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:54:31:720 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:55:22:085 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:55:22:128 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:55:28:250 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:55:31:019 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:55:31:523 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:55:32:035 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:55:39:211 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:18:255 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:20:971 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:23:511 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:24:131 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:39:030 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:39:534 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:40:044 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:47:939 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:48:623 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:49:038 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:49:415 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:49:677 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:49:899 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:50:094 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:50:292 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:50:550 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:50:747 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:50:935 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:51:113 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:51:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:51:505 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:51:776 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:52:080 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:52:222 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:52:414 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:52:628 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:56:52:920 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:09:563 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:10:072 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:10:577 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:16:884 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:18:626 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:22:127 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:23:155 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:23:670 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:29:213 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:33:295 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:34:290 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:34:953 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:35:884 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:36:680 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 06:57:37:409 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:41:03:584 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:41:04:105 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:43:386 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:43:408 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:44:942 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:45:435 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:47:942 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:50:294 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:51:297 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:51:812 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:51:58:625 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:52:00:116 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:52:00:472 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:52:01:133 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:09:146 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:10:160 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:10:670 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:26:835 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:28:816 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:29:500 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:30:735 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:31:290 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:32:257 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:32:832 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:33:445 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:34:022 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:45:503 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:45:528 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:52:101 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:54:287 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:55:295 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:53:55:796 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:01:534 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:02:540 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:03:127 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:03:720 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:43:808 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:44:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:44:823 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:51:597 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:53:011 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:53:859 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:54:548 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:55:420 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:56:318 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:56:948 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:57:882 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:58:697 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:59:382 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:54:59:967 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:55:00:569 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:55:01:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:55:01:824 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:55:24:792 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:55:25:801 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:55:26:310 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:55:29:877 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:55:30:858 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:58:52:751 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:58:53:756 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:58:54:270 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:58:58:462 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:58:58:969 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:58:59:483 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:07:136 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '','','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:07:819 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '','','CAT-00001','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:18:726 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00001','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:19:509 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00004','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:20:098 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00004','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:20:977 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:24:431 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK001'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:25:451 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK003'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:25:958 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '0','admin','Dropdown','UIDESK002'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:26:059 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '','','','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:27:349 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown '','','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:33:683 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:35:954 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:40:222 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:41:323 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:41:595 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec QM_TrxDropdown 'Agent1','Call','CAT-00003','UIDESK004'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 08:59:53:646 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK141'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:19:785 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:20:298 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:25:229 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:25:740 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:26:253 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK05'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:26:799 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK108'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:27:281 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK07'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:27:659 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:42:28:695 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '[object Object]','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:25:416 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:26:377 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUser '0','QARizal','QARizal','QARizal@gmail.com','Uidesk123!','QA','','','1','<p>USER QA</p>
+','Y','admin','','','','','','','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:30:684 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '[object Object]','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:31:257 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'QARizal','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:35:968 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'QARiza','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:36:155 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'QARiz','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:36:320 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'QARi','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:36:500 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'QAR','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:36:928 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '[object Object]','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:42:814 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'QARizal','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:46:021 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2533','admin','UIDESK08'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:52:582 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxUser '2533','QARizal','Samsu Rizal','QARizal@gmail.com','Uidesk123!','QA','','','<p>USER QA</p>
+','Y','admin','0','0','0','0','0','0','0','Update'
+Message: Procedure or function 'UIDESK_TrxUser' expects parameter '@TrxSite', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at UIDESK.WebServiceGetDataMaster.UpdateTransactionUserApplication(String TrxID, String TrxUserName, String TrxName, String TrxEmail, String TrxPassword, String TrxLevelUser, String TrxDepartment, String TrxGroupAgent, String TrxDescription, String TrxStatus, String TrxUserCreate, String TrxChannelEmail, String TrxChannelWA, String TrxChannelInbound, String TrxChannelOutbound, String TrxChannelInstagram, String TrxChannelFacebook, String TrxChannelTwitter) in D:\#2023\Template\UIDESK\UIDESK\Apps\WebServiceGetDataMaster.asmx.vb:line 3208
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2023 09:43:52:589 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUser '2533','QARizal','Samsu Rizal','QARizal@gmail.com','Uidesk123!','QA','','','<p>USER QA</p>
+','Y','admin','0','0','0','0','0','0','0','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:52:590 PM
+---------------------------Success-------------------------------------------------------
+Message: 
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:54:759 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK07'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:55:270 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK108'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:55:782 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK05'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:56:297 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:56:459 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:56:810 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:43:58:979 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '[object Object]','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:01:638 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'qar','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:46:826 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK07'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:47:341 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK108'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:47:505 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'Admin','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:47:852 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK05'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:48:353 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:48:865 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:49:751 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'sam','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:49:873 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'sams','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:50:009 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'samsu','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:58:778 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'sams','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:58:945 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'sam','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:44:59:419 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '[object Object]','admin','UIDESK122'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:07:192 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:07:714 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:11:427 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:11:446 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:11:939 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:13:291 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','8','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:20:770 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '5048','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:22:470 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '11010','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:27:022 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '0','5048','11010','','&lt;p&gt;QA&lt;/p&gt;','admin','8','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:27:023 PM
+---------------------------Success-------------------------------------------------------
+Message: 385180383898383899383900383901389290385181385129385119383991385165383904383905385182383926383940385139385131383946383953389292385166385168383928385171383930383931389271383933385172385134385183385140383949383955383956385147385184385185385141385142389272384004389283389293385143385072385189385144385145384041384013384014384015385190385146389275389279385150389294385196389295384001384002389296385198384044383927383906383907385202383913383941385206385218384032384033384034384035384036385220384037384042385230385231386231387231384051389280387240387241387256387258387262387265385052385054388267385061385063385064385066385086385087385090385188387242385205389289389286385088385233389278387263387266385113385114385115385118385127385130385132385173389273389274389281389282385222385163385164385112385120385135385138385200385203385232385234385156385117385192385157385158385159385175385177389284389285385179389287389288385137385167385169385191385174
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:27:573 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','8','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:30:978 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3041','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:32:924 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '5048','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:34:381 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '11011','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:39:222 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '0','5048','11011','','&lt;p&gt;HT&lt;/p&gt;','admin','8','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:39:222 PM
+---------------------------Success-------------------------------------------------------
+Message: 385180383898383899383900383901389290385181385129385119383991385165383904383905385182383926383940385139385131383946383953389292385166385168383928385171383930383931389271383933385172385134385183385140383949383955383956385147385184385185385141385142389272384004389283389293385143385072385189385144385145384041384013384014384015385190385146389275389279385150389294385196389295384001384002389296385198384044383927383906383907385202383913383941385206385218384032384033384034384035384036385220384037384042385230385231386231387231384051389280387240387241387256387258387262387265385052385054388267385061385063385064385066385086385087385090385188387242385205389289389286385088385233389278389297387263387266385113385114385115385118385127385130385132385173389273389274389281389282385222385163385164385112385120385135385138385200385203385232385234385156385117385192385157385158385159385175385177389284389285385179389287389288385137385167385169385191385174
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:39:772 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','8','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:41:170 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:41:183 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:45:41:682 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:09:230 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:09:251 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:13:702 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:13:714 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:14:216 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:16:002 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','8','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:18:948 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1009','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:20:527 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4815','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:26:955 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '0','1009','4815','','&lt;p&gt;TBR&lt;/p&gt;','admin','8','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:26:955 PM
+---------------------------Success-------------------------------------------------------
+Message: 385180383898383899383900383901389290385181385129385119383991385165383904383905385182383926383940385139385131383946383953389292385166385168383928385171383930383931389271383933385172385134385183385140383949383955383956385147385184385185385141385142389272384004389283389293385143385072385189385144385145384041384013384014384015385190385146389275389279385150389294385196389295384001384002389296385198384044383927383906383907385202383913383941385206385218384032384033384034384035384036385220384037384042385230385231386231387231384051389280387240387241387256387258387262387265385052385054388267385061385063385064385066385086385087385090385188387242385205389289389286385088385233389278389297387263387266385113385114385115385118385127385130385132385173389273389274389281389282385222385163385164385112385120385135385138385200385203385232385234385156385117385192385157385158385159385175385177389284389285385179389287389288385137385167385169385191389298385174
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:27:461 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','8','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:28:654 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:28:666 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:46:29:168 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:06:780 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:06:796 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:11:739 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:11:752 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:12:252 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:13:595 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','8','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:19:966 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2025','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:24:361 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '11012','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:31:901 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '0','2025','11012','','&lt;p&gt;TPA&lt;/p&gt;','admin','8','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:31:902 PM
+---------------------------Success-------------------------------------------------------
+Message: 385180383898383899383900383901389290385181385129385119383991385165383904383905385182383926383940385139385131383946383953389292385166385168383928385171383930383931389271383933385172385134385183385140383949383955383956385147385184385185385141385142389272384004389283389293385143385072385189385144385145384041384013384014384015385190385146389275389279385150389294385196389295384001384002389296385198384044383927383906383907385202383913389299383941385206385218384032384033384034384035384036385220384037384042385230385231386231387231384051389280387240387241387256387258387262387265385052385054388267385061385063385064385066385086385087385090385188387242385205389289389286385088385233389278389297387263387266385113385114385115385118385127385130385132385173389273389274389281389282385222385163385164385112385120385135385138385200385203385232385234385156385117385192385157385158385159385175385177389284389285385179389287389288385137385167385169385191389298385174
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:32:460 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','8','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:33:847 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:33:857 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:47:34:358 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:57:54:605 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2023 09:57:54:625 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+

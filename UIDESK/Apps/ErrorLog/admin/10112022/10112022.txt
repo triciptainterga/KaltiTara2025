@@ -1,0 +1,25 @@
+Time: 10/11/2022 09:31:50:478 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Administrator' And (UrlUser1='Uidesk002.aspx' OR UrlUser2='Uidesk002.aspx' OR UrlUser3='Uidesk002.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/11/2022 09:32:05:797 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Administrator' And (UrlUser1='Uidesk002.aspx' OR UrlUser2='Uidesk002.aspx' OR UrlUser3='Uidesk002.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/11/2022 09:33:47:540 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Administrator' And (UrlUser1='Uidesk002.aspx' OR UrlUser2='Uidesk002.aspx' OR UrlUser3='Uidesk002.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/11/2022 09:36:08:772 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Administrator' And (UrlUser1='Uidesk002.aspx' OR UrlUser2='Uidesk002.aspx' OR UrlUser3='Uidesk002.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 10/11/2022 09:40:38:345 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Administrator' And (UrlUser1='Uidesk002.aspx' OR UrlUser2='Uidesk002.aspx' OR UrlUser3='Uidesk002.aspx')
+---------------------------Success-------------------------------------------------------
+

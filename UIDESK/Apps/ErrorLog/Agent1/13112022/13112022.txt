@@ -1,0 +1,10 @@
+Time: 13/11/2022 07:02:08:614 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Crm_Trm_Category.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/11/2022 07:02:08:648 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 1' And (UrlUser1='Crm_Trm_Category.aspx' OR UrlUser2='Crm_Trm_Category.aspx' OR UrlUser3='Crm_Trm_Category.aspx')
+---------------------------Success-------------------------------------------------------
+

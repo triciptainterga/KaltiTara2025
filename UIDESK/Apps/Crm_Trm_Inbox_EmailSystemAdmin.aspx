@@ -6,11 +6,17 @@
     <script src="js/sweetalert.min.js"></script>
     <script src="js/alertify.min.js"></script>
     <script src="js/alertify.js"></script>
+
+
     <link href="css/alertify.css" rel="stylesheet" />
     <link href="css/alertify.min.css" rel="stylesheet" />
     <link href="assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/libs/swiper/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
     <asp:HiddenField ID="TrxID" runat="server" />
     <asp:HiddenField ID="TrxUserName" runat="server" />
     <asp:HiddenField ID="TrxEmailID" runat="server" />
@@ -26,6 +32,22 @@
     <asp:HiddenField ID="TrxPerusahaanID" runat="server" />
     <asp:HiddenField ID="DynamicEmailContactID" runat="server" />
     <asp:HiddenField ID="DynamicEmailAccountID" runat="server" />
+
+    <style>
+        /* Ensure the autocomplete dropdown is on top */
+
+        .ui-autocomplete {
+            z-index: 20000000 !important; /* Lebih tinggi dari modal (1050) */
+            position: absolute;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+
+
     <%--   <style>
         .search-results {
             position: absolute;
@@ -473,7 +495,7 @@
                 </div>
                 <div class="card" id="DivTableOutgoingSendingEmail">
                     <div class="card-body">
-                          <!-- Filter Date Button (initially hidden) -->
+                        <!-- Filter Date Button (initially hidden) -->
                         <div id="filterDateContainerSendEmail" style="display: none; float: right;">
                             <a href="#" class="btn btn-light ms-2" data-bs-toggle="modal" data-bs-target="#addContactModalFilterDate">Filter Date</a>
                         </div>
@@ -930,10 +952,11 @@
                             <label for="addcontact-name-input" class="form-label">Template Name</label>
                             <input type="text" class="form-control" id="Template_Name" placeholder="Template Name">
                         </div>
-                        <div class="mb-3" id="TemplateDropdownSubject">
-                            <label for="addcontact-name-input" class="form-label">Template Name</label>
-                            <select class="form-select" id="ComboTemplateName" onchange="ChangeTemplateResponse('1')">
-                                <option>Select</option>
+                        <div class="mb-3 position-relative" id="TemplateDropdownSubject">
+                            <label for="ComboTemplateName" class="form-label">Template Name</label>
+                            <select id="ComboTemplateName" class="form-select" style="width: 100%" data-allow-clear="true">
+                                <option></option>
+                                <!-- option kosong dibutuhkan untuk fitur clear -->
                             </select>
                         </div>
                         <div class="mb-3">
@@ -942,8 +965,11 @@
                         </div>
                     </div>
                 </div>
+
+                <input type="hidden" id="HiddenTemplateID">
                 <div class="modal-footer">
                     <button type="button" class="btn btn-light w-sm" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger w-sm" onclick="DeleteTemplate()" id="DeleteDataTemplate">Delete</button>
                     <button type="button" class="btn btn-primary w-sm" onclick="ActionSimpanTemplate()" id="SimpanTemplate">Submit</button>
                     <button type="button" class="btn btn-primary w-sm" onclick="ActionGetTemplate()" id="GetTemplate">Submit</button>
                 </div>
@@ -1041,8 +1067,8 @@
             </div>
         </div>
     </div>
-     <!-- Filter Date Modal -->
-     <div class="modal fade" id="addContactModalFilterDate" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
+    <!-- Filter Date Modal -->
+    <div class="modal fade" id="addContactModalFilterDate" tabindex="-1" aria-labelledby="addContactModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
